@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block head %}
+<meta name="author" content="{{ article.author }}">
+<meta name="keywords" content="{{ article.tags | join(', ') }}">
+{% endblock %}
+
+{% block title %} &ndash; {{ article.title }}{% endblock %}
+
+{% block content %}
+<article>
+    <header id="post-header">
+        <h1>{{ article.title }}</h1>
+        <time>{{ article.locale_date }}</time>
+    </header>
+    {{- article.content -}}
+</article>
+{% if COMMENT_MAILINGLIST %}
+<footer id="comment">
+    Have a comment on one of my posts? Start a discussion in my <a href="{{ COMMENT_MAILINGLIST_URL }}">public inbox</a> by sending an email to <a href="mailto:{{ COMMENT_MAILINGLIST }}?Subject=Re%3A%20{{ article.title | urlencode }}">{{ COMMENT_MAILINGLIST }}</a>.
+</footer>
+{% endif %}
+{% endblock %}
