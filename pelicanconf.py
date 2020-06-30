@@ -89,10 +89,10 @@ MENUS = (
     ('/about/', 'about'),
     )
 
-COMMENT_MAILINGLIST = 'blog@lists.karolak.fr'
-COMMENT_MAILINGLIST_URL = 'https://lists.karolak.fr/blog'
+COMMENT_MAILINGLIST = '~nka/public-inbox@lists.sr.ht'
+COMMENT_MAILINGLIST_URL = 'https://lists.sr.ht/~nka/public-inbox'
 
 # disable syntax highlighting
 MARKDOWN = {
-    'extensions': ['extra'],
+    'extensions': ['extra', 'abbr'],
     }

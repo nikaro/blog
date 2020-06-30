@@ -17,7 +17,7 @@
 </article>
 {% if COMMENT_MAILINGLIST %}
 <footer id="comment">
-    Have a comment on one of my posts? Start a discussion in my <a href="{{ COMMENT_MAILINGLIST_URL }}">public inbox</a> by sending an email to <a href="mailto:{{ COMMENT_MAILINGLIST }}?Subject=Re%3A%20{{ article.title | urlencode }}">{{ COMMENT_MAILINGLIST }}</a>.
+    Have a comment on one of my posts? Start a discussion in my <a href="{{ COMMENT_MAILINGLIST_URL }}?search={{ article.title | urlencode }}">public inbox</a> by sending an email to <a href="mailto:{{ COMMENT_MAILINGLIST }}?Subject=Re%3A%20{{ article.title | urlencode }}">{{ COMMENT_MAILINGLIST }}</a>. Please make sure that your email respect the <a href="https://man.sr.ht/lists.sr.ht/etiquette.md">mailing list etiquette</a>.
 </footer>
 {% endif %}
 {% endblock %}

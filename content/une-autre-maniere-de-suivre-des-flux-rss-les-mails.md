@@ -2,7 +2,7 @@ Title: Une autre manière de suivre des flux RSS : les mails
 Date: 2020-06-20 08:20
 Author: Nicolas Karolak
 Category: Articles
-Tags: informatique, rss
+Tags: informatique, rss, email
 Slug: une-autre-maniere-de-suivre-des-flux-rss-les-mails
 Status: published
 
