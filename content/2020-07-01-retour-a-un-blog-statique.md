@@ -1,5 +1,5 @@
 Title: Retour à un blog statique
-Date: 2020-07-03 00:00
+Date: 2020-07-01 17:09
 Author: Nicolas Karolak
 Category: Articles
 Tags: web, informatique, minimalisme
