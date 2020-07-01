@@ -1,9 +1,64 @@
 Title: About
 Author: Nicolas Karolak
 
-Flux :
+Mes adresses :
 
 - [Blog](https://blog.karolak.fr) / [RSS](https://blog.karolak.fr/feeds/atom.xml)
 - [GitHub](https://github.com/nikaro)
 - [SourceHut](https://git.sr.ht/~nka) / [Mailing Lists](https://lists.sr.ht/~nka)
 - [CV](http://www.nicolas-karolak.fr)
+
+Mes lectures :
+
+- informatique
+    - [arpinux](https://arpinux.org/home/)
+    - [Ataxya](https://blog.ataxya.net/)
+    - [Bearstech](https://bearstech.com/societe/blog/)
+    - [bersace.cae.li](https://bersace.cae.li/)
+    - [Blog Libre](https://www.blog-libre.org/)
+    - [Chocoblog](https://blog.cpy.re/)
+    - [dotmobo](http://dotmobo.github.io/)
+    - [Enix](https://enix.io/fr/blog/)
+    - [Green IT](https://www.greenit.fr/)
+    - [Je suis un dev](https://www.jesuisundev.com/)
+    - [Julia Evans](https://jvns.ca/)
+    - [Julien Danjou](https://julien.danjou.info/)
+    - [La grotte du barbu](https://www.grottedubarbu.fr/)
+    - [Le Hollandais Volant](https://lehollandaisvolant.net/)
+    - [LinuxFr](https://linuxfr.org/)
+    - [LinuxMario](https://blog.linuxmario.net/)
+    - [Lord](https://lord.re/)
+    - [Marien Fressinaud](https://marienfressinaud.fr/)
+    - [Mattias Geniar](https://ma.ttias.be/)
+    - [mcorbin](https://mcorbin.fr/)
+    - [MicroJoe](https://blog.microjoe.org/)
+    - [Mirabellette](https://blog.mirabellette.eu/)
+    - [NullPointerException](https://blog.imirhil.fr/)
+    - [Octopuce](https://www.octopuce.fr/categorie/blog/)
+    - [Padok](https://www.padok.fr/blog/)
+    - [prx](https://prx.ybad.name/)
+    - [Scraly](https://scraly.github.io/)
+    - [Stéphane Bortzmeyer](https://www.bortzmeyer.org/)
+    - [Tout et rien](https://toutetrien.lithio.fr/)
+    - [Vincent Bernat](https://vincent.bernat.ch/fr/blog/)
+    - [WeScale](https://blog.wescale.fr/)
+    - [Zarak](https://zarak.fr/)
+    - [Zwindler](https://blog.zwindler.fr/)
+- politique
+    - [affordance.info](https://www.affordance.info/)
+    - [Bondy Blog](https://www.bondyblog.fr/)
+    - [Emma](https://emmaclit.com/)
+    - [L'ardeur](http://www.ardeur.net/)
+    - [La Horde](https://lahorde.samizdat.net/)
+    - [Le Monde Diplomatique](https://www.monde-diplomatique.fr/)
+    - [Mr Mondialisation](https://mrmondialisation.org/)
+    - [paris-luttes.info](https://paris-luttes.info/)
+    - [Révolution Permanente](https://www.revolutionpermanente.fr/)
+    - [Signaux Faibles](https://signauxfaibles.co/)
+    - [Union Communiste Libertaire](https://www.unioncommunistelibertaire.org/)
+- divers
+    - [Couleur Science](https://couleur-science.eu/)
+    - [LaPalice](https://lapalice.fr/)
+    - [Ploum](https://ploum.net/)
+    - [Standblog](http://standblog.org/blog/)
+    - [survol](https://n.survol.fr/)
