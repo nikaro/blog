@@ -21,3 +21,6 @@ Railcoop, une coopérative qui ambitionne de ré-ouvrir les lignes abandonnées 
 
 FastAPI, une alternative à Flask (et dans une moindre mesure Django + DRF) mais avec la particularité, comme son nom l'indique, d'être orienté API. Donc il n'y a pas de méthode pour remplir et retourner un gabarit HTML par exemple, mais des trucs bien pratiques pour le cas d'usage API, la validation automatique des données par exemple. Ça a l'air vachement sympa, de quoi me donner envie de monter un projet avec une API, reste plus qu'à en trouver un qui s'y prête.
 -- https://amitness.com/2020/06/fastapi-vs-flask/
+
+Comment créer une autorité de certification SSH ? Afin de d'avoir un accès de secours, mais pas que, à ses machines distantes. Ça s'appuie sur une clé de sécurité physique, mais il doit y avoir moyen d'adapter la procédure pour faire sans, si on en possède pas. Puis le concept de CA pour serveurs SSH est intéressant dans certains contextes, je ne connaissais pas.
+-- https://smallstep.com/blog/ssh-emergency-access/
