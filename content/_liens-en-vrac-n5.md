@@ -18,3 +18,6 @@ Plus de 50% des policiers ont voté Marine Le Pen en 2017, de quoi nous éclaire
 
 Railcoop, une coopérative qui ambitionne de ré-ouvrir les lignes abandonnées par la SNCF. À défaut que l'État change de cap sur la question des services publics, je trouve que c'est une bonne chose que ce soit une coopérative qui prenne le relai plutôt qu'une entreprise capitaliste de base.
 -- https://reporterre.net/Railcoop-la-cooperative-qui-fait-renaitre-les-lignes-de-train-abandonnees
+
+FastAPI, une alternative à Flask (et dans une moindre mesure Django + DRF) mais avec la particularité, comme son nom l'indique, d'être orienté API. Donc il n'y a pas de méthode pour remplir et retourner un gabarit HTML par exemple, mais des trucs bien pratiques pour le cas d'usage API, la validation automatique des données par exemple. Ça a l'air vachement sympa, de quoi me donner envie de monter un projet avec une API, reste plus qu'à en trouver un qui s'y prête.
+-- https://amitness.com/2020/06/fastapi-vs-flask/
