@@ -7,10 +7,11 @@ INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
+
+SSH_HOST=web.pub.karolak.fr
 SSH_PORT=22
 SSH_USER=root
-SSH_HOST=web.pub.karolak.fr
-SSH_PATH=/var/www/blog
+SSH_TARGET_DIR=/var/www/blog
 
 
 DEBUG ?= 0
@@ -74,7 +75,12 @@ endif
 
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
-	rsync --delete --exclude ".DS_Store" -pthrvz -c -e "ssh -p $(SSH_PORT)" $(OUTPUTDIR)/ $(SSH_USER)@$(SSH_HOST):$(SSH_PATH)
+
+ssh_upload: publish
+	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
+
+rsync_upload: publish
+	rsync -e "ssh -p $(SSH_PORT)" -P -rvzc --cvs-exclude --delete $(OUTPUTDIR)/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
 
 
-.PHONY: html help clean regenerate serve serve-global devserver publish 
+.PHONY: html help clean regenerate serve serve-global devserver publish ssh_upload rsync_upload
