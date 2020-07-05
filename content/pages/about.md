@@ -6,7 +6,7 @@ Mes adresses :
 - [Blog](https://blog.karolak.fr) / [RSS](https://blog.karolak.fr/feeds/atom.xml)
 - [GitHub](https://github.com/nikaro)
 - [SourceHut](https://git.sr.ht/~nka) / [Mailing Lists](https://lists.sr.ht/~nka)
-- [CV](http://www.nicolas-karolak.fr)
+- [CV](https://cv.karolak.fr)
 
 Mes lectures :
 
