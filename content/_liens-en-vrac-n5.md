@@ -30,3 +30,15 @@ Tester du code Python qui fait des requêtes HTTPS, grâce au principe d'inversi
 
 Une méthode très astucieuse pour ajouter un message d'aide dans un script shell.
 -- <https://samizdat.dev/help-message-for-shell-scripts/>
+
+L'origine du commerce, une vidéo de la chaîne YouTube « Tzitzimitl - Esprit Critique » qui aborde le sujet du mythe économique qui veut qu'on soit passé du troc à l'argent monnaie. Il y est démontré que ce mythe ne repose sur aucune base scientifique, mais que les économistes (principalement libéraux) continuent d'y croire religieusement sans quoi leur théories tomberaient à l'eau.
+-- <https://www.youtube.com/watch?v=ZIS2KMydo5w>
+
+Un outil pour faire son CV en ligne, avec la possibilité de le télécharger en PDF, de télécharger la source en LaTeX (pour éventuellement le personnaliser), ou exporter les informations en JSON afin de pouvoir les réimporter plus tard. Bien pratique.
+-- <https://resumake.io/>
+
+Quelques conseils pour éviter la panique lorsque faite une grosse boulette au travail.
+-- <https://www.redhat.com/sysadmin/keep-calm>
+
+Comment bien organiser son code Terraform, avec le « layering ».
+-- <https://blog.octo.com/terraform-at-scale-part1-layering/>
