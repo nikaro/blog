@@ -1,0 +1,15 @@
+[build]
+publish = "output/"
+command = "make publish"
+
+[[redirects]]
+from = "/blog"
+to = "/"
+
+[[redirects]]
+from = "/feed"
+to = "/feeds/all.atom.xml"
+
+[[redirects]]
+from = "/index.xml"
+to = "/feeds/all.atom.xml"
