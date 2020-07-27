@@ -1,8 +1,9 @@
-image: archlinux
+image: alpine
 secrets:
-  - aae93a38-3825-4512-963b-91a3977f4808
+  - 8a197a79-b688-47cf-8f5c-2ffe1bc2495e
 tasks:
   - mirror: |
-      ssh-add ~/.ssh/id_rsa
+      #cp -f ~/.ssh/{8a197a79-b688-47cf-8f5c-2ffe1bc2495e,id_rsa}
+      ssh-keyscan github.com >> ~/.ssh/known_hosts
       git remote add github git@github.com:nikaro/blog.git
       git push github master
