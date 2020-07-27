@@ -1,0 +1,8 @@
+image: archlinux
+secrets:
+  - aae93a38-3825-4512-963b-91a3977f4808
+tasks:
+  - mirror: |
+      ssh-add ~/.ssh/id_rsa
+      git remote add github git@github.com:nikaro/blog.git
+      git push github master
