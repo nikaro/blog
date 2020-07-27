@@ -1,4 +1,4 @@
-image: alpine
+image: alpine/latest
 secrets:
   - 8a197a79-b688-47cf-8f5c-2ffe1bc2495e
 tasks:
