@@ -17,7 +17,7 @@
 </article>
 {% if COMMENT_MAILINGLIST %}
 <footer id="comment">
-    Have a comment on one of my posts? Start a discussion in my <a href="{{ COMMENT_MAILINGLIST_URL }}?search={{ article.title | urlencode }}">blog inbox</a> by sending an email to <a href="mailto:{{ COMMENT_MAILINGLIST }}?Subject=Re%3A%20{{ article.title | urlencode }}">{{ COMMENT_MAILINGLIST }}</a>. Please make sure that your email respect the <a href="https://man.sr.ht/lists.sr.ht/etiquette.md">mailing list etiquette</a>.
+    Un commentaire ? Démarrez une discussion dans la <a href="{{ COMMENT_MAILINGLIST_URL }}?search={{ article.title | urlencode }}">liste de diffusion</a> en envoyant un email à <a href="mailto:{{ COMMENT_MAILINGLIST }}?Subject=Re%3A%20{{ article.title | urlencode }}">{{ COMMENT_MAILINGLIST }}</a>. Veuillez respecter l'<a href="https://man.sr.ht/lists.sr.ht/etiquette.md">etiquette de la liste de diffusion</a>.
 </footer>
 {% endif %}
 {% endblock %}
