@@ -45,7 +45,7 @@ $ cat ~/.config/systemd/user/rclone-nc.service
 Description=Rclone Nextcloud
 
 [Service]
-ExecStart=/usr/bin/rclone sync --update --progress /home/myuser/Documents remote:Documents
+ExecStart=/usr/bin/rclone sync --update --verbose /home/myuser/Documents remote:Documents
 ```
 
 ```
