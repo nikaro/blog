@@ -33,6 +33,9 @@ function hello() {
         echo --- Update dotfiles ---
         dfg pull
 
+        echo --- Update passwords ---
+        pass git pull
+
         echo --- Update system ---
         yay -Syu
 
@@ -51,6 +54,9 @@ function bye() {
         fi
     done
 
+    echo --- Check password store status ---
+    pass git status -s
+
     echo --- Check dotfiles status ---
     dfg status -s
     dfg log --oneline "${u}..HEAD"
@@ -61,3 +67,5 @@ function bye() {
 ```
 
 Il y a quelques pistes d'amélioration possibles. Par exemple vérifier que tous les changements ont été poussé sur le dépôt distant, ça peut se faire avec `git log ${u}..HEAD`, mais ça pose problème pour les submodules j'ai l'impression et je n'ai pas encore creuser comment faire ça proprement. Si vous avez des idées n'hésitez pas à m'envoyer ça par email.
+
+**Mise à jour 17/09/2020 :** un [commentaire sur le JdH](https://www.journalduhacker.net/s/bfmhji/parcourir_tous_les_d_p_ts_git_la_recherche#c_mvcszf) a porté à ma connaissance un merveilleux outil, [git-summary](https://gitlab.com/lordadamson/git-summary) qui fait ça beaucoup mieux que mon bout de script, et qui en fait beaucoup plus également. Testé et joyeusement adopté.
