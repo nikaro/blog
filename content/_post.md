@@ -7,3 +7,5 @@ Slug: 000
 Status: draft
 
 
+
+<!-- vim: spell spelllang=fr
