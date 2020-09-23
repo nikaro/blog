@@ -6,7 +6,7 @@ Tags: ansible, devops, linux, automatisation, adminsys
 Slug: ansible-tldr
 Status: published
 
-Besoin d'un introduction à [Ansible](https://docs.ansible.com/ansible/latest/) et la flemme de lire la documentation ?
+Besoin d'un introduction à [Ansible](https://docs.ansible.com/ansible/latest/) et la flemme de lire la documentation ? Bienvenue.
 
 ## Principes
 
