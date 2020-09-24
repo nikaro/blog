@@ -6,7 +6,7 @@ Tags: ansible, devops, linux, automatisation, adminsys
 Slug: ansible-tldr
 Status: published
 
-Besoin d'un introduction à [Ansible](https://docs.ansible.com/ansible/latest/) et la flemme de lire la documentation ? Bienvenue.
+Besoin d'une introduction à [Ansible](https://docs.ansible.com/ansible/latest/) et la flemme de lire la documentation ? Bienvenue.
 
 ## Principes
 
@@ -317,4 +317,6 @@ Alors là, grosse erreur, au contraire. Il n'y a rien de magique, ce n'est ni pl
 
 Ça a même l'avantage d'avoir toutes les informations sur une installation et configuration à un seul endroit, le dépôt Git des rôles et playbooks.
 
-<!-- vim: spell spelllang=fr : -->
+<!--
+vim: spell spelllang=fr
+-->

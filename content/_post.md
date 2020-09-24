@@ -8,4 +8,6 @@ Status: draft
 
 
 
-<!-- vim: spell spelllang=fr : -->
+<!--
+vim: spell spelllang=fr
+-->
