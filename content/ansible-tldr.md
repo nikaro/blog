@@ -107,7 +107,7 @@ $ cat playbooks/ansible-tldr-debug.yml
 ```
 
 ```
-$ ansible-playbook --inventory inventory/hosts playbooks/ansible-tldr-apt.yml
+$ ansible-playbook --inventory inventory/hosts playbooks/ansible-tldr-debug.yml
 
 PLAY [ANSIBLE TLDR] **************************************************************************************
 
@@ -288,7 +288,7 @@ $ cat roles/sshd/tasks/main.yml
     state: "{{ item.state | d('present') }}"
 ```
 
-Si vous regardez le contenu du dernier fichier, vous pouvez constater qu'on utilise le [module `replace`](), mais entre le nom de la tâche et l'appel du module il y a deux options :
+Si vous regardez le contenu du dernier fichier, vous pouvez constater qu'on utilise le [module `replace`](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/replace_module.html), mais entre le nom de la tâche et l'appel du module il y a deux options :
 
 - `notify` : qui permet de déclencher le handler nommé `restart sshd` lorsque cette tâche aura l'état "changed", ce qui aura pour effet de redémarrer le service SSH à la fin de l'exécution du playbook (uniquement si il y aura eu des changements)
 - `loop` : qui permet d'exécuter le module pour chacun des éléments de la variable (de type "liste") qui lui est passée, pour chaque itération de la boucle l'élément sera disponible via la variable `item`
