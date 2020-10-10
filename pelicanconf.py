@@ -89,8 +89,8 @@ MENUS = (
     ('/about/', 'about'),
     )
 
-COMMENT_MAILINGLIST = '~nka/blog@lists.sr.ht'
-COMMENT_MAILINGLIST_URL = 'https://lists.sr.ht/~nka/blog'
+COMMENT_MAILINGLIST = 'blog-karolak-fr@fire.fundersclub.com'
+COMMENT_MAILINGLIST_URL = 'https://github.com/nikaro/blog/issues?q='
 
 # disable syntax highlighting
 MARKDOWN = {
