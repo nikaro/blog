@@ -1,20 +1,28 @@
-FROM nikaro/archlinux-dev
+FROM nikaro/debian-dev
 
 COPY requirements.txt .
 RUN \
     # install required tools
-    sudo pacman -Syu --noconfirm \
-        jre-openjdk-headless \
+    sudo apt-get update && \
+    sudo apt-get install -y --no-install-recommends \
+        openjdk-11-jre-headless \
+        python3-pip \
         rsync \
         && \
     # pelican
+    python3 -m pip install --user --upgrade \
+        pip \
+        setuptools \
+        wheel \
+        && \
     python3 -m pip install --user \
         -r requirements.txt \
         && \
     # clean up
+    sudo apt-get clean && \
     sudo rm -rf \
-        /var/lib/pacman/sync \
-        /var/cache/pacman/pkg \
+        /var/cache/apt/ \
+        /var/lib/apt/lists/* \
         requirements.txt \
-        &&  \
+        && \
     :

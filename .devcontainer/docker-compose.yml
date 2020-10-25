@@ -12,13 +12,12 @@ services:
       # workspace
       - "..:/workspace"
       # dotfiles
-      - "$HOME/.config/nvim:/home/code/.config/nvim"
-      - "$HOME/.config/git:/home/code/.config/git"
+      - "$HOME/.vimrc:/home/code/.vimrc"
+      - "$HOME/.vim/conf.d:/home/code/.vim/conf.d"
+      - "$HOME/.gitconfig:/home/code/.gitconfig"
       - "$HOME/.ssh:/home/code/.ssh"
       - "$HOME/.gnupg:/home/code/.gnupg"
       - "$SSH_AUTH_SOCK:/ssh-agent"
-      # docker
-      - "/var/run/docker.sock:/var/run/docker.sock"
     environment:
       - "SSH_AUTH_SOCK=/ssh-agent"
     ports:

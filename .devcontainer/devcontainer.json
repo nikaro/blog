@@ -2,6 +2,7 @@
   "name": "blog",
   "dockerComposeFile": "docker-compose.yml",
   "service": "app",
-  "vim-extensions": [],
-  "vim-settings": []
+  "workspaceFolder": "/workspace",
+  "vimExtensions": [],
+  "vimSettings": []
 }
