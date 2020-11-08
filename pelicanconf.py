@@ -68,9 +68,6 @@ RELATIVE_URLS = True
 THEME = 'etchy'
 THEME_STATIC_DIR = 'static'
 
-PLUGIN_PATHS = ['plugins']
-PLUGINS = ['yuicompressor']
-
 FAVICON = 'favicon.png'
 
 STATIC_PATHS = [
