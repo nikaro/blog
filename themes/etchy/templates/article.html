@@ -15,9 +15,9 @@
     </header>
     {{- article.content -}}
 </article>
-{% if COMMENT_MAILINGLIST %}
+{% if COMMENT_EMAIL %}
 <footer id="comment">
-    Un commentaire ? Démarrez une discussion dans la <a href="{{ COMMENT_MAILINGLIST_URL }}{{ article.title | urlencode }}">liste de diffusion</a> en envoyant un email à <a href="mailto:{{ COMMENT_MAILINGLIST }}?Subject={{ article.title | urlencode }}">{{ COMMENT_MAILINGLIST }}</a>. Veuillez respecter l'<a href="https://man.sr.ht/lists.sr.ht/etiquette.md">etiquette de la liste de diffusion</a>.
+    Un commentaire ? Écrivez-moi à : <pre>{{ COMMENT_EMAIL }}</pre>.
 </footer>
 {% endif %}
 {% endblock %}

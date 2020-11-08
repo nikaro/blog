@@ -89,8 +89,7 @@ MENUS = (
     ('/about/', 'about'),
     )
 
-COMMENT_MAILINGLIST = 'blog-karolak-fr@fire.fundersclub.com'
-COMMENT_MAILINGLIST_URL = 'https://github.com/nikaro/blog/issues?q='
+COMMENT_EMAIL = 'Nicolas Karolak <blog@karolak.fr>'
 
 # disable syntax highlighting
 MARKDOWN = {
