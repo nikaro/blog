@@ -14,7 +14,7 @@ services:
       # dotfiles
       - "$HOME/.vimrc:/home/code/.vimrc"
       - "$HOME/.vim/conf.d:/home/code/.vim/conf.d"
-      - "$HOME/.gitconfig:/home/code/.gitconfig"
+      - "$HOME/.config/git:/home/code/.config/git"
       - "$HOME/.ssh:/home/code/.ssh"
       - "$HOME/.gnupg:/home/code/.gnupg"
       - "$SSH_AUTH_SOCK:/ssh-agent"
