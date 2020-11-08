@@ -17,7 +17,7 @@
 </article>
 {% if COMMENT_EMAIL %}
 <footer id="comment">
-    Un commentaire ? Écrivez-moi à : <pre>{{ COMMENT_EMAIL }}</pre>.
+    Un commentaire ? Écrivez-moi à : <code>{{ COMMENT_EMAIL | escape }}</code>.
 </footer>
 {% endif %}
 {% endblock %}
