@@ -13,3 +13,11 @@ to = "/feeds/all.atom.xml"
 [[redirects]]
 from = "/index.xml"
 to = "/feeds/all.atom.xml"
+
+[[headers]]
+for = "/*"
+[headers.values]
+Content-Security-Policy = "default-src 'none'; frame-ancestors 'none'"
+X-Content-Type-Options = "nosniff"
+X-Frame-Options = "DENY"
+X-XSS-Protection = "1; mode=block"
