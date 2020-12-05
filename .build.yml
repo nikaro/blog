@@ -6,7 +6,7 @@ packages:
 sources:
   - https://git.sr.ht/~nka/blog
 secrets:
-  - 20d13a49-2d4e-4beb-8a4d-03b76fd55af9
+  - 2c93dcdd-ab19-4fe7-86af-a48cfa32cf07
   - 0ce59312-01e6-4394-9296-e6b9751c5378
 tasks:
   - setup: |
