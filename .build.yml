@@ -6,23 +6,21 @@ packages:
 sources:
   - https://git.sr.ht/~nka/blog
 secrets:
-  - 94576db4-37bb-4523-b5c4-033951deacfa
-  - dc86411a-dbc5-4742-9af3-132e52133168
-environment:
-  NETLIFY_AUTH_TOKEN:
+  - 20d13a49-2d4e-4beb-8a4d-03b76fd55af9
+  - 0ce59312-01e6-4394-9296-e6b9751c5378
 tasks:
   - setup: |
       cd blog
-      sudo npm install -g netlify-cli
-      sudo pip install -r requirements.txt
+      sudo npm install --global netlify-cli
+      sudo pip install --requirement requirements.txt
+      cat ~/.netlify-auth-token >> ~/.buildenv
+      cat ~/.netlify-site-id >> ~/.buildenv
   - build: |
       cd blog
       make publish
   - deploy: |
       cd blog
       netlify deploy \
-        --auth=$(cat ~/.netlify-access-token) \
         --dir=output \
         --prod \
-        --site=$(cat ~/.netlify-blog-id) \
         --build
