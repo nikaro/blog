@@ -1,9 +1,28 @@
 image: alpine/latest
+packages:
+  - make
+  - npm
+  - py3-pip
+sources:
+  - https://git.sr.ht/~nka/blog
 secrets:
-  - 8a197a79-b688-47cf-8f5c-2ffe1bc2495e
+  - 94576db4-37bb-4523-b5c4-033951deacfa
+  - dc86411a-dbc5-4742-9af3-132e52133168
+environment:
+  NETLIFY_AUTH_TOKEN:
 tasks:
-  - mirror: |
+  - setup: |
       cd blog
-      ssh-keyscan github.com >> ~/.ssh/known_hosts
-      git remote add github git@github.com:nikaro/blog.git
-      git push github main
+      npm install -g netlify-cli
+      pip install -r requirements.txt
+  - build: |
+      cd blog
+      make publish
+  - deploy: |
+      cd blog
+      netlify deploy \
+        --auth=$(cat ~/.netlify-access-token) \
+        --dir=output \
+        --prod \
+        --site=$(cat ~/.netlify-blog-id) \
+        --build
