@@ -9,18 +9,17 @@ secrets:
   - 2c93dcdd-ab19-4fe7-86af-a48cfa32cf07
   - 0ce59312-01e6-4394-9296-e6b9751c5378
 tasks:
-  - setup: |
-      cd blog
-      sudo npm install --global netlify-cli
-      sudo pip install --requirement requirements.txt
+  - buildenv: |
       cat ~/.netlify-auth-token >> ~/.buildenv
       cat ~/.netlify-site-id >> ~/.buildenv
+      echo 'export PATH=$HOME/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin' >> ~/.buildenv
+      npm config set prefix ~/.local
+  - setup: |
+      cd blog
+      make setup
   - build: |
       cd blog
-      make publish
+      make build
   - deploy: |
       cd blog
-      netlify deploy \
-        --dir=output \
-        --prod \
-        --build
+      make deploy
