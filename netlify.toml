@@ -1,6 +1,6 @@
 [build]
 publish = "output/"
-command = "make publish"
+command = "make build"
 
 [[redirects]]
 from = "/blog"
