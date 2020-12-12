@@ -17,7 +17,7 @@ build:
 .PHONY: serve
 ## serve: Serve content on port 8000
 serve:
-	@echo "Serving..."
+	@echo "Serving at http://localhost:8000/"
 	@pelican -l ./content -o ./output -s ./pelicanconf.py -t ./themes/etchy -b 0.0.0.0
 
 .PHONY: deploy
