@@ -36,7 +36,6 @@ Mes lectures :
     - [Mattias Geniar](https://ma.ttias.be/) : du dev et de l'adminsys
     - [mcorbin](https://mcorbin.fr/) : du dev/devops
     - [MicroJoe](https://blog.microjoe.org/) : du dev et de l'adminsys
-    - [Mirabellette](https://blog.mirabellette.eu/) : de l'adminsys
     - [NullPointerException](https://blog.imirhil.fr/) : de l'adminsys, orienté sécurité
     - [Octopuce](https://www.octopuce.fr/categorie/blog/) : de l'adminsys, du retour d'expérience, de la communication
     - [Padok](https://www.padok.fr/blog/) : de l'actualité tech, du devops
