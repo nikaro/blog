@@ -73,10 +73,12 @@ FAVICON = 'favicon.png'
 STATIC_PATHS = [
     'static/robots.txt',
     'static/favicon.png',
+    'static/feeds.opml',
     ]
 EXTRA_PATH_METADATA = {
     'static/robots.txt': {'path': 'robots.txt'},
     'static/favicon.png': {'path': 'favicon.png'},
+    'static/feeds.opml': {'path': 'feeds.opml'},
     }
 
 MENUS = (
