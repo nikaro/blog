@@ -262,23 +262,15 @@ main#content td#page-next {
 }
 
 footer {
-    color: #949494;
+    color: #949494 !important;
 }
 
-footer#footer {
-    font-size: 14px;
-    font-size: 1.4rem;
-    font-weight: 300;
-    margin: 40px 0;
+footer p {
+    color: #949494 !important;
 }
 
-footer#footer a {
-    color: #007dfa;
-    text-decoration: none;
-}
-
-footer#footer a:hover {
-    text-decoration: underline;
+footer a {
+    color: #5e7f93 !important;
 }
 
 @media (min-width: 770px) {

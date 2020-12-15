@@ -17,7 +17,18 @@
 </article>
 {% if COMMENT_MAILINGLIST %}
 <footer id="comment">
-    Un commentaire ? Démarrez une discussion dans la <a href="{{ COMMENT_MAILINGLIST_URL }}?search={{ article.title | urlencode }}">liste de diffusion</a> en envoyant un email à <a href="mailto:{{ COMMENT_MAILINGLIST }}?Subject=Re%3A%20{{ article.title | urlencode }}">{{ COMMENT_MAILINGLIST }}</a>. Veuillez respecter l'<a href="https://man.sr.ht/lists.sr.ht/etiquette.md">etiquette de la liste de diffusion</a>.
+    <p>Un commentaire ? Démarrez une discussion dans la <a href="{{ COMMENT_MAILINGLIST_URL }}?search={{ article.title | urlencode }}">liste de diffusion</a> en envoyant un email à <a href="mailto:{{ COMMENT_MAILINGLIST }}?Subject={{ article.title | urlencode }}">{{ COMMENT_MAILINGLIST }}</a>. Veuillez respecter l'<a href="https://man.sr.ht/lists.sr.ht/etiquette.md">etiquette de la liste de diffusion</a>.</p>
 </footer>
+{% if WEBRING_FEED_URLS %}
+<hr>
+<footer id="webring">
+    <h4>Webring</h4>
+    {% for article in webring_articles %}
+    <p><a href="{{ article.link  }}">{{ article.title  }}</a> - {{ article.date.split('T')[0] }}</p>
+    <p>{{ article.summary }}</p>
+    {% endfor %}
+</footer>
+{% endif %}
+<hr>
 {% endif %}
 {% endblock %}
