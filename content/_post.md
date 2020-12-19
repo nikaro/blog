@@ -1,7 +1,6 @@
 Title:
 Date: 2020-06-30 00:00
-Author: Nicolas Karolak
-Category: Articles|Partages
+Category: Articles
 Tags:
 Slug: 000
 Status: draft
