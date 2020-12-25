@@ -11,7 +11,7 @@ Encore une petite astuce Vim, ou plutôt bash ou zsh. Il est possible d'éditer 
 
 Pire encore, JavaScript permet de modifier ce qui est envoyé dans le clipboard, donc quand vous copiez un texte ce que vous voyez n'est peut-être pas ce que vous copiez. Certains sites d'actualités utilisent ce mécanisme pour insérer un lien vers la source lorsque vous copiez leur contenu. D'autres mal intentionnés pourraient vous faire copier des commandes dangereuses.
 
-http://thejh.net/misc/website-terminal-copy-paste
+<http://thejh.net/misc/website-terminal-copy-paste>
 
 <!--
 vim: spell spelllang=fr
