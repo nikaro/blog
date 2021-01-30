@@ -35,6 +35,10 @@ PDM, un outil qui permet de se passer des environnements virtuels ("virtualenv")
 
 <https://frostming.com/2021/01-22/introducing-pdm/>
 
+Comment supprimer ses anciens "toots" avec Ephemetoot. Pour moi les publications des réseaux sociaux ont vocation à être épéméres, du coup cet outil s'avère bien pratique.
+
+<https://lord.re/posts/215-supprimer-ses-vieux-toots-sur-mastodon-ou-pleroma/>
+
 <!--
 vim: spell spelllang=fr
 -->
