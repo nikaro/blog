@@ -17,6 +17,6 @@ S'il vous venait l'envie de m'offrir un cadeau, voilà une liste dans laquelle v
 - [Comment la non-violence protège l’État](https://www.editionslibre.org/produit/prevente-comment-la-non-violence-protege-l-etat-peter-gelderloos/)
 - [Raspberry Pi 400 (US)](https://www.reichelt.de/fr/fr/raspberry-pi-400-us-4x-1-8ghz-4gb-ram-rasp-pi400us-p290328.html)
 - [La part commune](http://www.editionsamsterdam.fr/la-part-commune/)
-- [Qu’est-ce que la propriété ?](https://www.livredepoche.com/livre/quest-ce-que-la-propriete-9782253082590)
+- [Le trésor de Lucio](https://www.editions-rackham.com/catalogue/le-tresor-de-lucio/)
 
 Merci d'éviter autant que faire se peut Amazon et consorts.

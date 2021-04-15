@@ -51,6 +51,10 @@ SourceHut permet maintenant l'hébergement de sites statiques. Ce n'est pas auss
 
 <https://sourcehut.org/blog/2021-02-18-sourcehut-pages/>
 
+Que penser des traitements/astuces "miracles" pour lutter contre la Covid-19 ?
+
+<https://www.franceculture.fr/emissions/les-idees-claires-le-podcast/vitamine-d-vin-herbe-a-pic-spray-nasal-des-remedes-efficaces-contre-le-covid-19>
+
 <!--
 vim: spell spelllang=fr
 -->
