@@ -3,8 +3,8 @@ Author: Nicolas Karolak
 
 S'il vous venait l'envie de m'offrir un cadeau, voilà une liste dans laquelle vous pouvez piocher ou vous inspirer :
 
-- [La Révolution à venir](https://agone.org/contrefeux/larevolutionavenir/)
-- [Changer sa vie sans changer le monde](https://agone.org/contrefeux/changersaviesanschangerlemonde/)
+- [La Révolution à venir](https://agone.org/livres/9782748904291/larevolutionavenir)
+- [Changer sa vie sans changer le monde](https://agone.org/livres/changersaviesanschangerlemonde/changersaviesanschangerlemonde)
 - [Pour en finir avec Dieu](https://laffont.ca/livre/pour-en-finir-avec-dieu-9782221108932/)
 - [La zone du dehors](https://lavolte.net/livres/la-zone-du-dehors/)
 - [Homo deus](https://www.albin-michel.fr/ouvrages/homo-deus-9782226393876)

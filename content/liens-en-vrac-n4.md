@@ -24,7 +24,7 @@ Un simulateur d'achat avec l'argent des milliardaires, pour permettre de se rend
 -- <https://3pic.github.io/money>
 
 Un fournisseur de messagerie qui a l'air vachement bien. Au lieu de facturer à la boite, c'est au nombre de mails envoyé, avec des tarifs qui me paraissent très raisonnable.  
--- <https://www.migadu.com/en/index.html>
+-- <https://www.migadu.com/>
 
 Une liste de plugins intéressants pour flake8, un linter Python, c'est à dire un outil qui permet de mettre en évidence les éventuelles erreurs de code ou de style.  
 -- <https://julien.danjou.info/the-best-flake8-extensions/>

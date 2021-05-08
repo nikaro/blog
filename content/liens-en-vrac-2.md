@@ -15,7 +15,7 @@ Pour en savoir un peu plus sur le féminisme et les courants qu'il compose, là 
 -- <https://www.youtube.com/watch?v=77vvtQDptos>
 
 Un texte de Alexandre Marius Jacob, le personnage qui aurait inspiré Arsène Lupin à Maurice Leblanc, anarchiste et cambrioleur. Sur pourquoi il a cambriolé, pourquoi les riches uniquement, et comment ça s'inscrit dans sa pensée anarchiste. Un texte de plus en plus pertinent au fur et à mesure que les inégalités s'accroissent.  
--- <https://bag.karolak.fr/share/5ec3ad5d172cf5.55904235>
+-- <http://www.non-fides.fr/?Pourquoi-j-ai-cambriole>
 
 Pourquoi le solutionisme, c'est à dire parier sur d'éventuelles innovations technologiques pour nous sortir de la crise climatique et environnementale, est une mauvaise idée. Sans pour autant rejeter les potentiels bienfaits des potentielles innovations.  
 --- <https://nourrituresterrestres.substack.com/p/non-la-technologie-ne-nous-sauvera>

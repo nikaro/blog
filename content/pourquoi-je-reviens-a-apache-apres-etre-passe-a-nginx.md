@@ -14,7 +14,7 @@ Mais aujourd'hui je reviens au bon vieux Apache… Pourquoi donc ?
 
 Malgré la hype autour de NGINX, la majorité des applications Web sont encore faites pour fonctionner de base avec Apache. Notamment en incluant des fichiers `.htaccess` pour faire le job concernant tout ce qui est réécriture d'URLs, protection des fichiers et dossiers, etc.
 
-Ça se voit aussi au niveau des différentes documentations. Pour prendre un exemple, la [documentation de ownCloud](https://doc.owncloud.org/) présente Apache 2.4 comme le serveur recommandé pour son installation, et la procédure d'installation et de configuration se base donc sur ce serveur Web. Pour NGINX, il faut aller fouiller [au fin fond de la doc](https://doc.owncloud.org/server/9.0/admin_manual/installation/nginx_configuration.html) pour trouver un exemple de fichier de config à rallonge.
+Ça se voit aussi au niveau des différentes documentations. Pour prendre un exemple, la [documentation de ownCloud](https://doc.owncloud.org/) présente Apache 2.4 comme le serveur recommandé pour son installation, et la procédure d'installation et de configuration se base donc sur ce serveur Web. Pour NGINX, il faut aller fouiller au fin fond de la doc pour trouver un exemple de fichier de config à rallonge.
 
 ### Simplicité
 
@@ -22,7 +22,7 @@ Avec NGINX, chaque application Web nécessite une configuration spécifique diff
 
 ### Performances
 
-Question performances, le [résultat](http://blog.celingest.com/en/2013/02/25/nginx-vs-apache-in-aws/) dépend grandement du matériel et du type de sites que vous servez. En résumé, sur des petites configurations (mono-core) NGINX s'en sort mieux du fait de son architecture *[event-driven](https://fr.wikipedia.org/wiki/Architecture_orient%C3%A9e_%C3%A9v%C3%A8nements)*. Pour servir des fichiers statiques (HTML, JS, CSS, images), NGINX est là aussi encore loin devant Apache. Ceci malgré le fait qu'avec le mode MPM Worker de Apache on s'approche du fonctionnement de NGINX, et qu'avec le mode Event on y est carrément.
+Question performances, le résultat dépend grandement du matériel et du type de sites que vous servez. En résumé, sur des petites configurations (mono-core) NGINX s'en sort mieux du fait de son architecture *[event-driven](https://fr.wikipedia.org/wiki/Architecture_orient%C3%A9e_%C3%A9v%C3%A8nements)*. Pour servir des fichiers statiques (HTML, JS, CSS, images), NGINX est là aussi encore loin devant Apache. Ceci malgré le fait qu'avec le mode MPM Worker de Apache on s'approche du fonctionnement de NGINX, et qu'avec le mode Event on y est carrément.
 
 Par contre, pour ce qui est des applications PHP, il semblerait que Apache s'en sorte mieux (en dehors des petites config matérielles), en mode Worker ou Event.
 

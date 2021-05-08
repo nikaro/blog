@@ -30,7 +30,7 @@ Bien sûr, il ne s'agit pas uniquement d'une contrainte, l'exécution des script
 
 ### Installation
 
-***Les instructions ci-dessous sont obsolètes, vous pouvez vous reporter à la version [mise à jour de cet article](/post/2016-06-24-apache-php-fpm/) pour continuer l'installation.***
+***Les instructions ci-dessous sont obsolètes, vous pouvez vous reporter à la version [mise à jour de cet article](/2016/06/24/utiliser-php-fpm-sous-apache/) pour continuer l'installation.***
 
 Afin de pouvoir installer le module FastCGI de Apache, qui nous sera nécessaire pour faire fonctionner PHP-FPM, il nous faut d'abord activer les dépôts `contrib` et `non-free` dans le ficher `/etc/apt/sources.list` :
 

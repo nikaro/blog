@@ -10,7 +10,7 @@ En tant qu'adminsys, le terminal est probablement l'application dans laquelle je
 
 Voici donc une petite liste des combinaisons que je trouve potentiellement intéressantes. Avec, en bonus, la signification derrière le choix de la touche, quand je la connais et/ou qu'il y en a une, ce qui peut aider à retenir la combinaison le cas échéant.
 
-Petite précision, ces raccourcis ne sont pas spécifiquement liés à Bash, mais (pour la plupart) à la bibliothèque [Readline](https://fr.wikipedia.org/wiki/GNU_Readline) (utilisée par Bash, entre autres). Merci à [Olm](https://olsc.org/) pour la [remarque](https://blog.karolak.fr/2019/11/25/les-raccourcis-clavier-de-bash/#comment-11).
+Petite précision, ces raccourcis ne sont pas spécifiquement liés à Bash, mais (pour la plupart) à la bibliothèque [Readline](https://fr.wikipedia.org/wiki/GNU_Readline) (utilisée par Bash, entre autres).
 
 Déplacement
 -----------

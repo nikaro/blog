@@ -37,7 +37,7 @@ srv-01 ansible_user=notroot ansible_ssh_pass=topsecret
 srv-02 ansible_user=root ansible_ssh_private_key_file=~/.ssh/id_srv02
 ```
 
-Ensuite, la seconde première chose à faire c'est d'installer Python sur toutes les machines. Pour cela on va écrire un petit playbook qui utilisera le [module raw](https://docs.ansible.com/ansible/latest/raw_module.html) permettant de balancer des commandes brutes à travers SSH :
+Ensuite, la seconde première chose à faire c'est d'installer Python sur toutes les machines. Pour cela on va écrire un petit playbook qui utilisera le [module raw](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/raw_module.html) permettant de balancer des commandes brutes à travers SSH :
 
 ```
 # bootstrap.yml
@@ -86,7 +86,7 @@ La troisième et dernière des premières choses à faire, c'est de déployer la
 ...
 ```
 
-On a utilisé ici les modules [user](https://docs.ansible.com/ansible/latest/user_module.html) et [authorized\_keys](https://docs.ansible.com/ansible/latest/authorized_key_module.html), je vous laisse aller jeter un coup d'œil à la documentation de chacun pour voir la signification et l'utilisation des différents paramètres.
+On a utilisé ici les modules [user](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/user_module.html) et [authorized\_keys](https://docs.ansible.com/ansible/latest/collections/ansible/posix/authorized_key_module.html), je vous laisse aller jeter un coup d'œil à la documentation de chacun pour voir la signification et l'utilisation des différents paramètres.
 
 On relance l'exécution de notre playbook :
 
