@@ -22,7 +22,7 @@ La meilleure manière, selon moi, est d'installer Ansible dans un [environnement
 
 ```
 $ python3 -m venv ~/.local/share/pyvenv/ansible-test
-$ source ~/.local/share/pyvenv/ansible-test
+$ source ~/.local/share/pyvenv/ansible-test/bin/activate
 $ pip install ansible
 ```
 

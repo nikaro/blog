@@ -96,21 +96,4 @@ MARKDOWN = {
     'extensions': ['extra', 'abbr'],
     }
 
-WEBRING_FEED_URLS = [
-    'https://emmaclit.com/feed/',
-    'https://blog.otso.fr/rss.xml',
-    'https://www.bortzmeyer.org/feed.atom',
-    'https://bwog-notes.chagratt.site/index.xml',
-    'https://drewdevault.com/blog/index.xml',
-    'https://www.grottedubarbu.fr/rss/',
-    'https://katyucha.ovh/feeds/all.rss.xml',
-    'https://blog.monolecte.fr/feed/',
-    'https://blog.microjoe.org/feeds/all.atom.xml',
-    'https://ploum.net/feed/atom/',
-    'https://signauxfaibles.co/feed/',
-    'https://n.survol.fr/feed',
-    'https://toutetrien.lithio.fr/feed.xml',
-    'https://prx.ybad.name/feed.atom',
-    ]
-
 DEFAULT_DATE_FORMAT = '%Y-%m-%d'

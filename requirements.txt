@@ -1,2 +1,1 @@
 pelican[Markdown]
-pelican-webring
