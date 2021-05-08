@@ -6,7 +6,7 @@ Tags: adminsys, écologie, féminisme, git, méthodologie, politique, vrac
 Slug: liens-en-vrac
 Status: published
 
-Normalement je partage de temps en temps des liens sous forme d'articles, mais classés dans la catégorie "Partage". Je ne le fais pas très souvent parce que ça ferait beaucoup de publications, noierait les "vrais" articles dans la masse, et ça embêterait probablement ceux qui suivent le flux RSS. Du coup plutôt que de tout balancer sur un quelconque réseau social, je vais essayer faire un peu comme chez d'autres ([Seboss666](https://blog.seboss666.info/) et [Tristan Nitot](https://www.standblog.org/blog/)), des liens en vrac de temps en temps.
+Normalement je partage de temps en temps des liens sous forme d'articles, mais classés dans la catégorie "Partage". Je ne le fais pas très souvent parce que ça ferait beaucoup de publications, noierait les "vrais" articles dans la masse, et ça embêterait probablement ceux qui suivent le flux RSS. Du coup plutôt que de tout balancer sur un quelconque réseau social, je vais essayer faire un peu comme chez d'autres ([Seboss666](https://blog.seboss666.info/) et [Tristan Nitot](https://www.standblog.org/)), des liens en vrac de temps en temps.
 
 Écrire des "RFC" (Request For Comment) pour chaque projet au travail, afin de pouvoir organiser ses idées, en proposer des nouvelles sans heurter quelqu'un, éviter de perdre du temps dans des discussions potentiellement non constructives, etc. Je pense que je vais adopter la méthode.  
 -- <https://notes.eatonphil.com/rfcs-and-asynchronous-first-culture.html>
