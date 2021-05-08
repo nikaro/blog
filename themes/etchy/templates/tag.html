@@ -4,9 +4,9 @@
 
 {% block head %}
 {% if TAG_FEED_ATOM %}
-<link rel="alternate" type="application/atom+xml" href="{{ FEED_DOMAIN }}/{{ TAG_FEED_ATOM }}" title="{{ SITENAME }} {{ tag }} Tag Atom">
+<link rel="alternate" type="application/atom+xml" href="{{ FEED_DOMAIN }}/{{ TAG_FEED_ATOM.format(slug=tag.slug) }}" title="{{ SITENAME }} {{ tag }} Tag Atom">
 {% endif %}
 {% if TAG_FEED_RSS %}
-<link rel="alternate" type="application/rss+xml" href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS }}" title="{{ SITENAME }} {{ tag }} Tag RSS">
+<link rel="alternate" type="application/rss+xml" href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS.format(slug=tag.slug) }}" title="{{ SITENAME }} {{ tag }} Tag RSS">
 {% endif %}
 {% endblock %}

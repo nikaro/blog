@@ -11,7 +11,6 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 FEED_DOMAIN = SITEURL
-FEED_ATOM = 'feeds/atom.xml'
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 AUTHOR_FEED_ATOM = 'feeds/{slug}.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'

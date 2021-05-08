@@ -4,9 +4,9 @@
 
 {% block head %}
 {% if CATEGORY_FEED_ATOM %}
-<link rel="alternate" type="application/atom+xml" href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_ATOM }}" title="{{ SITENAME }} {{ category }} Category Atom">
+<link rel="alternate" type="application/atom+xml" href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_ATOM.format(slug=category.slug) }}" title="{{ SITENAME }} {{ category }} Category Atom">
 {% endif %}
 {% if CATEGORY_FEED_RSS %}
-<link rel="alternate" type="application/rss+xml" href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_RSS }}" title="{{ SITENAME }} {{ category }} Category RSS">
+<link rel="alternate" type="application/rss+xml" href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_RSS.format(slug=category.slug) }}" title="{{ SITENAME }} {{ category }} Category RSS">
 {% endif %}
 {% endblock %}
