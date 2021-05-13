@@ -2,7 +2,7 @@ Title: Parcourir tous les dépôts Git à la recherche de changements non-index�
 Date: 2020-09-16 09:40
 Author: Nicolas Karolak
 Category: Articles
-Tags: infromatique, git, bash, automatisation
+Tags: informatique, git, bash, automatisation
 Slug: parcourir-tous-les-depots-git-a-la-recherche-de-changement-non-indexes
 Status: published
 
