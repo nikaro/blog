@@ -1,4 +1,5 @@
-output/
-
-# Local Netlify folder
-.netlify
+public/
+resources/
+site.tar.gz
+.env
+layouts/partials/webring-out.html

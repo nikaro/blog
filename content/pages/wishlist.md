@@ -1,5 +1,6 @@
-Title: Wishlist
-Author: Nicolas Karolak
+---
+title: Wishlist
+---
 
 S'il vous venait l'envie de m'offrir un cadeau, voilà une liste dans laquelle vous pouvez piocher ou vous inspirer :
 

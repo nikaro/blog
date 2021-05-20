@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <opml version="2.0">
+        <body>
+            <outline text="blogs">
+                <outline title="Affordance.info" text="Affordance.info" xmlUrl="https://www.affordance.info/mon_weblog/atom.xml" htmlUrl="https://www.affordance.info/mon_weblog/"></outline>
+                <outline title="arp242.net" text="arp242.net" xmlUrl="https://www.arp242.net/feed.xml" htmlUrl="https://www.arp242.net/"></outline>
+                <outline title="arpinux" text="arpinux" xmlUrl="https://arpinux.org/home/feed/rss" htmlUrl="https://arpinux.org/home/"></outline>
+                <outline title="Benjamin Sonntag" text="Benjamin Sonntag" xmlUrl="https://benjamin.sonntag.fr/feed" htmlUrl="https://benjamin.sonntag.fr/"></outline>
+                <outline title="Blog de Bearstech" text="Blog de Bearstech" xmlUrl="https://bearstech.com/atom_feed.xml" htmlUrl="https://bearstech.com/societe/blog/"></outline>
+                <outline title="Blog-Libre" text="Blog-Libre" xmlUrl="https://www.bloglibre.net/feed/" htmlUrl="https://www.bloglibre.net/"></outline>
+                <outline title="Bortzmeyer" text="Bortzmeyer" xmlUrl="https://www.bortzmeyer.org/feed-full.atom" htmlUrl="https://www.bortzmeyer.org/"></outline>
+                <outline title="Couleur-Science" text="Couleur-Science" xmlUrl="https://couleur-science.eu/rss.php" htmlUrl="https://couleur-science.eu/"></outline>
+                <outline title="Dadall" text="Dadall" xmlUrl="https://www.dadall.info/feed/rss" htmlUrl="https://www.dadall.info/"></outline>
+                <outline title="Drew Devault" text="Drew Devault" xmlUrl="https://drewdevault.com/blog/index.xml" htmlUrl="https://drewdevault.com/"></outline>
+                <outline title="Écologie Politique" text="Écologie Politique" xmlUrl="http://blog.ecologie-politique.eu/index.php/feed/atom" htmlUrl="http://blog.ecologie-politique.eu/"></outline>
+                <outline title="Fiat Tux" text="Fiat Tux" xmlUrl="https://fiat-tux.fr/feed/" htmlUrl="https://fiat-tux.fr/"></outline>
+                <outline title="Grise Bouille" text="Grise Bouille" xmlUrl="https://grisebouille.net/feed/" htmlUrl="https://grisebouille.net"></outline>
+                <outline title="GruntWork" text="GruntWork" xmlUrl="https://blog.gruntwork.io/feed" htmlUrl="https://blog.gruntwork.io/?source=rss----f6262bc8ce7a---4"></outline>
+                <outline title="Hardenize" text="Hardenize" xmlUrl="https://www.hardenize.com/blog/feed.rss" htmlUrl="https://www.hardenize.com/blog/feed.rss"></outline>
+                <outline title="La pompe à phynance" text="La pompe à phynance" xmlUrl="https://blog.mondediplo.net/spip.php?id_rubrique=6&amp;page=backend" htmlUrl="https://blog.mondediplo.net/-La-pompe-a-phynance-"></outline>
+                <outline title="L&#39;ardeur" text="L&#39;ardeur" xmlUrl="http://www.ardeur.net/feed/" htmlUrl="http://www.ardeur.net/"></outline>
+                <outline title="Le Hollandais Volant" text="Le Hollandais Volant" xmlUrl="https://lehollandaisvolant.net/rss.php" htmlUrl="https://lehollandaisvolant.net/"></outline>
+                <outline title="Le Monolecte" text="Le Monolecte" xmlUrl="https://blog.monolecte.fr/feed/" htmlUrl="https://blog.monolecte.fr"></outline>
+                <outline title="Lord" text="Lord" xmlUrl="https://lord.re/index.xml" htmlUrl="https://lord.re/"></outline>
+                <outline title="L&#39;ornithorynque" text="L&#39;ornithorynque" xmlUrl="https://blog.mondediplo.net/spip.php?id_rubrique=16&amp;page=backend" htmlUrl="https://blog.mondediplo.net/-l-ornithorynque-"></outline>
+                <outline title="Lydra | Artisans DevOps" text="Lydra | Artisans DevOps" xmlUrl="https://lydra.fr/feed/" htmlUrl="https://lydra.fr"></outline>
+                <outline title="(mcorbin.fr)" text="(mcorbin.fr)" xmlUrl="https://www.mcorbin.fr/feed.xml" htmlUrl="https://mcorbin.fr"></outline>
+                <outline title="Nicolas Karolak" text="Nicolas Karolak" xmlUrl="https://blog.karolak.fr/feeds/all.atom.xml" htmlUrl="https://blog.karolak.fr/"></outline>
+                <outline title="Ploum" text="Ploum" xmlUrl="https://ploum.net/feed/atom/" htmlUrl="https://ploum.net/"></outline>
+                <outline title="Régime d&#39;opinion" text="Régime d&#39;opinion" xmlUrl="https://blog.mondediplo.net/spip.php?id_rubrique=13&amp;page=backend" htmlUrl="https://blog.mondediplo.net/-Regime-d-opinion-"></outline>
+                <outline title="ROBERT Stéphane - Devops" text="ROBERT Stéphane - Devops" xmlUrl="https://blog.stephane-robert.info/feed.xml" htmlUrl="https://blog.stephane-robert.info/"></outline>
+                <outline title="Scaleway" text="Scaleway" xmlUrl="https://blog.scaleway.com/rss/" htmlUrl="https://blog.scaleway.com/"></outline>
+                <outline title="Signaux faibles" text="Signaux faibles" xmlUrl="https://signauxfaibles.co/feed/" htmlUrl="https://signauxfaibles.co/"></outline>
+                <outline title="Silicon circus" text="Silicon circus" xmlUrl="https://blog.mondediplo.net/spip.php?id_rubrique=12&amp;page=backend" htmlUrl="https://blog.mondediplo.net/-Silicon-circus-"></outline>
+                <outline title="Standblog" text="Standblog" xmlUrl="http://standblog.org/blog/feed/rss2" htmlUrl="https://standblog.org/blog/"></outline>
+                <outline title="Survol" text="Survol" xmlUrl="https://n.survol.fr/feed" htmlUrl="https://n.survol.fr/"></outline>
+                <outline title="WeScale" text="WeScale" xmlUrl="https://blog.wescale.fr/rss/" htmlUrl="https://blog.wescale.fr/"></outline>
+            </outline>
+            <outline text="comics">
+                <outline title="EmmaClit" text="EmmaClit" xmlUrl="https://emmaclit.com/feed/" htmlUrl="https://emmaclit.com/"></outline>
+                <outline title="J&#39;affiche…! L&#39;actualité en affiche – blog d&#39;affiches par Geoffrey Dorne" text="J&#39;affiche…! L&#39;actualité en affiche – blog d&#39;affiches par Geoffrey Dorne" xmlUrl="https://jaffiche.fr/feed/atom" htmlUrl="https://jaffiche.fr"></outline>
+            </outline>
+            <outline text="digests">
+                <outline title="Awesome Go Newsletter" text="Awesome Go Newsletter" xmlUrl="https://go.libhunt.com/newsletter/feed" htmlUrl="https://go.libhunt.com/newsletter/feed"></outline>
+                <outline title="Awesome Python Newsletter" text="Awesome Python Newsletter" xmlUrl="https://python.libhunt.com/newsletter/feed" htmlUrl="https://python.libhunt.com/newsletter/feed"></outline>
+                <outline title="Awesome SysAdmin Newsletter" text="Awesome SysAdmin Newsletter" xmlUrl="https://sysadmin.libhunt.com/newsletter/feed" htmlUrl="https://sysadmin.libhunt.com/newsletter/feed"></outline>
+                <outline title="Bulletproof TLS Newsletter" text="Bulletproof TLS Newsletter" xmlUrl="https://www.feistyduck.com/bulletproof-tls-newsletter/feed" htmlUrl="https://www.feistyduck.com/bulletproof-tls-newsletter/"></outline>
+                <outline title="Hacker News: Best" text="Hacker News: Best" xmlUrl="https://hnrss.org/best" htmlUrl="https://news.ycombinator.com/best"></outline>
+                <outline title="Nourritures terrestres" text="Nourritures terrestres" xmlUrl="https://nourrituresterrestres.substack.com/feed" htmlUrl="https://nourrituresterrestres.substack.com"></outline>
+                <outline title="The cron.weekly newsletter on ma.ttias.be" text="The cron.weekly newsletter on ma.ttias.be" xmlUrl="https://ma.ttias.be/cronweekly/index.xml" htmlUrl="https://ma.ttias.be/cronweekly/"></outline>
+            </outline>
+            <outline text="events">
+                <outline title="Moissy-Cramayel" text="Moissy-Cramayel" xmlUrl="https://www.moissy-cramayel.fr/?q=rss.xml" htmlUrl="https://www.moissy-cramayel.fr/"></outline>
+            </outline>
+            <outline text="news">
+                <outline title="Blast - Le souffle de l’info" text="Blast - Le souffle de l’info" xmlUrl="https://api.blast-info.fr/rss.xml" htmlUrl="https://blast-info.fr"></outline>
+                <outline title="BondyBlog" text="BondyBlog" xmlUrl="https://www.bondyblog.fr/feed/" htmlUrl="https://www.bondyblog.fr/"></outline>
+                <outline title="CNRS Le journal" text="CNRS Le journal" xmlUrl="https://lejournal.cnrs.fr/rss" htmlUrl="https://lejournal.cnrs.fr/"></outline>
+                <outline title="GreenIT" text="GreenIT" xmlUrl="https://www.greenit.fr/feed/" htmlUrl="https://www.greenit.fr/"></outline>
+                <outline title="Greenpeace France" text="Greenpeace France" xmlUrl="https://www.greenpeace.fr/post_news/feed/" htmlUrl="https://www.greenpeace.fr"></outline>
+                <outline title="La Horde" text="La Horde" xmlUrl="https://lahorde.samizdat.net/spip.php?page=backend" htmlUrl="https://lahorde.samizdat.net/"></outline>
+                <outline title="LinuxFr: les dépêches" text="LinuxFr: les dépêches" xmlUrl="https://linuxfr.org/news.atom" htmlUrl="https://linuxfr.org/news"></outline>
+                <outline title="MrMondialisation" text="MrMondialisation" xmlUrl="https://mrmondialisation.org/feed/" htmlUrl="https://mrmondialisation.org/"></outline>
+                <outline title="Paris-Luttes" text="Paris-Luttes" xmlUrl="https://paris-luttes.info/spip.php?page=backend" htmlUrl="https://paris-luttes.info/"></outline>
+                <outline title="Slower News" text="Slower News" xmlUrl="https://www.slowernews.com/rss.xml" htmlUrl="https://www.slowernews.com/"></outline>
+                <outline title="UCL - Union communiste libertaire" text="UCL - Union communiste libertaire" xmlUrl="https://www.unioncommunistelibertaire.org/spip.php?page=backend" htmlUrl="http://www.unioncommunistelibertaire.org/"></outline>
+            </outline>
+            <outline text="podcasts">
+                <outline title="La conversation scientifique" text="La conversation scientifique" xmlUrl="http://radiofrance-podcast.net/podcast09/rss_13957.xml" htmlUrl="https://www.franceculture.fr/emissions/la-conversation-scientifique"></outline>
+                <outline title="Les idées claires" text="Les idées claires" xmlUrl="http://radiofrance-podcast.net/podcast09/rss_18918.xml" htmlUrl="https://www.franceculture.fr/dossiers/les-idees-claires"></outline>
+            </outline>
+            <outline text="softwares">
+                <outline title="Ansible Archive Feed" text="Ansible Archive Feed" xmlUrl="https://us19.campaign-archive.com/feed?id=d6635f5420&amp;u=56d874e027110e35dea0e03c1" htmlUrl="https://us19.campaign-archive.com/feed?u=56d874e027110e35dea0e03c1&amp;id=d6635f5420"></outline>
+                <outline title="Ansible Blog" text="Ansible Blog" xmlUrl="https://www.ansible.com/blog/rss.xml" htmlUrl="https://www.ansible.com/blog"></outline>
+                <outline title="Blogs on recalbox.com" text="Blogs on recalbox.com" xmlUrl="https://www.recalbox.com/fr/blog/index.xml" htmlUrl="https://www.recalbox.com/fr/blog/"></outline>
+                <outline title="Debian" text="Debian" xmlUrl="https://www.debian.org/News/news" htmlUrl="https://www.debian.org/News/"></outline>
+                <outline title="Golang blog" text="Golang blog" xmlUrl="https://blog.golang.org/feed.atom" htmlUrl="https://blog.golang.org/feed.atom"></outline>
+                <outline title="HashiCorp Blog" text="HashiCorp Blog" xmlUrl="https://www.hashicorp.com/blog/feed.xml" htmlUrl="https://hashicorp.com/blog"></outline>
+                <outline title="Release notes from resume-cli" text="Release notes from resume-cli" xmlUrl="https://github.com/jsonresume/resume-cli/releases.atom" htmlUrl="https://github.com/jsonresume/resume-cli/releases"></outline>
+                <outline title="SourceHut" text="SourceHut" xmlUrl="https://sourcehut.org/blog/index.xml" htmlUrl="https://sourcehut.org/blog/"></outline>
+            </outline>
+            <outline text="videos">
+                <outline title="Chatisticien" text="Chatisticien" xmlUrl="https://skeptikon.fr/feeds/videos.xml?accountId=7" htmlUrl="https://skeptikon.fr/"></outline>
+                <outline title="Default datagueule channel" text="Default datagueule channel" xmlUrl="https://peertube.datagueule.tv/feeds/videos.xml?videoChannelId=2" htmlUrl="https://peertube.datagueule.tv"></outline>
+                <outline title="Esprit Critique" text="Esprit Critique" xmlUrl="https://tube.aquilenet.fr/feeds/videos.xml?videoChannelId=1978" htmlUrl="https://tube.aquilenet.fr/"></outline>
+                <outline title="GoH" text="GoH" xmlUrl="https://skeptikon.fr/feeds/videos.atom?videoChannelId=2783" htmlUrl="https://skeptikon.fr"></outline>
+                <outline title="Histony" text="Histony" xmlUrl="https://skeptikon.fr/feeds/videos.xml?accountId=30" htmlUrl="https://skeptikon.fr/"></outline>
+                <outline title="Hygiène Mentale" text="Hygiène Mentale" xmlUrl="https://skeptikon.fr/feeds/videos.xml?accountId=4" htmlUrl="https://skeptikon.fr/"></outline>
+                <outline title="MrSam" text="MrSam" xmlUrl="https://skeptikon.fr/feeds/videos.xml?videoChannelId=5" htmlUrl="https://skeptikon.fr"></outline>
+                <outline title="Ouvrez les guillemets" text="Ouvrez les guillemets" xmlUrl="https://peertube.parleur.net/feeds/videos.xml?videoChannelId=332" htmlUrl="https://peertube.parleur.net"></outline>
+                <outline title="Politikon" text="Politikon" xmlUrl="https://peertube.social/feeds/videos.atom?videoChannelId=14784" htmlUrl="https://peertube.social"></outline>
+                <outline title="Postulat" text="Postulat" xmlUrl="https://skeptikon.fr/feeds/videos.xml?videoChannelId=2801" htmlUrl="https://skeptikon.fr"></outline>
+                <outline title="Union Communiste Libertaire" text="Union Communiste Libertaire" xmlUrl="https://peertube.social/feeds/videos.xml?accountId=47937" htmlUrl="https://peertube.social/"></outline>
+                <outline title="Un Monde Riant" text="Un Monde Riant" xmlUrl="https://skeptikon.fr/feeds/videos.xml?accountId=10" htmlUrl="https://skeptikon.fr/"></outline>
+            </outline>
+        </body>
+    </opml>

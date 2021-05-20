@@ -1,35 +1,33 @@
 .PHONY: all
 all:
 
-.PHONY: setup
-## setup: Install required tools
-setup:
-	@echo "Installing..."
-	@command -v netlify || npm install --global netlify-cli
-	@command -v pelican || pip install --requirement requirements.txt
-
 .PHONY: build
-## build: Generate using production settings
+## build: Generate website
 build:
 	@echo "Rendering..."
-	@pelican ./content -o ./output -s ./publishconf.py -t ./themes/etchy
+	@openring -S webring-in.urls < webring-in.template > layouts/partials/webring-out.html
+	@hugo
+	@tar -C public -cvz . > site.tar.gz
 
 .PHONY: serve
-## serve: Serve content on port 8000
+## serve: Run development server
 serve:
-	@echo "Serving at http://localhost:8000/"
-	@pelican -l ./content -o ./output -s ./pelicanconf.py -t ./themes/etchy -b 0.0.0.0
+	@echo "Serving..."
+	@hugo -D server
 
 .PHONY: deploy
-## deploy: Deploy to Netlify
+## deploy: Deploy to SourceHut
 deploy:
 	@echo "Uploading..."
-	@netlify deploy --dir=output --prod --build
+	@curl --oauth2-bearer "${ACCESS_TOKEN}" -F content=@site.tar.gz https://pages.sr.ht/publish/blog2.karolak.fr
 
 .PHONY: clean
 ## clean: Remove generated files
 clean:
-	@[ ! -d ./output ] || rm -rf ./output
+	@echo "Cleaning..."
+	@[ ! -d ./public ] || rm -rf ./public
+	@[ ! -d ./resources ] || rm -rf ./resources
+	@[ ! -f ./site.tar.gz ] || rm -rf ./site.tar.gz
 
 .PHONY: help
 ## help: Print help message

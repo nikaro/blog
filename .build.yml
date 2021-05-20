@@ -1,25 +1,27 @@
-image: alpine/latest
+---
+
+image: alpine/edge
 packages:
+  - go
+  - hugo
   - make
-  - npm
-  - py3-pip
+oauth: pages.sr.ht/PAGES:RW
 sources:
-  - https://git.sr.ht/~nka/blog
-secrets:
-  - 2c93dcdd-ab19-4fe7-86af-a48cfa32cf07
-  - 0ce59312-01e6-4394-9296-e6b9751c5378
+  - https://git.sr.ht/~sircmpwn/openring
+triggers:
+  - action: email
+    condition: always
+    to: Nicolas Karolak <nicolas@karolak.fr>
+environment:
+  site: blog.karolak.fr
 tasks:
-  - buildenv: |
-      cat ~/.netlify-auth-token >> ~/.buildenv
-      cat ~/.netlify-site-id >> ~/.buildenv
-      echo 'export PATH=$HOME/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin' >> ~/.buildenv
-      npm config set prefix ~/.local
-  - setup: |
-      cd blog
-      make setup
+  - openring: |
+      cd openring
+      go build -o openring
+      sudo cp openring /usr/bin/
   - build: |
       cd blog
       make build
-  - deploy: |
+  - upload: |
       cd blog
-      make deploy
+      acurl -f https://pages.sr.ht/publish/$site -F content=@site.tar.gz

@@ -1,0 +1,41 @@
+{{ partial "head.html" . }}
+
+<main class="index">
+  <section class="article-list">
+    <h1>{{ $.Title }}</h1>
+
+    {{ range (where (where .Site.RegularPages "Section" "blog") "Params.nohtml" "!=" "true") }}
+    <div class="article">
+      <span class="date">{{ .Date.Format "2006-01-02" }}</span>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </div>
+    {{ end }}
+  </section>
+
+  <aside>
+    <img
+      src="/photo.jpg"
+      alt="Photo of myself"
+      width="148" height="148" />
+
+    <div class="text-center">
+      <a class="rss" href="/index.xml">rss</a>
+      ·
+      <a href="/about/">about</a>
+    </div>
+
+    <dl class="external-links">
+      <dt>email</dt>
+      <dd><a href="mailto:nicolas@karolak.fr">nicolas@karolak.fr</a></dd>
+      <dt>sourcehut</dt>
+      <dd><a href="https://sr.ht/~nka">~nka</a></dd>
+      <dt>pgp</dt>
+      <dd><a href="/publickey.txt">70D56B0C9C0FCF6B</a></dd>
+      <dt>faire un don</dt>
+      <dd><a href="https://liberapay.com/nka/">liberapay</a></dd>
+    </dl>
+
+    <small>
+    </small>
+  </aside>
+</main>
