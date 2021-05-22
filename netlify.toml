@@ -5,7 +5,7 @@ command = "make build"
 [[redirects]]
 from = "https://www.karolak.fr"
 to = "https://blog.karolak.fr"
-
+force = true
 
 [[redirects]]
 from = "/blog/*"
