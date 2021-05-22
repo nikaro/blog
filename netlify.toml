@@ -3,8 +3,8 @@ publish = "output/"
 command = "make build"
 
 [[redirects]]
-from = "https://www.karolak.fr"
-to = "https://blog.karolak.fr"
+from = "https://www.karolak.fr/*"
+to = "https://blog.karolak.fr/:splat"
 force = true
 
 [[redirects]]
