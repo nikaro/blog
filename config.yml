@@ -4,6 +4,7 @@ baseURL: "https://blog.karolak.fr/"
 defaultContentLanguage: "fr"
 languageCode: "fr-fr"
 title: "Blog de Nicolas Karolak"
+rssLimit: 10
 
 permalinks:
   blog: "/:year/:month/:day/:filename/"
