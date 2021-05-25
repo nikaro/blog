@@ -1,9 +1,6 @@
 ---
 title: "Liens en vrac n°2"
 date: "2020-05-25"
-categories: ["Partages"]
-tags: ["adminsys", "anarchisme", "féminisme", "vrac", "écologie", "économie"]
-slug: "liens-en-vrac-2"
 ---
 
 Cette semaine ça parle de : DNS et noyau Linux, féminisme, Arsène Lupin et anarchisme, solutionisme écologique, justice économique et sociale, git rebase, socialisation différenciée.

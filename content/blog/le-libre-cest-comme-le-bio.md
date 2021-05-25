@@ -1,9 +1,6 @@
 ---
 title: "Le « Libre » c’est comme le Bio"
 date: "2017-10-27"
-categories: ["Articles"]
-tags: ["floss", "humeurs", "informatique", "société", "écologie"]
-slug: "le-libre-cest-comme-le-bio"
 ---
 
 Il y a une phrase dans [l'article de Fred](http://frederic.bezies.free.fr/blog/?p=15221) sur l'éternel sujet du « bureau Linux » qui m'a fait tiquer :

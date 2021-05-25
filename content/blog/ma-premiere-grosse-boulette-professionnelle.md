@@ -1,9 +1,6 @@
 ---
 title: "Ma première grosse boulette professionnelle"
 date: "2020-05-03"
-categories: ["Articles"]
-tags: ["adminsys", "informatique"]
-slug: "ma-premiere-grosse-boulette-professionnelle"
 ---
 
 Pour donner un peu de contexte, je suis administrateur systèmes Linux, et au moment de cette grosse boulette je bosse chez un éditeur logiciel qui vend principalement une plateforme vidéo à destination des établissements d'enseignement ou de formation, et pour qui je fais essentiellement du deploiement et de l'administration des serveurs des clients qui font tourner ce logiciel. Avant que la catastrophe arrive, je me disais que soit j'étais très chanceux ou très compétent, car plus d'une fois j'avais lu ou entendu que ça allait forcément m'arriver de faire une "grosse boulette", c'est à dire par exemple supprimer une base de données en production, faire un `rm -rf /` accidentel, ou quelque chose dans le genre. Et après 10 ans d'expérience ça ne m'était toujours pas arrivé... Jusqu'au jour fatidique.

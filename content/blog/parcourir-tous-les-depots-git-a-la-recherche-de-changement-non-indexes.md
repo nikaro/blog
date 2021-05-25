@@ -1,9 +1,6 @@
 ---
 title: "Parcourir tous les dépôts Git à la recherche de changements non-indexés"
 date: "2020-09-16"
-categories: ["Articles"]
-tags: ["automatisation", "bash", "git", "informatique"]
-slug: "parcourir-tous-les-depots-git-a-la-recherche-de-changement-non-indexes"
 ---
 
 Tous les soirs avant d'éteindre mon ordinateur j'essaie de m'assurer que tous les changements que j'ai faites dans mes projets soient "commité". Si j'ai bossé sur plusieurs choses ça peut être fastidieux de devoir repasser dans chaque projet pour vérifier l'état du dépôt, et je peux en oublier.

@@ -1,9 +1,6 @@
 ---
 title: "J'ai fait pipis"
 date: "2018-05-17"
-categories: ["Articles"]
-tags: ["adminsys", "devops", "floss", "informatique", "python"]
-slug: "jai-fait-pipis"
 ---
 
 Commençons par dire que je suis assez fière de mon titre :-D  

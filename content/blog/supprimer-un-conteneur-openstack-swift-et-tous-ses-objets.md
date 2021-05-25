@@ -1,9 +1,6 @@
 ---
 title: "Supprimer un conteneur OpenStack Swift et tous ses objets"
 date: "2019-11-04"
-categories: ["Articles"]
-tags: ["adminsys", "devops", "informatique", "openstack"]
-slug: "supprimer-un-conteneur-openstack-swift-et-tous-ses-objets"
 ---
 
 Une petite note qui pourrait éventuellement servir à d'autres dans le même cas. J'ai un conteneur de stockage d'objets sur le Public Cloud OVH avec plusieurs téraoctets de données que j'ai besoin de supprimer. Sauf que via l'interface je ne peux pas le faire, car il faut d'abord supprimer toutes ses données, et ça prend énormément de ressources au point de rendre mon navigateur inutilisable, en plus de prendre énormément de temps.

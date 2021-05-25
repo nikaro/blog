@@ -1,9 +1,6 @@
 ---
 title: "Liens en vrac n°3"
 date: "2020-06-15"
-categories: ["Partages"]
-tags: ["adminsys", "devops", "elixir", "golang", "pdf", "police", "politique"]
-slug: "liens-en-vrac-n3"
 ---
 
 On parle de police, violences policières, orchestration, édition de PDF, "diagrammes as code", Golang et Elixir.

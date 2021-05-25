@@ -1,9 +1,6 @@
 ---
 title: "InvoicePlane, un logiciel libre de facturation"
 date: "2016-07-13"
-categories: ["Articles"]
-tags: ["adminsys", "auto-hébergement", "floss", "informatique"]
-slug: "invoiceplane-un-logiciel-libre-de-facturation"
 ---
 
 Aujourd'hui j’aimerais vous présenter [InvoicePlane](https://invoiceplane.com/), un logiciel libre de devis et facturation. Pour deux raisons, premièrement je l’utilise et je l’apprécie, et ensuite le développeur principal lâche l’affaire et cherche un repreneur.

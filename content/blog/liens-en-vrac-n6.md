@@ -1,9 +1,6 @@
 ---
 title: "Liens en vrac n°6"
 date: "2021-01-08"
-categories: ["Partages"]
-tags: ["dns", "société", "ssh", "sécurité", "vie privée", "vim"]
-slug: "liens-en-vrac-n6"
 ---
 
 Comment gérer ses accès SSH à l'aide d'une autorité de certification privée et des attributs de rôles sur les certificats, Ça apporte une flexibilité et un gain de sécurité non négligeable, à moindre cout. Ce n'est pas trop compliqué à mettre en place, et ça peut éviter d'avoir à recourir à une solution potentiellement plus lourde telle que HashiCorp Vault.

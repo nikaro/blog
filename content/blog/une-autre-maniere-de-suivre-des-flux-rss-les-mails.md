@@ -1,9 +1,6 @@
 ---
 title: "Une autre manière de suivre des flux RSS : les mails"
 date: "2020-06-20"
-categories: ["Articles"]
-tags: ["email", "informatique", "rss"]
-slug: "une-autre-maniere-de-suivre-des-flux-rss-les-mails"
 ---
 
 Je pars du principe que savez déjà ce que sont les flux [RSS](https://fr.wikipedia.org/wiki/RSS) et si vous avez cliqué sur cet article c'est même que vous avez probablement déjà un agrégateur de flux RSS, il se pourrait même que vous le lisiez au travers de celui-ci. Du coup je vais vous présenter une manière alternative de suivre des flux, que j'ai découvert au détour d'une [discussion sur Lobsters](https://lobste.rs/s/hwhptd/which_atom_rss_reader_do_you_use#c_kyyur4) : les mails.

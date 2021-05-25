@@ -1,9 +1,6 @@
 ---
 title: "Ansible TLDR"
 date: "2020-09-23"
-categories: ["Articles"]
-tags: ["adminsys", "ansible", "automatisation", "devops", "linux"]
-slug: "ansible-tldr"
 ---
 
 Besoin d'une introduction à [Ansible](https://docs.ansible.com/ansible/latest/) et la flemme de lire la documentation ? Bienvenue.

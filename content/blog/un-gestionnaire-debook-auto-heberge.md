@@ -1,9 +1,6 @@
 ---
 title: "Un gestionnaire d'eBook auto-hébergé"
 date: "2016-06-27"
-categories: ["Articles"]
-tags: ["auto-hébergement", "floss", "informatique", "livres"]
-slug: "un-gestionnaire-debook-auto-heberge"
 ---
 
 Alors que je cherchais quelques bouquins de la collection « [3 minutes pour comprendre](http://www.editions-tredaniel.com/minutes-pour-comprendre-c-32_1266.html) », j'ai vu que certains étaient disponibles au [format eBook](http://www.decitre.fr/rechercher/result/index?category=3770&q=3+minutes+pour+comprendre). Bon je vais aller sur la version papier pour le moment car je préfère avoir un livre entre les mains et tourner les pages, puis je ne suis pas sûr du rendu de l'eBook sur un liseuse… Mais avoir tous ses livres à portée sur sa liseuse/tablette/smartphone c'est plutôt pratique.

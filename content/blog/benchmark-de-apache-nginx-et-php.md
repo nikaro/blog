@@ -1,9 +1,6 @@
 ---
 title: "Benchmark de Apache, NGINX et PHP"
 date: "2016-07-04"
-categories: ["Articles"]
-tags: ["adminsys", "floss", "informatique", "php", "web"]
-slug: "benchmark-de-apache-nginx-et-php"
 ---
 
 À la suite d'un commentaire de schizorn soulevant qu'il se dit un peu tout et son contraire au sujet des performances de PHP sous Apache avec mod\_php ou PHP-FPM, chose que j'avais également constaté lors de ma rédaction des articles sur le sujet. Je me suis décidé à faire moi-même un benchmark de l'un et l'autre, puis avec NGINX également au passage histoire d'être complet.

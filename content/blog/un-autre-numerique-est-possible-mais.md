@@ -1,9 +1,6 @@
 ---
 title: "Un autre numérique est possible, mais..."
 date: "2020-03-06"
-categories: ["Articles"]
-tags: ["numérique", "politique", "écologie"]
-slug: "un-autre-numerique-est-possible-mais"
 ---
 
 Hubert Guillaud a fait un très bon [résumé de "Contre l'alter-numérisme"](http://www.internetactu.net/2020/02/13/de-lalternumerisme-dautres-numeriques-sont-ils-possibles/), livre que je n'ai pas lu. Avant de continuer la lecture ici je vous conseille donc d'aller lire cet article ou le livre dont il parle.

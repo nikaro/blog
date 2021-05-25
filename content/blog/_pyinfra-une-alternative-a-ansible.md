@@ -1,9 +1,6 @@
 ---
 title: "Pyinfra, une alternative à Ansible"
 date: "2020-06-21"
-categories: ["Articles"]
-tags: ["adminsys", "ansible", "devops", "informatique", "pyinfra", "python"]
-slug: "pyinfra-une-alternative-a-ansible"
 draft: true
 ---
 

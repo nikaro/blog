@@ -1,9 +1,6 @@
 ---
 title: "Monter un serveur de sauvegardes avec BorgBackup"
 date: "2017-05-05"
-categories: ["Articles"]
-tags: ["adminsys", "auto-hébergement", "floss", "informatique", "tutoriels"]
-slug: "monter-un-serveur-de-sauvegardes-avec-borgbackup"
 ---
 
 Un petit mémo/tutoriel sur le mise en place d'un serveur de sauvegarde avec [BorgBackup](https://borgbackup.readthedocs.io/). Il s'agit d'un logiciel de sauvegarde avec déduplication, qui supporte la compression et le chiffrement. Si vous voulez en savoir davantage je vous invite à aller jeter un coup d'œil à la documentation, ou à l'[article de Cascador sur le sujet](https://www.blog-libre.org/2016/08/21/borgbackup-borg-pour-les-intimes/). Merci à lui, au passage, de m'avoir fait découvrir cet outil :-)

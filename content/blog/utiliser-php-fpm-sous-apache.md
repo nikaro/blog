@@ -1,9 +1,6 @@
 ---
 title: "Utiliser PHP-FPM sous Apache"
 date: "2016-06-24"
-categories: ["Articles"]
-tags: ["adminsys", "floss", "informatique", "php", "tutoriels", "web"]
-slug: "utiliser-php-fpm-sous-apache"
 ---
 
 Comme promis dans l'article précédent « [Oublions mod\_php](https://blog.karolak.fr/2016/06/18/oublions-mod_php-par-remi-collet/) », voici la mise à jour de celui sur [Apache, son mode Event et PHP-FPM](https://blog.karolak.fr/2016/03/14/apache-mode-event-et-php-fpm/). Vous pouvez toujours vous reporter à la partie « Explications » de ce dernier si vous voulez en savoir plus sur le fonctionnement de Apache avec PHP-FPM.

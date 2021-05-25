@@ -1,9 +1,6 @@
 ---
 title: "Liens en vrac n°5"
 date: "2020-07-13"
-categories: ["Partages"]
-tags: ["adminsys", "bash", "dev", "email", "féminisme", "police", "politique", "python", "société", "terraform", "économie"]
-slug: "liens-en-vrac-n5"
 ---
 
 Ploum redécouvre les joies de l'email, l'écriture réfléchie qu'il implique comparée aux contenus des réseaux sociaux, son fonctionnement décentralisé. Un article qui va dans le sens de ma phase d'emailisation actuelle.  

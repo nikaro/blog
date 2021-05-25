@@ -1,9 +1,6 @@
 ---
 title: "Je ne regarde plus la télévision…"
 date: "2017-04-30"
-categories: ["Articles"]
-tags: ["humeurs", "société"]
-slug: "je-ne-regarde-plus-la-television"
 ---
 
 C'est le truc à la mode, le truc à caler en soirée pour paraître intelligent, cultivé, beau, riche et puissant. Cependant, si…

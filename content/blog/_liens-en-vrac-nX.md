@@ -1,9 +1,6 @@
 ---
 title: "Liens en vrac n°7"
 date: "2021-01-08"
-categories: ["Partages"]
-tags: []
-slug: "liens-en-vrac-n7"
 draft: true
 ---
 

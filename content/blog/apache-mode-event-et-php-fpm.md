@@ -1,9 +1,6 @@
 ---
 title: "Apache, mode Event et PHP-FPM"
 date: "2016-03-14"
-categories: ["Articles"]
-tags: ["adminsys", "floss", "informatique", "php", "tutoriels", "web"]
-slug: "apache-mode-event-et-php-fpm"
 ---
 
 Suite à mon article sur [les raisons de mon retour sous Apache](https://blog.karolak.fr/2016/03/14/pourquoi-je-reviens-a-apache-apres-etre-passe-a-nginx/), voici comme promis un tuto sur l'installation de Apache en [mode Event](https://httpd.apache.org/docs/current/mod/event.html) avec PHP-FPM. Mais avant la pratique, un peu de théorie.

@@ -1,9 +1,6 @@
 ---
 title: "Utiliser rclone comme client de synchronisation Nextcloud"
 date: "2020-08-21"
-categories: ["Articles"]
-tags: ["floss", "informatique", "minimalisme", "rclone", "webdav"]
-slug: "utiliser-rclone-comme-client-de-synchronisation-nextcloud"
 ---
 
 Dans une optique minimaliste j'essaie de me passer d'un maximum de logiciels ou de leur trouver des alternatives plus légères, et aujourd'hui c'est le client Nextcloud qui passe à la trape. Son remplaçant sera [rclone](https://rclone.org), un rsync pour le "cloud" qui peut parler avec S3, Swift et plein d'autres services dont WebDAV dans le cas qui m'intéresse.

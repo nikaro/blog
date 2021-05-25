@@ -1,9 +1,6 @@
 ---
 title: "Comment créer un rootfs CentOS depuis Fedora"
 date: "2018-08-01"
-categories: ["Articles"]
-tags: ["adminsys", "devops", "floss", "informatique", "virtualisation"]
-slug: "comment-creer-un-rootfs-centos-depuis-fedora"
 ---
 
 Ma distribution du moment est Fedora pour mon ordinateur, et CentOS pour les serveurs. Et j'ai besoin de faire joujou avec des environnements virtuels pour tester des installations, notamment via Ansible. Jusque-là pour ce besoin j'ai utilisé VirtualBox ou LXC, mais je me suis mis en tête de tester systemd-nspawn. Pourquoi ? Déjà parce que ça existe, donc ça a le mérite d'être testé. Ensuite parce que VirtualBox même en utilisant Vagrant c'est vachement lourd. Et LXC, bah j'ai rien à lui reprocher, mais étant donné que systemd est déjà présent par défaut sur tous mes systèmes pourquoi y ajouter LXC qui fait plus ou moins la même chose ?

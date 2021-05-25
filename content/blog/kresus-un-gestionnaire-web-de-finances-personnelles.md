@@ -1,9 +1,6 @@
 ---
 title: "Kresus, un gestionnaire Web de finances personnelles"
 date: "2016-03-18"
-categories: ["Articles"]
-tags: ["adminsys", "auto-hébergement", "floss", "informatique", "tutoriels", "web"]
-slug: "kresus-un-gestionnaire-web-de-finances-personnelles"
 ---
 
 Vous connaissez peut-être déjà [Cozy](https://cozy.io/fr/), si ce n'est pas le cas, il s'agit une application Web de cloud personnel. Et parmi les applications qu'elle propose, il y a [Kresus](https://framagit.org/bnjbvr/kresus.git) qui permet de centraliser ses relevés bancaires, etc. J'aime beaucoup le principe de cette application, car ça me permet d'éviter d'aller me connecter sur le site de ma banque à chaque fois, puis ça me permet de centraliser les informations de mes différents comptes à un seul endroit.

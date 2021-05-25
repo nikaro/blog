@@ -1,9 +1,6 @@
 ---
 title: "Rediriger un port pour une IP spécifique avec iptables"
 date: "2019-02-07"
-categories: ["Articles"]
-tags: ["adminsys", "floss", "informatique", "sécurité"]
-slug: "rediriger-un-port-pour-une-ip-specifique-avec-iptables"
 ---
 
 Toujours dans une optique de contourner des restrictions de pare-feu, on va voir un truc assez simple pour rediriger un port vers au autre uniquement pour les paquets provenant d'une IP donnée. Deux cas de figure où ça peut s'avérer utile :

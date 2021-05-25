@@ -1,9 +1,6 @@
 ---
 title: "Les raccourcis clavier de Bash"
 date: "2019-11-25"
-categories: ["Articles"]
-tags: ["adminsys", "bash", "informatique", "linux"]
-slug: "les-raccourcis-clavier-de-bash"
 ---
 
 En tant qu'adminsys, le terminal est probablement l'application dans laquelle je passe le plus de temps. Du coup, afin d'être le plus efficace possible, ça vaut peut-être le coup d'apprendre à s'en servir efficacement. Notamment via les raccourcis clavier qui peuvent permettre de gagner en confort et en temps.

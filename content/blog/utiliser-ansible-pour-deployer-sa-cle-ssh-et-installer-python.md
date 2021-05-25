@@ -1,9 +1,6 @@
 ---
 title: "Utiliser Ansible pour déployer sa clé SSH et installer Python"
 date: "2017-12-30"
-categories: ["Articles"]
-tags: ["adminsys", "devops", "floss", "informatique", "sécurité", "tutoriels"]
-slug: "utiliser-ansible-pour-deployer-sa-cle-ssh-et-installer-python"
 ---
 
 Si vous commencez à utiliser Ansible, vous pouvez vous retrouver dans ce genre de situation :

@@ -1,9 +1,6 @@
 ---
 title: "Pourquoi je ne crois plus en Dieu"
 date: "2020-06-30"
-categories: ["Articles"]
-tags: ["philosophie", "religion", "sciences"]
-slug: "pourquoi-je-ne-crois-plus-en-dieu"
 draft: true
 ---
 

@@ -1,9 +1,6 @@
 ---
 title: "(Neo)Vim et devcontainer"
 date: "2019-12-14"
-categories: ["Articles"]
-tags: ["cli", "dev", "golang", "informatique", "linux", "vim"]
-slug: "neovim-et-devcontainer"
 ---
 
 Suite à une [discussion sur le JdH](https://www.journalduhacker.net/s/k4oduv/pourquoi_jutilise_vim_et_pourquoi_vous_ne) et mon [dernier article](https://blog.karolak.fr/2019/11/25/les-raccourcis-clavier-de-bash/), je me suis dit quitte à passer du temps dans le terminal, autant y passer tout mon temps (sauf pour la navigation Web, je ne suis pas masochiste à ce point) en passant à Vim (ou [Neovim](https://neovim.io/) plus exactement) comme éditeur de code. Sauf qu'avec Visual Studio Code, mon éditeur du moment jusqu'alors, il y a une fonctionnalité qui m'est devenue indispensable : les [devcontainers](https://code.visualstudio.com/docs/remote/containers).

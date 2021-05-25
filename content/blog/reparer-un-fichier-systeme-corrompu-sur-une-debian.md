@@ -1,9 +1,6 @@
 ---
 title: "Réparer un fichier système corrompu sur une Debian"
 date: "2020-05-28"
-categories: ["Articles"]
-tags: ["adminsys", "debian", "informatique"]
-slug: "reparer-un-fichier-systeme-corrompu-sur-une-debian"
 ---
 
 Au boulot je suis tombé sur une machine sur laquelle le fichier `/usr/lib/python2.7/os.py` a visiblement été écrasé lors d'une mauvaise manipulation. Il contenait un extrait de XML, autrement dit pas vraiment le contenu attendu. Voici donc un petit mémo expliquant comment on répare ça.

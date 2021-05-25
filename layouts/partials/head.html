@@ -8,7 +8,8 @@
   {{ end }}
   <title>{{$.Title}}</title>
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/index.xml">
-  <link rel="icon" type="image/png" href="/avatar.png">
+  <link rel="icon" type="image/png" href="/favicon.png">
   {{ $style := resources.Get "main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+  <link rel="me" href="https://mamot.fr/@nka">
 </head>

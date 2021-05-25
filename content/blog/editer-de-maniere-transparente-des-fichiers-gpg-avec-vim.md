@@ -1,9 +1,6 @@
 ---
 title: "Éditer de manière transparente des fichiers GPG avec Vim"
 date: "2020-12-13"
-categories: ["Articles"]
-tags: ["cli", "gpg", "vim"]
-slug: "editer-gpg-avec-vim"
 ---
 
 Une petite astuce pour éditer des fichiers chiffrés avec GPG, de manière transparente, avec Vim. À mettre dans votre `~/.vimrc` :

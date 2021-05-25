@@ -1,9 +1,6 @@
 ---
 title: "Liens en vrac n°1"
 date: "2020-05-18"
-categories: ["Partages"]
-tags: ["adminsys", "féminisme", "git", "méthodologie", "politique", "vrac", "écologie"]
-slug: "liens-en-vrac"
 ---
 
 Normalement je partage de temps en temps des liens sous forme d'articles, mais classés dans la catégorie "Partage". Je ne le fais pas très souvent parce que ça ferait beaucoup de publications, noierait les "vrais" articles dans la masse, et ça embêterait probablement ceux qui suivent le flux RSS. Du coup plutôt que de tout balancer sur un quelconque réseau social, je vais essayer faire un peu comme chez d'autres ([Seboss666](https://blog.seboss666.info/) et [Tristan Nitot](https://www.standblog.org/)), des liens en vrac de temps en temps.

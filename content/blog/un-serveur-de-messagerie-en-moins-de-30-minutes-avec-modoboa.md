@@ -1,9 +1,6 @@
 ---
 title: "Un serveur de messagerie en moins de 30 minutes avec Modoboa"
 date: "2016-10-23"
-categories: ["Articles"]
-tags: ["adminsys", "email", "floss", "informatique", "python"]
-slug: "un-serveur-de-messagerie-en-moins-de-30-minutes-avec-modoboa"
 ---
 
 Un court article pour vous présenter une solution que j'ai découvert très recemment alors que je cherchais simplement une alternative à [PostfixAdmin](http://postfixadmin.sourceforge.net/) (qui vient de paraître en version 3.0 soit dit en passant). Il s'agit de [Modoboa](https://modoboa.org/fr/), dont voici ce qu'en dit le site de présentation :

@@ -1,9 +1,6 @@
 ---
 title: "Hello world !"
 date: "2016-03-04"
-categories: ["Articles"]
-tags: ["hello"]
-slug: "hello-world"
 ---
 
 Voilà, ça y est, je me lance dans l'aventure du blogging ! La peinture est encore toute fraîche, j'ai installé [Ghost](https://ghost.org/) et je n'ai même pas encore bricolé un thème, ça viendra peut-être par la suite si j'ai le temps de bidouiller ça…

@@ -1,9 +1,6 @@
 ---
 title: "Faire tourner HTTPS et SSH sur le même port avec NGINX"
 date: "2019-02-04"
-categories: ["Articles"]
-tags: ["adminsys", "floss", "informatique", "web"]
-slug: "faire-tourner-https-et-ssh-sur-le-meme-port-avec-nginx"
 ---
 
 Depuis la version 1.15.2, [NGINX](https://nginx.org/) a ajouté une fonctionnalité qui permet de faire une distinction entre un flux HTTPS et un autre flux TCP arrivant sur un même port. Ça permet par exemple de faire tourner en même temps sur le port 443 un service Web en HTTPS et un service VPN ou SSH. Et ainsi passer outre certains pare-feux restrictif qui ne laissent pas passer certains flux (Git, SSH, DNS personnalisé).

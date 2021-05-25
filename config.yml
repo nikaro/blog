@@ -6,5 +6,7 @@ languageCode: "fr-fr"
 title: "Blog de Nicolas Karolak"
 
 permalinks:
-  blog: "/:year/:month/:day/:slug/"
+  blog: "/:year/:month/:day/:filename/"
   pages: "/:filename/"
+
+disableKinds: ["taxonomy", "taxonomyTerm", "section"]

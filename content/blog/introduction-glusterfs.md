@@ -1,9 +1,6 @@
 ---
 title: "Introduction à GlusterFS"
 date: "2021-05-13"
-categories: ["Articles"]
-tags: ["adminsys", "floss", "glusterfs", "informatique"]
-slug: "introduction-glusterfs"
 ---
 
 ## Concepts

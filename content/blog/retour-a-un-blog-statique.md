@@ -1,9 +1,6 @@
 ---
 title: "Retour à un blog statique"
 date: "2020-07-01"
-categories: ["Articles"]
-tags: ["informatique", "minimalisme", "web"]
-slug: "retour-a-un-blog-statique"
 ---
 
 Ça faisait maintenant un petit moment que mon blog était sous [Wordpress](https://wordpress.org/), avant ça il y a eu [Hugo](https://gohugo.io/), encore avant [Pelican](https://docs.getpelican.com/en/stable/), une petite période sous [Grav](https://getgrav.org/) et mes tout débuts avec [Ghost](https://ghost.org/). Et ça se pourrait que j'en ai oublié... Mais me revoilà avec un blog statique, avec Pelican.

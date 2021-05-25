@@ -1,9 +1,6 @@
 ---
 title: "Éditer une commande avec Vim"
 date: "2020-12-17"
-categories: ["Articles"]
-tags: ["cli", "sécurité", "vim"]
-slug: "editer-commande-vim"
 ---
 
 Encore une petite astuce Vim, ou plutôt bash ou zsh. Il est possible d'éditer avec Vim une commande dans le terminal. Pour cela il suffit de faire `Ctrl+x Ctrl+e`, ce qui aura pour effet d'ouvrir Vim et ainsi de pouvoir bénéficier de toute la puissance de celui-ci pour manipuler le texte de la commande.

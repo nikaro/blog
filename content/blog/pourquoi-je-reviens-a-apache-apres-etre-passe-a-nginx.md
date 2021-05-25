@@ -1,9 +1,6 @@
 ---
 title: "Pourquoi je reviens à Apache après être passé à Nginx ?"
 date: "2016-03-14"
-categories: ["Articles"]
-tags: ["adminsys", "floss", "informatique", "web"]
-slug: "pourquoi-je-reviens-a-apache-apres-etre-passe-a-nginx"
 ---
 
 Ça va faire peut-être un an ou deux que je me suis mis à [NGINX](http://nginx.org/), au détriment d'[Apache](http://httpd.apache.org/). Les raisons étaient que celui-ci était présenté comme plus performant, plus léger, plus souple, etc. C'était aussi pour le fun, pour découvrir un nouvel outil. Et également me faire la main sur une technologie qui devient incontournable, afin de ne pas être à la ramasse professionnellement.

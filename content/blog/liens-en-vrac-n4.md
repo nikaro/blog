@@ -1,9 +1,6 @@
 ---
 title: "Liens en vrac n°4"
 date: "2020-06-26"
-categories: ["Partages"]
-tags: ["adminsys", "anarchisme", "fascisme", "politique", "python", "racisme", "sciences", "éthique"]
-slug: "liens-en-vrac-n4"
 ---
 
 Un gros paquets de liens aujourd'hui, du sysadmin à la politique, comme d'habitude maintenant.
