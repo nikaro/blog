@@ -5,6 +5,7 @@ defaultContentLanguage: "fr"
 languageCode: "fr-fr"
 title: "Blog de Nicolas Karolak"
 rssLimit: 10
+enableRobotsTXT: true
 
 permalinks:
   blog: "/:year/:month/:day/:filename/"

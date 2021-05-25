@@ -8,7 +8,7 @@ build:
 	@openring -S webring-in.urls < webring-in.template > layouts/partials/webring-out.html
 	@hugo
 	@mkdir -p public/feeds
-	@cp -f public/{index.xml,feeds/all.atom.xml}
+	@cp -f public/index.xml public/feeds/all.atom.xml
 	@tar -C public -cvz . > site.tar.gz
 
 .PHONY: serve
