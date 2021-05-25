@@ -3,7 +3,7 @@ title: "Monter un serveur de sauvegardes avec BorgBackup"
 date: "2017-05-05"
 ---
 
-Un petit mémo/tutoriel sur le mise en place d'un serveur de sauvegarde avec [BorgBackup](https://borgbackup.readthedocs.io/). Il s'agit d'un logiciel de sauvegarde avec déduplication, qui supporte la compression et le chiffrement. Si vous voulez en savoir davantage je vous invite à aller jeter un coup d'œil à la documentation, ou à l'[article de Cascador sur le sujet](https://www.blog-libre.org/2016/08/21/borgbackup-borg-pour-les-intimes/). Merci à lui, au passage, de m'avoir fait découvrir cet outil :-)
+Un petit mémo/tutoriel sur le mise en place d'un serveur de sauvegarde avec [BorgBackup](https://borgbackup.readthedocs.io/). Il s'agit d'un logiciel de sauvegarde avec déduplication, qui supporte la compression et le chiffrement. Si vous voulez en savoir davantage je vous invite à aller jeter un coup d'œil à la documentation, ou à l'[article de Cascador sur le sujet](https://www.bloglibre.net/2016/08/21/borgbackup-borg-pour-les-intimes/). Merci à lui, au passage, de m'avoir fait découvrir cet outil :-)
 
 Pour resituer le contexte, j'ai quatre serveurs persos hébergés chez [Scaleway](https://www.scaleway.com/) dans leur datacenter de Paris. Ceux-ci n'étant pas très réputés pour la sécurité des données (à ce prix-là il n'y a rien d'étonnant), il est plutôt judicieux d'avoir une bonne stratégie de sauvegarde. J'ai donc pris un cinquième serveur, situé dans le datacenter d'Amsterdam (au cas où Paris prend feu) pour servir de serveur de sauvegarde.
 
