@@ -8,6 +8,7 @@
                 <outline title="Benjamin Sonntag" text="Benjamin Sonntag" xmlUrl="https://benjamin.sonntag.fr/feed" htmlUrl="https://benjamin.sonntag.fr/"></outline>
                 <outline title="Blog de Bearstech" text="Blog de Bearstech" xmlUrl="https://bearstech.com/atom_feed.xml" htmlUrl="https://bearstech.com/societe/blog/"></outline>
                 <outline title="Blog-Libre" text="Blog-Libre" xmlUrl="https://www.bloglibre.net/feed/" htmlUrl="https://www.bloglibre.net/"></outline>
+                <outline title="Bon Pote" text="Bon Pote" xmlUrl="https://bonpote.com/feed/" htmlUrl="https://bonpote.com"></outline>
                 <outline title="Bortzmeyer" text="Bortzmeyer" xmlUrl="https://www.bortzmeyer.org/feed-full.atom" htmlUrl="https://www.bortzmeyer.org/"></outline>
                 <outline title="Couleur-Science" text="Couleur-Science" xmlUrl="https://couleur-science.eu/rss.php" htmlUrl="https://couleur-science.eu/"></outline>
                 <outline title="Dadall" text="Dadall" xmlUrl="https://www.dadall.info/feed/rss" htmlUrl="https://www.dadall.info/"></outline>
@@ -25,7 +26,7 @@
                 <outline title="L&#39;ornithorynque" text="L&#39;ornithorynque" xmlUrl="https://blog.mondediplo.net/spip.php?id_rubrique=16&amp;page=backend" htmlUrl="https://blog.mondediplo.net/-l-ornithorynque-"></outline>
                 <outline title="Lydra | Artisans DevOps" text="Lydra | Artisans DevOps" xmlUrl="https://lydra.fr/feed/" htmlUrl="https://lydra.fr"></outline>
                 <outline title="(mcorbin.fr)" text="(mcorbin.fr)" xmlUrl="https://www.mcorbin.fr/feed.xml" htmlUrl="https://mcorbin.fr"></outline>
-                <outline title="Nicolas Karolak" text="Nicolas Karolak" xmlUrl="https://blog.karolak.fr/feeds/all.atom.xml" htmlUrl="https://blog.karolak.fr/"></outline>
+                <outline title="Nicolas Karolak" text="Nicolas Karolak" xmlUrl="https://blog.karolak.fr/index.xml" htmlUrl="https://blog.karolak.fr/"></outline>
                 <outline title="Ploum" text="Ploum" xmlUrl="https://ploum.net/feed/atom/" htmlUrl="https://ploum.net/"></outline>
                 <outline title="Régime d&#39;opinion" text="Régime d&#39;opinion" xmlUrl="https://blog.mondediplo.net/spip.php?id_rubrique=13&amp;page=backend" htmlUrl="https://blog.mondediplo.net/-Regime-d-opinion-"></outline>
                 <outline title="ROBERT Stéphane - Devops" text="ROBERT Stéphane - Devops" xmlUrl="https://blog.stephane-robert.info/feed.xml" htmlUrl="https://blog.stephane-robert.info/"></outline>
@@ -76,7 +77,7 @@
                 <outline title="Debian" text="Debian" xmlUrl="https://www.debian.org/News/news" htmlUrl="https://www.debian.org/News/"></outline>
                 <outline title="Golang blog" text="Golang blog" xmlUrl="https://blog.golang.org/feed.atom" htmlUrl="https://blog.golang.org/feed.atom"></outline>
                 <outline title="HashiCorp Blog" text="HashiCorp Blog" xmlUrl="https://www.hashicorp.com/blog/feed.xml" htmlUrl="https://hashicorp.com/blog"></outline>
-                <outline title="Release notes from resume-cli" text="Release notes from resume-cli" xmlUrl="https://github.com/jsonresume/resume-cli/releases.atom" htmlUrl="https://github.com/jsonresume/resume-cli/releases"></outline>
+                <outline title="Neovim" text="Neovim" xmlUrl="https://neovim.io/news.xml" htmlUrl="https://neovim.io/"></outline>
                 <outline title="SourceHut" text="SourceHut" xmlUrl="https://sourcehut.org/blog/index.xml" htmlUrl="https://sourcehut.org/blog/"></outline>
             </outline>
             <outline text="videos">
