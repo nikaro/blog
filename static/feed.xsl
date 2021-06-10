@@ -46,7 +46,7 @@
             </h1>
             <h2><xsl:value-of select="/rss/channel/title"/></h2>
             <!--p><xsl:value-of select="/rss/channel/description"/></p-->
-            <a class="head_link" target="_blank">
+            <a class="head_link">
               <xsl:attribute name="href">
                 <xsl:value-of select="/rss/channel/link"/>
               </xsl:attribute>
