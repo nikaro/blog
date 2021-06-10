@@ -7,7 +7,7 @@ Il y a quelques jours une recruteuse m'a demandé à quoi ressemblerait mon entr
 
 ## Horizontale
 
-Dans un de mes anciens postes, chez UbiCast, j'ai découvert un mode d'organisation qui s'appelle l'holacratie. Il y aurait beaucoup a dire, mais pour faire simple et pour parler des aspects qui m'intéressent, l'idée c'est distribuer au sein de l'entreprise le pouvoir de prise de décision dans des "cercles" qui s'auto-organisent. Ça permet d'éviter les décisions prises et imposées verticalement, potentiellement déconnectées des réalités du "terrain". Au contraire ça permet d'impliquer les personnes directement concernées et potentiellement les plus au fait des problématiques qui se posent sur le sujet. Ça permet également de responsabiliser chacune des personnes impliquées dans la prise de décision, et probablement d'avoir une plus grande adhésion aux orientations choisies.
+Dans un de mes anciens postes, chez UbiCast, j'ai découvert un mode d'organisation qui s'appelle l'holacratie. Il y aurait beaucoup à dire, mais pour faire simple et pour parler des aspects qui m'intéressent, l'idée c'est distribuer au sein de l'entreprise le pouvoir de prise de décision dans des "cercles" qui s'auto-organisent. Ça permet d'éviter les décisions prises et imposées verticalement, potentiellement déconnectées des réalités du "terrain". Au contraire ça permet d'impliquer les personnes directement concernées et potentiellement les plus au fait des problématiques qui se posent sur le sujet. Ça permet également de responsabiliser chacune des personnes impliquées dans la prise de décision, et probablement d'avoir une plus grande adhésion aux orientations choisies.
 
 => https://fr.wikipedia.org/wiki/Holacratie
 
