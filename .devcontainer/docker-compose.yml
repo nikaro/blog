@@ -13,14 +13,12 @@ services:
       - "..:/workspace"
       # dotfiles
       - "$HOME/.vimrc:/home/code/.vimrc"
-      - "$HOME/.vim/conf.d:/home/code/.vim/conf.d"
       - "$HOME/.config/git:/home/code/.config/git"
+      - "$HOME/.config/fish:/home/code/.config/fish"
       - "$HOME/.ssh:/home/code/.ssh"
       - "$HOME/.gnupg:/home/code/.gnupg"
       - "$SSH_AUTH_SOCK:/ssh-agent"
     environment:
       - "SSH_AUTH_SOCK=/ssh-agent"
     ports:
-      - "8000:8000"
-
-...
+      - "1313:1313"

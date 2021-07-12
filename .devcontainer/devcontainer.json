@@ -3,6 +3,10 @@
   "dockerComposeFile": "docker-compose.yml",
   "service": "app",
   "workspaceFolder": "/workspace",
-  "vimExtensions": [],
-  "vimSettings": []
+  "extensions": [
+    "editorconfig.editorconfig",
+    "golang.go",
+    "ms-azuretools.vscode-docker"
+  ],
+  "shell": "fish"
 }

@@ -1,28 +1,12 @@
-FROM nikaro/debian-dev
+FROM nikaro/alpine-dev
 
-COPY requirements.txt .
 RUN \
-    # install required tools
-    sudo apt-get update && \
-    sudo apt-get install -y --no-install-recommends \
-        openjdk-11-jre-headless \
-        python3-pip \
-        rsync \
+    sudo apk add \
+        go \
+        hugo \
         && \
-    # pelican
-    python3 -m pip install --user --upgrade \
-        pip \
-        setuptools \
-        wheel \
-        && \
-    python3 -m pip install --user \
-        -r requirements.txt \
-        && \
-    # clean up
-    sudo apt-get clean && \
-    sudo rm -rf \
-        /var/cache/apt/ \
-        /var/lib/apt/lists/* \
-        requirements.txt \
-        && \
+    cd /tmp && \
+    git clone https://git.sr.ht/~sircmpwn/openring && \
+    cd openring/ && \
+    go build -o $HOME/.local/bin/openring && \
     :
