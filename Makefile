@@ -15,7 +15,7 @@ build:
 ## serve: Run development server
 serve:
 	@echo "Serving..."
-	@hugo -D server
+	@hugo -D server --bind 0.0.0.0
 
 .PHONY: deploy
 ## deploy: Deploy to SourceHut
