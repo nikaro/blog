@@ -1,0 +1,29 @@
+[build]
+publish = "public/"
+command = "make netlify-build"
+
+[[redirects]]
+from = "https://www.karolak.fr/*"
+to = "https://blog.karolak.fr/:splat"
+force = true
+
+[[redirects]]
+from = "/blog/*"
+to = "/:splat"
+
+[[redirects]]
+from = "/feed"
+to = "/index.xml"
+
+[[redirects]]
+from = "/feeds/all.atom.xml"
+to = "/index.xml"
+
+[[headers]]
+for = "/*"
+[headers.values]
+Content-Security-Policy = "default-src 'none'; base-uri 'self'; style-src 'self'; img-src 'self'; form-action 'none'; frame-ancestors 'none'"
+Referrer-Policy = "no-referrer, strict-origin-when-cross-origin"
+X-Content-Type-Options = "nosniff"
+X-Frame-Options = "DENY"
+X-XSS-Protection = "1; mode=block"
