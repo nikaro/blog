@@ -8,7 +8,7 @@ Normalement je partage de temps en temps des liens sous forme d'articles, mais c
 Écrire des "RFC" (Request For Comment) pour chaque projet au travail, afin de pouvoir organiser ses idées, en proposer des nouvelles sans heurter quelqu'un, éviter de perdre du temps dans des discussions potentiellement non constructives, etc. Je pense que je vais adopter la méthode.  
 -- <https://notes.eatonphil.com/rfcs-and-asynchronous-first-culture.html>
 
-Envoyer des patchs via la commande `git` sans passer par une interface web à la GitHub ou GitLab. Ça évite d'avoir à se créer un compte sur chaque plateforme ou instance afin de pouvoir contribuer à un projet. Et ça permet d'éviter la centralisation qu'on connaît aujourd'hui avec GitHub. À tester. Si vous voulez contribuer à [devc](https://sr.ht/~nka/devc/) je serais ravi de recevoir des patchs par mail à \<prénom\>@\<nom\>.fr :-D (il me reste à apprendre comment utiliser le commande `patch` correctement).  
+Envoyer des patchs via la commande `git` sans passer par une interface web à la GitHub ou GitLab. Ça évite d'avoir à se créer un compte sur chaque plateforme ou instance afin de pouvoir contribuer à un projet. Et ça permet d'éviter la centralisation qu'on connaît aujourd'hui avec GitHub. À tester. Si vous voulez contribuer à [devc](https://github.com/nikaro/devc/) je serais ravi de recevoir des patchs par mail à \<prénom\>@\<nom\>.fr :-D (il me reste à apprendre comment utiliser le commande `patch` correctement).  
 -- <https://medspx.fr/blog/Code/git_with_email/>
 
 Une interview de Christine Delphy sur ce qu'est le genre, en quoi c'est différent du sexe, et en quoi il s'agit d'une construction sociale néfaste.  

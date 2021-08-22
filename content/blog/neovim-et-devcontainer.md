@@ -11,4 +11,4 @@ Concrètement, ça lance les commandes `docker-compose` qui font appel aux fichi
 
 Ça fait maintenant une petite semaine que je l'utilise en remplacement de VSCode, ça tourne très bien et ça m'a permit de franchir le pas d'un passage à Neovim comme IDE principal.
 
-Je vous livre donc une version 0.3.1 (à l'heure où j'ecris ces lignes), vous trouverez également les instructions pour l'installation et la configuration de Vim et des conteneurs. Ça se passe par là : <https://sr.ht/~nka/devc/>
+Je vous livre donc une version 0.3.1 (à l'heure où j'ecris ces lignes), vous trouverez également les instructions pour l'installation et la configuration de Vim et des conteneurs. Ça se passe par là : <https://github.com/nikaro/devc/>

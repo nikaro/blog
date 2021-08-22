@@ -17,7 +17,7 @@ C'est là qu'intervient l'initiative « JSON Resume » qui propose de créer un 
 
 Personnellement j'ai eu pas mal de difficultés à le faire fonctionner, avec différents thèmes. N'étant pas familier avec JavaScript et voyant que les GitHub Issues sur les problèmes que j'ai rencontrés ne semblent pas avancer, j'ai décidé d'écrire mon propre générateur en Python.
 
-=> https://sr.ht/~nka/resume-pycli/
+=> https://github.com/nikaro/resume-pycli/
 
 Il a les mêmes fonctionnalités que la CLI officielle. Vous créez un fichier JSON de base avec la commande `resume init`, vous l'éditez avec votre éditeur préféré, ensuite vous l'exportez dans le thème de votre choix `resume export --theme stackoverflow`. Et vous pouvez le visualiser dans votre navigateur avec la commande `resume serve`. Ou ouvrir le fichier généré au format PDF : `public/index.pdf`.
 
@@ -53,7 +53,7 @@ De cette manière, vous n'avez plus qu'à mettre à jour le fichier JSON Resume 
 
 Vous pouvez également jeter un coup d'œil au reste de mes sources.
 
-=> https://git.sr.ht/~nka/cv
+=> https://gitlab.com/nicolas-karolak/cv
 
 <!--
 vim: spell spelllang=fr

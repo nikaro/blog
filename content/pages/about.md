@@ -6,15 +6,14 @@ title: Nicolas Karolak
 
 Quelques encroits où me trouver sur internet.
 
-* [SourceHut](https://git.sr.ht/~nka)
+* [GitLab](https://gitlab.com/nicolas-karolak)
 * [GitHub](https://github.com/nikaro)
 * [CV](https://cv.karolak.fr)
-* [Mastodon](https://mamot.fr/@nka)
 
 ## Projets
 
-* [devc](https://sr.ht/~nka/devc/) : un outil en CLI pour gérer les devcontainers
-* [resume-pycli](https://sr.ht/~nka/resume-pycli/) : un générateur de CV utilisant le format JSON Resume
+* [devc](https://github.com/nikaro/devc/) : un outil en CLI pour gérer les devcontainers
+* [resume-pycli](https://github.com/nikaro/resume-pycli/) : un générateur de CV utilisant le format JSON Resume
 
 ## Lectures
 

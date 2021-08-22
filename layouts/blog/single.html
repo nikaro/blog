@@ -16,12 +16,6 @@
 </main>
 
 <hr>
-<section class="comment">
-  {{ if not .Params.nocomment }}
-  <p>
-  Un commentaire ? Démarrez une discussion dans la <a href="https://lists.sr.ht/~nka/blog?search={{ $.Title }}">liste de diffusion</a> en envoyant un email à <a href="mailto:~nka/blog@lists.sr.ht">~nka/blog@lists.sr.ht</a>. Veuillez respecter <a href="https://man.sr.ht/lists.sr.ht/etiquette.md">l'etiquette de la liste de diffusion</a>.
-  {{ end }}
-</section>
 
 {{ partial "webring-out.html" }}
 
