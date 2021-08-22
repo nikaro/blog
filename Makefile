@@ -11,8 +11,8 @@ build:
 .PHONY: netlify-build
 ## netlify-build: Generate website from Netlify build environment
 netlify-build:
-	@/opt/build-bin/build go install git.sr.ht/~sircmpwm/openring@latest
-	@/opt/buildhome/cache/.gimme_cache/gopath/bin/openring -S webring-in.urls < webring-in.template > layouts/partials/webring-out.html
+	-@/opt/build-bin/build go install git.sr.ht/~sircmpwm/openring@latest
+	-@/opt/buildhome/cache/.gimme_cache/gopath/bin/openring -S webring-in.urls < webring-in.template > layouts/partials/webring-out.html
 	@hugo
 
 .PHONY: serve
