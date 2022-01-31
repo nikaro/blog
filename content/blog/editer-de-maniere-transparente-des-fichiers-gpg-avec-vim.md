@@ -23,7 +23,7 @@ augroup END
 
 Ça marche aussi pour créer des fichiers chiffrés du coup, il suffit d'ouvrir un nouveau fichier en lui donnant `.gpg` pour extension, et à l'enregistrement il sera automatiquement chiffré :
 
-```sh
+```
 $ vim nouveau-fichier.gpg
 ```
 

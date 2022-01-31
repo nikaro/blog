@@ -12,7 +12,7 @@ manuellement, mais dans ce dernier cas on perd tout l'intérêt d'Ansible.
 Ce n'est pas forcément trivial à faire, voilà donc un petit mémo d'une solution
 possible à ce problème :
 
-```yaml
+```
 - name: "récupération de la liste des fichiers existants"
   register: "ssh_configs_found"
   find:

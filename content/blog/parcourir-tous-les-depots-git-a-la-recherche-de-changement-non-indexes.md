@@ -7,7 +7,7 @@ Tous les soirs avant d'éteindre mon ordinateur j'essaie de m'assurer que tous l
 
 Pour me faciliter la vie et éviter les oublis j'ai donc fait un petit script :
 
-```sh
+```
 repos="$(find ~/src -type d -name .git -exec dirname {} +)"
 for repo in $repos; do
     if git -C "$repo" status -s | grep -q .; then
@@ -21,7 +21,7 @@ Je récupère ainsi la liste de tous les dossiers en dessous de `~/src/` qui con
 
 J'ai ensuite intégré ça dans une fonction de mon `.bashrc`, que j'exécute avant d'éteindre mon ordinateur et m'assurer que tout est en ordre. J'ai une fonction `hello` pour le matin, et une `bye` pour le soir :
 
-```sh
+```
 # manage dotfiles with git
 alias dfg='git --git-dir=$HOME/.local/share/dfg --work-tree=$HOME'
 
