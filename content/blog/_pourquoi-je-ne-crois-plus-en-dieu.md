@@ -40,4 +40,6 @@ Puis si on y réfléchis bien, je suis créé par sa volonté et selon sa volont
 
 #### Enfer
 
-#### Sexualité
+#### Société
+
+Comment exliquer que certaines de nos lois sont plus justes que les lois bibliques ? Par exemple, la plupart des pays interdisent l'esclavage, quand Dieu ne semble avoir aucun problème avec cette pratique lorsqu'il énonce ses lois. Étrange pour un Dieu infiniment bon et juste, non ?
