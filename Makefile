@@ -13,8 +13,9 @@ build:
 netlify-build:
 	-@go get git.sr.ht/~sircmpwn/openring
 	-@go install git.sr.ht/~sircmpwn/openring
-	-@ls -la $$GOROOT/
-	-@/opt/buildhome/cache/.gimme_cache/gopath/bin/openring -S webring-in.urls < webring-in.template > layouts/partials/webring-out.html
+	-@ls -la $$GOROOT/bin/
+	-@ls -lR $$GOROOT/src/
+	-@$$GOROOT/bin/openring -S webring-in.urls < webring-in.template > layouts/partials/webring-out.html
 	@hugo
 
 .PHONY: serve
