@@ -2,21 +2,20 @@
 
 <h1>
   {{ $.Title }}
-  <small>
-    <span class="date">{{ .Date.Format "2006-01-02" }}</span>
-    |
-    <span class="site"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></span>
-  </small>
 </h1>
 
 <main>
   <article>
     {{.Content}}
   </article>
+
+  <hr>
+
+  <footer>
+    {{ partial "webring-out.html" }}
+  </footer>
 </main>
 
 <hr>
-
-{{ partial "webring-out.html" }}
 
 {{ partial "foot.html" }}

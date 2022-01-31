@@ -1,23 +1,21 @@
-<section class="webring">
-  <h2>
+<details>
+  <summary>
     Articles de blogs que je lis
-    <small class="attribution">
-      Généré par
-      <a href="https://sr.ht/~sircmpwn/openring">openring</a>
-    </small>
-  </h2>
-  <section class="articles">
-    {{ range .Articles }}
-    <div class="article">
-      <h4 class="title">
-        <a href="{{ .Link }}" target="_blank" rel="noopener">{{ .Title }}</a>
-      </h4>
-      <p class="summary">{{ .Summary }}</p>
-      <small class="source">
-        via <a href="{{ .SourceLink }}">{{ .SourceTitle }}</a>
-      </small>
-      <small class="date">{{ .Date.Format "2006-01-02" }}</small>
-    </div>
-    {{ end }}
-  </section>
-</section>
+  </summary>
+  {{ range .Articles }}
+  <article>
+    <h4>
+      <a href="{{ .Link }}" target="_blank" rel="noopener">{{ .Title }}</a>
+    </h4>
+    <blockquote>
+      {{ .Summary }}
+      <br>
+      <cite>
+        – <a href="{{ .SourceLink }}">{{ .SourceTitle }}</a>
+        ·
+        {{ .Date.Format "2006-01-02" }}
+      </cite>
+    </blockquote>
+  </article>
+  {{ end }}
+</details>

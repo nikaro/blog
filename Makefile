@@ -13,9 +13,13 @@ build:
 netlify-build:
 	-@go get git.sr.ht/~sircmpwn/openring
 	-@go install git.sr.ht/~sircmpwn/openring
-	-@ls -lR $$GOPATH
 	-@$$GOPATH/bin/openring -S webring-in.urls < webring-in.template > layouts/partials/webring-out.html
 	@hugo
+
+.PHONY: simplecss
+## simplecss: Update CSS file
+simplecss:
+	@curl -Lo assets/main.css https://raw.githubusercontent.com/kevquirk/simple.css/main/simple.min.css
 
 .PHONY: serve
 ## serve: Run development server

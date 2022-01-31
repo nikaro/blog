@@ -1,5 +1,5 @@
 ---
-title: "Parcourir tous les dépôts Git à la recherche de changements non-indexés"
+title: "Parcourir les dépôts Git à la recherche de changements non-indexés"
 date: "2020-09-16"
 ---
 
