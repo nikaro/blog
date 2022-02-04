@@ -40,7 +40,7 @@ Avantages :
 * présent dans les dépôts de la plupart des distributions
 * simple, les commandes peuvent se jouer depuis n'importe quel dossier
 * si on maîtrise Git la prise en main est très rapide
-* à une commande de bootstrap qui permet d'exécuter un script lors du bootsrap
+* a une commande de bootstrap qui permet d'exécuter un script lors du bootsrap
   (déploiement sur une nouvelle machine)
 
 Inconvénients :
@@ -64,11 +64,11 @@ Descriptif :
 
 Avantages :
 
-* le $HOME n'est pas pollué avec des fichiers templates, etc.
+* le `$HOME` n'est pas pollué avec des fichiers templates, etc.
 * écrit en Go, donc le build est un binaire qui ne nécessite pas de dépendances
 * propose plus d'options pour le chiffrement, dont le très prometteur
   [age](https://age-encryption.org/)
-* permet également de s'intégrer avec différents gestionnaire de mots de passe
+* permet également de s'intégrer avec différents gestionnaires de mots de passe
 
 Inconvénients :
 
