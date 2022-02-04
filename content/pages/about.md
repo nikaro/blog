@@ -4,7 +4,7 @@ title: Nicolas Karolak
 
 ## Adresses
 
-Quelques encroits où me trouver sur internet.
+Quelques endroits où me trouver sur internet.
 
 * [GitLab](https://gitlab.com/nicolas-karolak)
 * [GitHub](https://github.com/nikaro)
