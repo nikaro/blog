@@ -1,7 +1,6 @@
 ---
 title: "Chiffrer des secrets dans Terraform"
 date: "2022-02-05"
-draft: true
 ---
 
 Pour que Terraform puisse communiquer avec les fournisseurs de services
