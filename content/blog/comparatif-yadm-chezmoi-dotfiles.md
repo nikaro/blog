@@ -30,8 +30,9 @@ simplement. Donc si un outil peut me simplifier la vie, je suis preneur.
 
 Descriptif :
 
-* écrit en Python, pas de dépendances en dehors de Python lui-même et awk pour
-  les templates
+* écrit en ~~Python~~ Shell, pas de dépendances en dehors de ~~Python~~ Bash et
+  Awk pour les templates (en fait ce sont les tests unitaires qui sont écrits
+  en Python, je me suis fait avoir par les stats de GitHub)
 * un wrapper à Git, en gros `$HOME` est le `GIT_WORK_TREE`, et son `GIT_DIR` est
   déporté dans `~/.local/share/yadm/repo.git`
 
@@ -69,11 +70,16 @@ Avantages :
 * propose plus d'options pour le chiffrement, dont le très prometteur
   [age](https://age-encryption.org/)
 * permet également de s'intégrer avec différents gestionnaires de mots de passe
+* son [auteur](https://github.com/twpayne) m'a contacté suite à la publication
+  de cet article pour me donner quelques infos, et proposer de corriger le bug
+  de template que je mentionne en conclusion :-)
 
 Inconvénients :
 
 * un poil plus complexe, par exemple il nécessite de se déplacer dans le repo
-  pour commit ses changements
+  pour commit ses changements (mais il est possible de faire de
+  [l'autocommit](https://www.chezmoi.io/user-guide/daily-operations/#automatically-commit-and-push-changes-to-your-repo)
+  pour éviter ça)
 
 => <https://www.chezmoi.io/>
 
@@ -81,8 +87,8 @@ Inconvénients :
 
 Pour l'instant moi choix se porte davantage sur yadm, car :
 
-* il écrit en Python, sans dépendances, et je maîtrise davantage ce langage que
-  Go
+* ~~il est écrit en Python, sans dépendances, et je maîtrise davantage ce
+  langage que Go~~
 * l'utilisation est quasiment identique à celle de ma méthode actuelle, donc je
   n'ai pas à apprendre une nouvelle manière de faire
 * chezmoi avait un bug de parsing de template, donc même si je préfère son
