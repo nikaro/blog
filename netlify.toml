@@ -19,6 +19,14 @@ to = "/index.xml"
 from = "/feeds/all.atom.xml"
 to = "/index.xml"
 
+[[redirects]]
+from = "/feeds/atom.xml"
+to = "/index.xml"
+
+[[redirects]]
+from = "/rss"
+to = "/index.xml"
+
 [[headers]]
 for = "/*"
 [headers.values]
