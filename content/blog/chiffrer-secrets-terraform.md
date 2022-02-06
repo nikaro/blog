@@ -47,13 +47,13 @@ $ cat /tmp/secrets.json
 On le chiffre à l'aide notre clé RSA :
 
 ```
-$ openssl rsautl -encrypt -inkey privkey.pem -in /tmp/secrets.json -out ./secrets.json
+$ openssl rsautl -encrypt -inkey ./privkey.pem -in /tmp/secrets.json -out ./secrets.json
 ```
 
 Et ensuite on peut le charger dans nos fichiers Terraform :
 
 ```
-$ cat main.tf
+$ cat ./main.tf
 [...]
 
 locals {
