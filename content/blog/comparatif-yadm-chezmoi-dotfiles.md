@@ -47,7 +47,9 @@ Avantages :
 Inconvénients :
 
 * les "fichiers alternatifs" polluent le `$HOME`
-* j'ai remarqué qu'il galère sur la complétion du nom des fichiers
+* la complétion du nom des fichiers est à la ramasse, [problème
+  connu](https://github.com/TheLocehiliosan/yadm/issues/359) qui n'a pas de
+  solution
 * le déchiffrement n'est pas transparent (sauf avec
   [transcrypt](https://github.com/elasticdog/transcrypt)), il faut exécuter une
   commande, ce n'est pas la mer à boire... et pour l'instant je ne l'utilise
