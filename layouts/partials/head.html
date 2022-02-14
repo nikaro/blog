@@ -8,7 +8,7 @@
   {{ end }}
   <title>{{$.Title}}</title>
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/index.xml">
-  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="icon" href="data:,">
   {{ $style := resources.Get "main.css" | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
 </head>
