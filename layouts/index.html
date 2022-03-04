@@ -4,9 +4,9 @@
   <h1>{{ $.Title }}</h1>
   
   <ul>
-  {{ range (where (where .Site.RegularPages "Section" "blog") "Params.nohtml" "!=" "true") }}
+  {{ range (where .Site.RegularPages "Section" "blog") }}
     <li>
-        <code>{{ .Date.Format "2006-01-02" }}</code>
+      <code>{{ .Date.Format "2006-01-02" }}</code>
       <a href="{{ .Permalink }}">{{ .Title }}</a>
     </li>
   {{ end }}
