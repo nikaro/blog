@@ -14,11 +14,8 @@ S'il vous venait l'envie de m'offrir un cadeau, voilà une liste dans laquelle v
 - [L'homme révolté](http://www.gallimard.fr/Catalogue/GALLIMARD/Folio/Folio-essais/L-Homme-revolte)
 - [L'Étranger](http://www.gallimard.fr/Catalogue/GALLIMARD/Folio/Folio/L-Etranger)
 - [La Peste](http://www.gallimard.fr/Catalogue/GALLIMARD/Folio/Folio/La-Peste)
-- [MSI Creator P100X 10SE-248FR](https://www.ldlc.com/fiche/PB00369695.html)
 - [Comment la non-violence protège l’État](https://www.editionslibre.org/produit/prevente-comment-la-non-violence-protege-l-etat-peter-gelderloos/)
-- [Raspberry Pi 400 (US)](https://www.reichelt.de/fr/fr/raspberry-pi-400-us-4x-1-8ghz-4gb-ram-rasp-pi400us-p290328.html)
 - [La part commune](http://www.editionsamsterdam.fr/la-part-commune/)
 - [Le trésor de Lucio](https://www.editions-rackham.com/catalogue/le-tresor-de-lucio/)
-- [Kit "Premium" Recalbox](https://www.kubii.fr/kits-consoles-recalbox/3252-kit-premium-recalbox-3272496305717.html)
 
 Merci d'éviter autant que faire se peut Amazon et consorts.
