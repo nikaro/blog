@@ -9,11 +9,11 @@ Il y a quelques jours une recruteuse m'a demandé à quoi ressemblerait mon entr
 
 Dans un de mes anciens postes, chez UbiCast, j'ai découvert un mode d'organisation qui s'appelle l'holacratie. Il y aurait beaucoup à dire, mais pour faire simple et pour parler des aspects qui m'intéressent, l'idée c'est distribuer au sein de l'entreprise le pouvoir de prise de décision dans des "cercles" qui s'auto-organisent. Ça permet d'éviter les décisions prises et imposées verticalement, potentiellement déconnectées des réalités du "terrain". Au contraire ça permet d'impliquer les personnes directement concernées et potentiellement les plus au fait des problématiques qui se posent sur le sujet. Ça permet également de responsabiliser chacune des personnes impliquées dans la prise de décision, et probablement d'avoir une plus grande adhésion aux orientations choisies.
 
-=> https://fr.wikipedia.org/wiki/Holacratie
+=> <https://fr.wikipedia.org/wiki/Holacratie>
 
 Et pour aller plus loin encore, l'idéal serait que cette entreprise soit une coopérative, probablement une SCOP, c'est la seule forme que je connaisse. L'idée est qu'avec une SCOP, les principes démocratiques qu'on peut retrouver dans l'holacratie sont en partie inscrits dans les statuts même de l'entreprise pour certains aspects. Et par le fait que les salariés soient assurés d'être majoritaires dans la détention du capital, ça permet d'éviter que des actionnaires prennent des décisions visant uniquement les profits à court terme ou uniquement dans leurs intérêts.
 
-=> https://fr.wikipedia.org/wiki/Soci%C3%A9t%C3%A9_coop%C3%A9rative_et_participative
+=> <https://fr.wikipedia.org/wiki/Société_coopérative_et_participative>
 
 J'ai aussi entendu parler d'entreprises dont toutes les prises de décisions sont stockées dans un logiciel de gestion de versions telles que Git, et à cet titre elles sont consultables et amendables par tout le monde. J'aime bien l'idée.
 
