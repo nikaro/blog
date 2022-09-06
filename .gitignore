@@ -1,4 +1,6 @@
 public/
+!public/_redirects
+!public/_headers
 resources/
 .env
 layouts/partials/webring-out.html
