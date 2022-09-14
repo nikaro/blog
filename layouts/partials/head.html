@@ -6,7 +6,7 @@
   {{ if $.Params.noindex }}
   <meta name="robots" content="noindex">
   {{ end }}
-  <title>{{$.Title}}</title>
+  <title>{{ $.Title }}</title>
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/index.xml">
   <link rel="icon" href="data:,">
   {{ $style := resources.Get "main.css" | resources.Minify | resources.Fingerprint }}
