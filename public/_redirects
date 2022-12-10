@@ -1,5 +1,7 @@
 /feed /index.xml 301
+/feed/ /index.xml 301
 /feeds/all.atom.xml /index.xml 301
 /feeds/atom.xml /index.xml 301
 /rss /index.xml 301
+/rss/ /index.xml 301
 /blog/* /:splat 301
