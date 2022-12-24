@@ -10,7 +10,7 @@ enableRobotsTXT: true
 params:
   email: "blog@karolak.fr"
   liberapay: "https://liberapay.com/nka/"
-  #cloudflareAnalyticsToken: "fa938289bc094ed4a9492db665c3549d"
+  cloudflareAnalyticsToken: "fa938289bc094ed4a9492db665c3549d"
 
 permalinks:
   blog: "/:year/:month/:day/:filename/"
