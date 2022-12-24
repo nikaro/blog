@@ -1,5 +1,5 @@
 /*
-  Content-Security-Policy: default-src 'self'; base-uri 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'; script-src 'self' 'static.cloudflareinsights.com'; form-action 'none'; frame-ancestors 'none'
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'; script-src 'self' 'https://static.cloudflareinsights.com'; form-action 'none'; frame-ancestors 'none'
   Referrer-Policy: no-referrer, strict-origin-when-cross-origin
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
