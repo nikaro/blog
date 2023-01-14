@@ -1,6 +1,6 @@
 ---
 title: "Installer des bibliothèques tierces pour Python"
-date: 2022-12-22T23:36:23+01:00
+date: 2023-01-14T15:60:23+01:00
 ---
 
 En Python, comme dans la plupart des langages de programmation, il est possible
