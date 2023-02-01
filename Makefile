@@ -5,12 +5,6 @@ all:
 ## build: Generate website
 build:
 	@echo "Rendering..."
-	@openring -S webring-in.urls < webring-in.template > layouts/partials/webring-out.html
-	@hugo
-
-.PHONY: netlify-build
-## netlify-build: Generate website from Netlify build environment
-netlify-build:
 	-@go install git.sr.ht/~sircmpwn/openring@latest
 	-@$$GOPATH/bin/openring -S webring-in.urls < webring-in.template > layouts/partials/webring-out.html
 	@hugo
@@ -30,8 +24,8 @@ serve:
 ## clean: Remove generated files
 clean:
 	@echo "Cleaning..."
-	@[ ! -d ./public ] || rm -rf ./public
-	@[ ! -d ./resources ] || rm -rf ./resources
+	@rm -rf ./public
+	@rm -rf ./resources
 
 .PHONY: help
 ## help: Print help message
