@@ -5,8 +5,6 @@ all:
 ## build: Generate website
 build:
 	@echo "Rendering..."
-	-@go install git.sr.ht/~sircmpwn/openring@latest
-	-@$$GOPATH/bin/openring -S webring-in.urls < webring-in.template > layouts/partials/webring-out.html
 	@hugo
 
 .PHONY: simplecss

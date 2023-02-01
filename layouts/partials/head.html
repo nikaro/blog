@@ -11,7 +11,4 @@
   <link rel="icon" href="data:,">
   {{ $style := resources.Get "main.css" | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
-  {{ if and (isset $.Site.Params "cloudflareanalyticstoken") (hugo.IsProduction) }}
-  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "{{ $.Site.Params.CloudflareAnalyticsToken }}"}'></script>
-  {{ end }}
 </head>

@@ -10,7 +10,11 @@ enableRobotsTXT: true
 params:
   email: "blog@karolak.fr"
   liberapay: "https://liberapay.com/nka/"
-  cloudflareAnalyticsToken: "d0d27b129da14bc597c9b2b56a081525"
+  webring:
+    - https://www.bortzmeyer.org/feed.atom
+    - https://ploum.net/atom.xml
+    - https://nourrituresterrestres.substack.com/feed
+    - https://n.survol.fr/feed
 
 permalinks:
   blog: "/:year/:month/:day/:filename/"
