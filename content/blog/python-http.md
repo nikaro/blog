@@ -35,7 +35,7 @@ content_string = content_bin.decode()
 # on parse le texte en tant que JSON afin de "convertir" en objet Python
 data = json.loads(content_text)
 
-print(data[0]["htlm_url"])
+print(data[0]["html_url"])
 ```
 
 ## httpx
