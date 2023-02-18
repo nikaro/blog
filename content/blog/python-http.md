@@ -6,7 +6,7 @@ date: 2023-01-14T14:40:00+01:00
 Imaginons que nous voulions faire une requête vers l'API publique de GitHub,
 sur l'URL suivante : `https://api.github.com/users/<user>/repos`
 
-Dans un premier temps on peu tester avec `curl` pour voir à quoi ressemble
+Dans un premier temps on peut tester avec `curl` pour voir à quoi ressemble
 le résultat :
 
 ```shell
