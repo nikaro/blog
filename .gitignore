@@ -3,5 +3,4 @@ public/
 !public/_headers
 resources/
 .env
-layouts/partials/webring-out.html
 .hugo_build.lock

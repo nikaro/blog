@@ -1,5 +1,3 @@
-<!doctype html>
-<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,6 +7,6 @@
   <title>{{ $.Title }}</title>
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/index.xml">
   <link rel="icon" href="data:,">
-  {{ $style := resources.Get "main.css" | resources.Minify | resources.Fingerprint }}
+  {{ $style := resources.GetRemote "https://cdn.simplecss.org/simple.min.css" | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
 </head>
