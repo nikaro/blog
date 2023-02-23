@@ -2,7 +2,7 @@
   <summary>
     Commenter
   </summary>
-  <form action="mailto:{{ .Site.Params.Email }}" method="post" enctype="text/plain">
+  <form action="mailto:{{ .Site.Params.Email }}?subject={{ $.Title }}" method="post" enctype="text/plain">
     <textarea name="comment" rows="6"></textarea>
     <input type="submit" value="Envoyer">
   </form>
