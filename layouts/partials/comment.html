@@ -2,8 +2,14 @@
   <summary>
     Commenter
   </summary>
-  <form action="mailto:{{ .Site.Params.Email }}?subject={{ $.Title }}" method="post" enctype="text/plain">
+  <form onsubmit="postComment(this)">
     <textarea name="comment" rows="6"></textarea>
     <input type="submit" value="Envoyer">
   </form>
 </details>
+<script>
+  function postComment(form) {
+    window.open("mailto:{{ .Site.Params.Email }}?subject={{ $.Title }}&body=" + form.comment.value);
+    return false;
+  }
+</script>
