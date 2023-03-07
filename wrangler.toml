@@ -1,0 +1,10 @@
+name = "blog-karolak-fr"
+
+[vars]
+GO_VERSION = "1.20.1"
+HUGO_VERSION = "0.111.2"
+HUGO_baseUrl = "/"
+
+[env.preview.vars]
+HUGO_buildDrafts = true
+HUGO_buildFuture = true
