@@ -1,0 +1,39 @@
+name: Cloudflare Pages
+
+on:
+  push:
+    branches: [ main, drafts ]
+  workflow_dispatch:
+  schedule:
+    - cron: 0 0 * * 0
+
+permissions:
+  contents: read
+  deployments: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    env:
+      HUGO_PARAMS_rss2jsonApiKey: ${{ secrets.HUGO_PARAMS_rss2jsonApiKey }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: peaceiris/actions-hugo@v2
+      - if: github.ref_name != 'main'
+        run: echo args="--buildDrafts --buildFuture" >> "$GITHUB_OUTPUT"
+        id: preview
+      - run: hugo --gc --minify ${{ steps.preview.outputs.args || '' }}
+      - uses: cloudflare/pages-action@0fc25c3c282fb26e9a53abfadf6d2898adcac3de
+        id: page
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: blog-karolak-fr
+          directory: public
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}

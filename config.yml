@@ -1,6 +1,6 @@
 ---
 
-baseURL: "https://blog.karolak.fr/"
+baseURL: "/"
 defaultContentLanguage: "fr"
 languageCode: "fr-fr"
 title: "Blog de Nicolas Karolak"
