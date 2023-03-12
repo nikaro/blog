@@ -2,22 +2,19 @@
 
 baseURL: "/"
 defaultContentLanguage: "fr"
-languageCode: "fr-fr"
-title: "Blog de Nicolas Karolak"
-rssLimit: 10
+disableKinds: ["taxonomy", "taxonomyTerm", "section"]
 enableRobotsTXT: true
-
+languageCode: "fr-fr"
 params:
   email: "blog@karolak.fr"
   liberapay: "https://liberapay.com/nka/"
   webring:
     - https://www.bortzmeyer.org/feed.atom
     - https://ploum.net/atom.xml
-    - https://nourrituresterrestres.substack.com/feed
+    - https://www.nourrituresterrestres.fr/feed
     - https://n.survol.fr/feed
-
 permalinks:
   blog: "/:year/:month/:day/:filename/"
   pages: "/:filename/"
-
-disableKinds: ["taxonomy", "taxonomyTerm", "section"]
+rssLimit: 10
+title: "Blog de Nicolas Karolak"
