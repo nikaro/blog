@@ -48,8 +48,13 @@ Morale de l'histoire, soyez très vigilants, et utilisez un bloqueur de
 publicité, en l'occurence ici c'est NextDNS qui a fait le travail. Ni
 [Wipr](https://giorgiocalderolla.com/wipr.html) sur Safari, ni les listes de
 blocage de [uBlock Origin](https://github.com/gorhill/uBlock) ne le bloquaient.
+Mais ayez conscience que même des bloqueurs et les fonctionnalités de votre
+navigateurs ne pourront pas vour prémunir de tout, la première barrière reste
+votre bon sens: ne pas cliquer n'importe où, savoir discerner les liens et
+comportement suspects, ne pas entrer ses identifiants ailleurs que sur le site
+officiel, etc.
 
-### Recommandations
+### Recommendations
 
 C'est valable pour chacun des bloqueurs ci-dessous : il faut bien choisir ses
 listes de blocage pour être bien couvert.
