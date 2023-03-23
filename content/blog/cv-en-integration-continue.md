@@ -53,8 +53,4 @@ De cette manière, vous n'avez plus qu'à mettre à jour le fichier JSON Resume 
 
 Vous pouvez également jeter un coup d'œil au reste de mes sources.
 
-=> https://gitlab.com/nicolas-karolak/cv
-
-<!--
-vim: spell spelllang=fr
--->
+=> https://github.com/nikaro/resume
