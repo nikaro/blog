@@ -4,8 +4,9 @@ date: 2023-03-23T10:29:43+01:00
 ---
 
 Un bloqueur de publicité est une mesure d'hygiène numérique de base,
-indispensable. Il convient même de cumuler un bloqueur au niveau DNS avec un
-autre au niveau du navigateur. Cas pratique.
+indispensable. Il convient même de cumuler un bloqueur au niveau du navigateur
+avec un autre au niveau du DNS, ne serait-ce que pour bloquer ce qui ne passe
+pas par le navigateur. **Cas pratique.**
 
 La sortie à venir de Counter-Strike 2 vient d'être annoncée, en attendant
 quelques invitations sont distribuées au compte goute par Valve pour tester la
