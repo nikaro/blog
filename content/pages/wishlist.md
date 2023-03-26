@@ -20,6 +20,7 @@ S'il vous venait l'envie de m'offrir un cadeau, voilà une liste dans laquelle v
 - [Livre : Comment la non-violence protège l’État](https://www.editionslibre.org/produit/prevente-comment-la-non-violence-protege-l-etat-peter-gelderloos/)
 - [Livre : La part commune](http://www.editionsamsterdam.fr/la-part-commune/)
 - [Livre : Le trésor de Lucio](https://www.editions-rackham.com/catalogue/le-tresor-de-lucio/)
+- [Livre : Les sept morts d'Evelyn Hardcastle](https://www.babelio.com/livres/Turton-Les-sept-morts-dEvelyn-Hardcastle/1114428)
 - [Ordinateur : Alienware Aurora R13](https://www.ldlc.com/fiche/PB00498083.html)
 
 Merci d'éviter autant que faire se peut Amazon et consorts.
