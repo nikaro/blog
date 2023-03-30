@@ -2,7 +2,7 @@
 <opml version="2.0">
     <head>
         <title>Miniflux</title>
-        <dateCreated>Wed, 25 Jan 2023 11:03:14 UTC</dateCreated>
+        <dateCreated>Thu, 30 Mar 2023 18:51:03 UTC</dateCreated>
     </head>
     <body>
         <outline text="Blogs">
@@ -22,9 +22,9 @@
             <outline title="Drew DeVault&#39;s blog" text="Drew DeVault&#39;s blog" xmlUrl="https://drewdevault.com/blog/index.xml" htmlUrl="https://drewdevault.com"></outline>
             <outline title="Emma" text="Emma" xmlUrl="https://emmaclit.com/feed/" htmlUrl="https://emmaclit.com"></outline>
             <outline title="- Français" text="- Français" xmlUrl="https://enix.io/fr/blog/feed.xml" htmlUrl="https://enix.io/fr/blog/"></outline>
+            <outline title="garrit.xyz" text="garrit.xyz" xmlUrl="https://garrit.xyz/rss.xml" htmlUrl="https://garrit.xyz"></outline>
             <outline title="Guillaume Deloison" text="Guillaume Deloison" xmlUrl="https://guillaumedeloison.wordpress.com/feed/" htmlUrl="https://guillaumedeloison.wordpress.com"></outline>
             <outline title="Hacking social" text="Hacking social" xmlUrl="https://www.hacking-social.com/feed/" htmlUrl="https://www.hacking-social.com/"></outline>
-            <outline title="/home/lord" text="/home/lord" xmlUrl="https://lord.re/index.xml" htmlUrl="https://lord.re/"></outline>
             <outline title="I Learned Blog" text="I Learned Blog" xmlUrl="https://blog.ilearned.eu/rss.xml" htmlUrl="https://blog.ilearned.eu/"></outline>
             <outline title="Ippon | Cabinet de conseil et expertise en technologies | Discovery to Delivery" text="Ippon | Cabinet de conseil et expertise en technologies | Discovery to Delivery" xmlUrl="https://blog.ippon.fr/rss/" htmlUrl="https://blog.ippon.fr/"></outline>
             <outline title="le hollandais volant" text="le hollandais volant" xmlUrl="https://lehollandaisvolant.net/rss.php" htmlUrl="https://lehollandaisvolant.net/"></outline>
@@ -46,6 +46,7 @@
         <outline text="Entertainment">
             <outline title="Akim Omiri" text="Akim Omiri" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCbOdpYBG53zmFuDK0qaTSmw" htmlUrl="https://www.youtube.com/channel/UCbOdpYBG53zmFuDK0qaTSmw"></outline>
             <outline title="Alex" text="Alex" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCPzFLpOblZEaIx2lpym1l1A" htmlUrl="https://www.youtube.com/channel/UCPzFLpOblZEaIx2lpym1l1A"></outline>
+            <outline title="Amuse Bouche" text="Amuse Bouche" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC74gnbhM7VstSzIfQfzUX9g" htmlUrl="https://www.youtube.com/channel/UC74gnbhM7VstSzIfQfzUX9g"></outline>
             <outline title="Axolot" text="Axolot" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC2_OG1L8DLTzQ7UrZVOk7OA" htmlUrl="https://www.youtube.com/channel/UC2_OG1L8DLTzQ7UrZVOk7OA"></outline>
             <outline title="Haroun" text="Haroun" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCKeL_a8Pu3bdt251ICPV8bA" htmlUrl="https://www.youtube.com/channel/UCKeL_a8Pu3bdt251ICPV8bA"></outline>
             <outline title="Hit the Road" text="Hit the Road" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCy0I5Hcl2k7dN4UdZTedfeQ" htmlUrl="https://www.youtube.com/channel/UCy0I5Hcl2k7dN4UdZTedfeQ"></outline>
@@ -97,6 +98,7 @@
             <outline title="Histony" text="Histony" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCt8ctlakIflnSG0ebFps7cw" htmlUrl="https://www.youtube.com/channel/UCt8ctlakIflnSG0ebFps7cw"></outline>
             <outline title="horizon-gull" text="horizon-gull" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCGeFgMJfWclTWuPw8Ok5FUQ" htmlUrl="https://www.youtube.com/channel/UCGeFgMJfWclTWuPw8Ok5FUQ"></outline>
             <outline title="Hygiène Mentale" text="Hygiène Mentale" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCMFcMhePnH4onVHt2-ItPZw" htmlUrl="https://www.youtube.com/channel/UCMFcMhePnH4onVHt2-ItPZw"></outline>
+            <outline title="La Tronche en Biais" text="La Tronche en Biais" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCq-8pBMM3I40QlrhM9ExXJQ" htmlUrl="https://www.youtube.com/channel/UCq-8pBMM3I40QlrhM9ExXJQ"></outline>
             <outline title="Le Malin Génie" text="Le Malin Génie" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCT8fproORyvh6lT296ShKVg" htmlUrl="https://www.youtube.com/channel/UCT8fproORyvh6lT296ShKVg"></outline>
             <outline title="Le Monde De Jamy" text="Le Monde De Jamy" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCrRKlEDktKeraMTgAN_DIzw" htmlUrl="https://www.youtube.com/channel/UCrRKlEDktKeraMTgAN_DIzw"></outline>
             <outline title="Les Langues de Cha&#39;" text="Les Langues de Cha&#39;" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC0efyK_-Athm8yhyjNSqndQ" htmlUrl="https://www.youtube.com/channel/UC0efyK_-Athm8yhyjNSqndQ"></outline>
@@ -128,20 +130,29 @@
             <outline title="Data Gueule" text="Data Gueule" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCm5wThREh298TkK8hCT9HuA" htmlUrl="https://www.youtube.com/channel/UCm5wThREh298TkK8hCT9HuA"></outline>
             <outline title="Diable Positif" text="Diable Positif" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCI_FnSJPNGd3Y3IL0PwD-NQ" htmlUrl="https://www.youtube.com/channel/UCI_FnSJPNGd3Y3IL0PwD-NQ"></outline>
             <outline title="Game Of Hearth" text="Game Of Hearth" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC3A_TG1leX0eQEJD1Ew6Ftw" htmlUrl="https://www.youtube.com/channel/UC3A_TG1leX0eQEJD1Ew6Ftw"></outline>
+            <outline title="Minutes Rouges" text="Minutes Rouges" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCNtbFjdJBwoBifQtUjOgUjA" htmlUrl="https://www.youtube.com/channel/UCNtbFjdJBwoBifQtUjOgUjA"></outline>
+            <outline title="Philoxime" text="Philoxime" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCdKTlsmvczkdvGjiLinQwmw" htmlUrl="https://www.youtube.com/channel/UCdKTlsmvczkdvGjiLinQwmw"></outline>
             <outline title="Politikon" text="Politikon" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC0HxyEc_ojRJ1oJXS5K6oaA" htmlUrl="https://www.youtube.com/channel/UC0HxyEc_ojRJ1oJXS5K6oaA"></outline>
             <outline title="Psithurie" text="Psithurie" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCNR1ae-ezlPa7Y4kp4UQcUQ" htmlUrl="https://www.youtube.com/channel/UCNR1ae-ezlPa7Y4kp4UQcUQ"></outline>
             <outline title="Union communiste libertaire UCL" text="Union communiste libertaire UCL" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC9YsU1xbmrif9Xh6GCEOL4Q" htmlUrl="https://www.youtube.com/channel/UC9YsU1xbmrif9Xh6GCEOL4Q"></outline>
         </outline>
         <outline text="Sports">
+            <outline title="Adam Ondra" text="Adam Ondra" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC8eNyF9eYwgr_K-Nl4gSHWw" htmlUrl="https://www.youtube.com/channel/UC8eNyF9eYwgr_K-Nl4gSHWw"></outline>
             <outline title="Côté Bloc" text="Côté Bloc" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCipRBcWAuYy75AHOT5wOD3w" htmlUrl="https://www.youtube.com/channel/UCipRBcWAuYy75AHOT5wOD3w"></outline>
             <outline title="Gros Gars | Bouldering" text="Gros Gars | Bouldering" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCgvBe_wSf-MVByK_ksTrsJw" htmlUrl="https://www.youtube.com/channel/UCgvBe_wSf-MVByK_ksTrsJw"></outline>
+            <outline title="Hooper&#39;s Beta" text="Hooper&#39;s Beta" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCsqZk5V2d44TNLRFSI5aVfg" htmlUrl="https://www.youtube.com/channel/UCsqZk5V2d44TNLRFSI5aVfg"></outline>
+            <outline title="Jakob Schubert" text="Jakob Schubert" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCLGyTGdu7R7D7pNNFAJGcHg" htmlUrl="https://www.youtube.com/channel/UCLGyTGdu7R7D7pNNFAJGcHg"></outline>
             <outline title="Karaté Bushido Officiel" text="Karaté Bushido Officiel" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC_CXtrkW1a343sChq8DnBGA" htmlUrl="https://www.youtube.com/channel/UC_CXtrkW1a343sChq8DnBGA"></outline>
+            <outline title="Le Rempart" text="Le Rempart" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC0iRRLiC9mFR26z7J2OlxKQ" htmlUrl="https://www.youtube.com/channel/UC0iRRLiC9mFR26z7J2OlxKQ"></outline>
             <outline title="Magnus Midtbø" text="Magnus Midtbø" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC_gSotrFVZ_PiAxo3fTQVuQ" htmlUrl="https://www.youtube.com/channel/UC_gSotrFVZ_PiAxo3fTQVuQ"></outline>
+            <outline title="rockentry" text="rockentry" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC_Vh9oXcLZs6YRaAEC9zhIw" htmlUrl="https://www.youtube.com/channel/UC_Vh9oXcLZs6YRaAEC9zhIw"></outline>
             <outline title="Seb Bouin" text="Seb Bouin" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC0in5snOa3tXXPStXcxlllQ" htmlUrl="https://www.youtube.com/channel/UC0in5snOa3tXXPStXcxlllQ"></outline>
             <outline title="Shawn Raboutou" text="Shawn Raboutou" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCWaC58KxHxyCgZVl4cRDxSg" htmlUrl="https://www.youtube.com/channel/UCWaC58KxHxyCgZVl4cRDxSg"></outline>
+            <outline title="Stefano Ghisolfi" text="Stefano Ghisolfi" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCtKpjSIjJFS4CZiPhbdHFQA" htmlUrl="https://www.youtube.com/channel/UCtKpjSIjJFS4CZiPhbdHFQA"></outline>
             <outline title="Vincent Grimpe" text="Vincent Grimpe" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCTUpHjuXJY0fddRhtIp-eCw" htmlUrl="https://www.youtube.com/channel/UCTUpHjuXJY0fddRhtIp-eCw"></outline>
         </outline>
         <outline text="Tech">
+            <outline title="The Cloudflare Blog" text="The Cloudflare Blog" xmlUrl="https://blog.cloudflare.com/rss/" htmlUrl="https://blog.cloudflare.com/"></outline>
             <outline title="Aurelie Vache" text="Aurelie Vache" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCrRk0kOP58lBMl9B8ZS8Vlg" htmlUrl="https://www.youtube.com/channel/UCrRk0kOP58lBMl9B8ZS8Vlg"></outline>
             <outline title="Awesome Go Weekly" text="Awesome Go Weekly" xmlUrl="https://go.libhunt.com/newsletter/feed" htmlUrl="https://go.libhunt.com/newsletter"></outline>
             <outline title="Awesome Python Weekly" text="Awesome Python Weekly" xmlUrl="https://python.libhunt.com/newsletter/feed" htmlUrl="https://python.libhunt.com/newsletter"></outline>
@@ -152,27 +163,20 @@
             <outline title="Clever Cloud" text="Clever Cloud" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC-Fl-rLmJ-Xv1nZHVPBzUkQ" htmlUrl="https://www.youtube.com/channel/UC-Fl-rLmJ-Xv1nZHVPBzUkQ"></outline>
             <outline title="Devoxx FR" text="Devoxx FR" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCsVPQfo5RZErDL41LoWvk0A" htmlUrl="https://www.youtube.com/channel/UCsVPQfo5RZErDL41LoWvk0A"></outline>
             <outline title="Docker" text="Docker" xmlUrl="https://www.docker.com/feed/" htmlUrl="https://www.docker.com"></outline>
-            <outline title="Framework Blog" text="Framework Blog" xmlUrl="https://frame.work/at/en/blog.rss" htmlUrl="https://frame.work/at/en"></outline>
+            <outline title="Filippo Valsorda" text="Filippo Valsorda" xmlUrl="https://words.filippo.io/rss/" htmlUrl="https://words.filippo.io/"></outline>
             <outline title="Gruntwork" text="Gruntwork" xmlUrl="https://blog.gruntwork.io/feed" htmlUrl="https://blog.gruntwork.io?source=rss----f6262bc8ce7a---4"></outline>
             <outline title="Hacker News Daily" text="Hacker News Daily" xmlUrl="http://www.daemonology.net/hn-daily/index.rss" htmlUrl="https://www.daemonology.net/hn-daily/"></outline>
+            <outline title="Hugo Barrera&#39;s site" text="Hugo Barrera&#39;s site" xmlUrl="https://whynothugo.nl/posts.xml" htmlUrl="https://whynothugo.nl/"></outline>
             <outline title="Infra Weekly Newsletter" text="Infra Weekly Newsletter" xmlUrl="https://infraweekly.substack.com/feed" htmlUrl="https://infraweekly.substack.com"></outline>
             <outline title="Last Week in Kubernetes Development" text="Last Week in Kubernetes Development" xmlUrl="https://lwkd.info/feed.xml" htmlUrl="http://lwkd.info/"></outline>
             <outline title="Le blog des experts WeScale - DevOps, Cloud et passion" text="Le blog des experts WeScale - DevOps, Cloud et passion" xmlUrl="https://blog.wescale.fr/rss.xml" htmlUrl="https://blog.wescale.fr/"></outline>
             <outline title="Le blog du Journal du hacker !" text="Le blog du Journal du hacker !" xmlUrl="https://blog.journalduhacker.net/feed.php?rss" htmlUrl="https://blog.journalduhacker.net/"></outline>
-            <outline title="Les Compagnons du DevOps" text="Les Compagnons du DevOps" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCauIDghddUNu6Fto1nR9Bmg" htmlUrl="https://www.youtube.com/channel/UCauIDghddUNu6Fto1nR9Bmg"></outline>
             <outline title="Python Insider" text="Python Insider" xmlUrl="http://feeds.feedburner.com/PythonInsider" htmlUrl="https://pythoninsider.blogspot.com/"></outline>
             <outline title="Python⇒Speed" text="Python⇒Speed" xmlUrl="https://pythonspeed.com/atom.xml" htmlUrl="https://pythonspeed.com/"></outline>
             <outline title="Real Python" text="Real Python" xmlUrl="https://realpython.com/atom.xml" htmlUrl="https://realpython.com/"></outline>
-            <outline title="Scaleway Blog - European cloud provider" text="Scaleway Blog - European cloud provider" xmlUrl="https://blog.scaleway.com/rss/" htmlUrl="https://blog.scaleway.com/"></outline>
             <outline title="Simple is Better Than Complex" text="Simple is Better Than Complex" xmlUrl="https://simpleisbetterthancomplex.com/feed.xml" htmlUrl="https://simpleisbetterthancomplex.com/"></outline>
             <outline title="WeScaleTV" text="WeScaleTV" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCd7ev5W374BxUDlMPXDdDnA" htmlUrl="https://www.youtube.com/channel/UCd7ev5W374BxUDlMPXDdDnA"></outline>
             <outline title="Wonderfall" text="Wonderfall" xmlUrl="https://wonderfall.space/rss/" htmlUrl="https://wonderfall.space/"></outline>
-        </outline>
-        <outline text="Videos">
-            <outline title="Adam Ondra" text="Adam Ondra" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC8eNyF9eYwgr_K-Nl4gSHWw" htmlUrl="https://www.youtube.com/channel/UC8eNyF9eYwgr_K-Nl4gSHWw"></outline>
-            <outline title="Minutes Rouges" text="Minutes Rouges" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCNtbFjdJBwoBifQtUjOgUjA" htmlUrl="https://www.youtube.com/channel/UCNtbFjdJBwoBifQtUjOgUjA"></outline>
-            <outline title="Philoxime" text="Philoxime" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCdKTlsmvczkdvGjiLinQwmw" htmlUrl="https://www.youtube.com/channel/UCdKTlsmvczkdvGjiLinQwmw"></outline>
-            <outline title="rockentry" text="rockentry" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC_Vh9oXcLZs6YRaAEC9zhIw" htmlUrl="https://www.youtube.com/channel/UC_Vh9oXcLZs6YRaAEC9zhIw"></outline>
         </outline>
     </body>
 </opml>
