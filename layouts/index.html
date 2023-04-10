@@ -4,15 +4,12 @@
 {{ partial "head.html" . }}
 
 <main>
-  <h1>{{ $.Title }}</h1>
-  <ul>
-    {{ range (where .Site.RegularPages "Section" "blog") }}
-    <li>
-      <code>{{ .Date.Format "2006-01-02" }}</code>
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
-    </li>
-    {{ end }}
-    <ul>
+    <h1>{{ $.Title }}</h1>
+    {{- range (where .Site.RegularPages "Section" "blog") }}
+    <p>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </p>
+    {{- end }}
 </main>
 
 {{ partial "foot.html" . }}
