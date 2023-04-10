@@ -12,7 +12,7 @@ Quelques endroits où me trouver sur internet.
 ## Projets
 
 * [devc](https://github.com/nikaro/devc/) : un outil en CLI pour gérer les devcontainers
-* [resume-pycli](https://github.com/nikaro/resume-pycli/) : un générateur de CV utilisant le format JSON Resume
+* [goresume](https://github.com/nikaro/goresume/) : un générateur de CV utilisant le format JSON Resume
 * [zabbixmon](https://github.com/nikaro/zabbixmon/) : un outil en CLI pour afficher et être notifié des alertes Zabbix
 * [wirelogd](https://github.com/nikaro/wirelogd/) : un daemon de logging pour Wireguard
 
