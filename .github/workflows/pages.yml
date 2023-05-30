@@ -29,7 +29,7 @@ jobs:
         run: echo args="--buildDrafts --buildFuture" >> "$GITHUB_OUTPUT"
         id: preview
       - run: hugo --gc --minify ${{ steps.preview.outputs.args || '' }}
-      - uses: cloudflare/pages-action@46e7ceca563e8b08ce905485527ee4c74e535886
+      - uses: cloudflare/pages-action@f0a1cd58cd66095dee69bfa18fa5efd1dde93bca
         id: page
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
