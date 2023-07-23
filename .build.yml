@@ -9,7 +9,7 @@ packages:
 oauth: pages.sr.ht/PAGES:RW
 
 secrets:
-  - 5047e926-af42-4c35-aa72-f2cada28b3e7
+  - 4105c56c-96a3-428e-8a0a-8db6a73ffe28
 
 environment:
   site: blog.karolak.fr
