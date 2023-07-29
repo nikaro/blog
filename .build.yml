@@ -16,11 +16,13 @@ environment:
 
 tasks:
   - build: >
+      git -C blog/ diff --exit-code origin/main || complete-build ;
       set +x ;
       . ~/.secrets ;
       set -x ;
       cd blog/ ;
       hugo --gc --minify ;
   - publish: >
+      git -C blog diff --exit-code origin/main || complete-build ;
       tar -C blog/public/ -cvz . > site.tar.gz ;
       hut pages publish -d $site site.tar.gz ;
