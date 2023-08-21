@@ -8,7 +8,7 @@ languageCode: "fr-fr"
 params:
   email: "blog@karolak.fr"
   liberapay: "https://liberapay.com/nka/"
-  mastodon: https://piaille.fr/@orak7e
+  mastodon: https://indieweb.social/@nikaro
   webring:
     - https://www.bortzmeyer.org/feed.atom
     - https://ploum.net/atom.xml
