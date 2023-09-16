@@ -1,13 +1,11 @@
 ---
-
 baseURL: "/"
 defaultContentLanguage: "fr"
-disableKinds: ["taxonomy", "taxonomyTerm", "section"]
+disableKinds: ["taxonomy", "section"]
 enableRobotsTXT: true
 languageCode: "fr-fr"
 params:
-  email: "blog@karolak.fr"
-  liberapay: "https://liberapay.com/nka/"
+  email: "blog@nikaro.net"
   mastodon: https://indieweb.social/@nikaro
   webring:
     - https://www.bortzmeyer.org/feed.atom
@@ -18,4 +16,4 @@ permalinks:
   blog: "/:year/:month/:day/:filename/"
   pages: "/:filename/"
 rssLimit: 10
-title: "Blog de Nicolas Karolak"
+title: "Blog de Nikaro"

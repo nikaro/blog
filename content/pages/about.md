@@ -1,14 +1,14 @@
 ---
-title: Nicolas Karolak
+title: Nikaro
 ---
 
 ## Adresses
 
 Quelques endroits où me trouver sur internet.
 
-* [SourceHut](https://git.sr.ht/~nka)
 * [GitHub](https://github.com/nikaro)
 * [CV](https://cv.karolak.fr)
+* [Mastodon](https://indieweb.social/@nikaro)
 
 ## Projets
 
