@@ -7,7 +7,6 @@ title: Nikaro
 Quelques endroits où me trouver sur internet.
 
 * [GitHub](https://github.com/nikaro)
-* [CV](https://cv.karolak.fr)
 * [Mastodon](https://indieweb.social/@nikaro)
 
 ## Projets
