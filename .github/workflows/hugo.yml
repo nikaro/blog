@@ -20,7 +20,7 @@ defaults:
 
 env:
   # renovate: datasource=golang-version depName=golang
-  GO_VERSION: 1.21.0
+  GO_VERSION: 1.21.1
   # renovate: datasource=github-releases depName=gohugoio/hugo
   HUGO_VERSION: v0.118.2
   # renovate: datasource=npm depName=netlify-cli
