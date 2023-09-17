@@ -18,7 +18,7 @@ defaults:
 
 env:
   # renovate: datasource=github-releases depName=gohugoio/hugo
-  HUGO_VERSION: 0.118.1
+  HUGO_VERSION: v0.118.2
   # renovate: datasource=npm depName=netlify-cli
   NETLIFY_VERSION: 16.3.2
   # renovate: datasource=git-tags depName=openring packageName=https://git.sr.ht/~sircmpwn/openring
