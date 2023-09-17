@@ -32,7 +32,7 @@ jobs:
       url: https://blog.nikaro.net
     steps:
       - name: Install Hugo
-        run: go install github.com/gohugoio/hugo@v${{ env.HUGO_VERSION }}
+        run: go install github.com/gohugoio/hugo@${{ env.HUGO_VERSION }}
 
       - name: Install Openring
         run: go install git.sr.ht:~sircmpwn/openring@${{ env.OPENRING_VERSION }}
