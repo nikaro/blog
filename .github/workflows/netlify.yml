@@ -17,7 +17,7 @@ defaults:
     shell: bash
 
 env:
-  # renovate: datasource=golang-version
+  # renovate: datasource=golang-version depName=golang
   GO_VERSION: 1.21.0
   # renovate: datasource=github-releases depName=gohugoio/hugo
   HUGO_VERSION: v0.118.2
@@ -33,6 +33,9 @@ jobs:
       name: netlify
       url: https://blog.nikaro.net
     steps:
+      - name: Add GOBIN to PATH
+        run: go env GOBIN >> "$GITHUB_PATH"
+
       - name: Install Hugo
         run: go install github.com/gohugoio/hugo@${{ env.HUGO_VERSION }}
 
