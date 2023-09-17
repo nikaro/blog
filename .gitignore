@@ -2,5 +2,6 @@ public/
 !public/_redirects
 !public/_headers
 resources/
+layouts/partials/webring.html
 .env
 .hugo_build.lock
