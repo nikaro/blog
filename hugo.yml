@@ -12,6 +12,7 @@ params:
     - https://ploum.net/atom.xml
     - https://www.nourrituresterrestres.fr/feed
     - https://n.survol.fr/feed
+    - https://lord.re/posts/index.xml
 permalinks:
   blog: "/:year/:month/:day/:filename/"
   pages: "/:filename/"
