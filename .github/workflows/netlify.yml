@@ -52,6 +52,7 @@ jobs:
         uses: actions/setup-node@5e21ff4d9bc1a8cf6de233a3057d20ec6b3fb69d # v3.8.1
         with:
           cache: npm
+          cache-dependency-path: ./.github/workflows/netlify.yml
 
       - name: Install Netlify CLI
         run: npm install -g netlify-cli@${{ env.NETLIFY_VERSION }}
@@ -60,7 +61,7 @@ jobs:
         run: make build
 
       - name: Deploy to Netlify
-        id: netlify
+        id: deploy
         run: netlify deploy --dir ./public --prod --json
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
