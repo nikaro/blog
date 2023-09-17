@@ -31,7 +31,7 @@ jobs:
     runs-on: ubuntu-22.04
     environment:
       name: netlify
-      url: ${{ fromJSON(steps.deploy.outputs).deploy_url }}
+      url: ${{ fromJSON(steps.deploy.outputs.json).deploy_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac # v4.0.0
@@ -62,7 +62,7 @@ jobs:
 
       - name: Deploy to Netlify
         id: deploy
-        run: netlify deploy --dir ./public --prod --json
+        run: echo "json=$(netlify deploy --dir ./public --prod --json)" >> "$GITHUB_OUTPUT"
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
