@@ -3,7 +3,7 @@
 all:
 
 openring:
-	openring -S ./config/openring/feeds.txt < ./config/openring/layout.html > ./layouts/partials/webring.html
+	openring -S ./config/openring.txt < ./config/openring.html > ./layouts/partials/webring.html
 
 serve: openring
 	hugo serve
