@@ -17,6 +17,8 @@ defaults:
     shell: bash
 
 env:
+  # renovate: datasource=golang-version
+  GO_VERSION: 1.21.0
   # renovate: datasource=github-releases depName=gohugoio/hugo
   HUGO_VERSION: v0.118.2
   # renovate: datasource=npm depName=netlify-cli
@@ -41,7 +43,7 @@ jobs:
         run: npm install -g netlify-cli@${{ env.NETLIFY_VERSION }}
 
       - name: Checkout
-        run: git clone --depth 1 --branch ${{ github.ref_name }} ${{ github.repositoryUrl }} ${{ github.workspace }}
+        run: git clone --depth 1 --branch ${{ github.ref_name }} ${{ github.server_url }}/${{ github.repository }} ${{ github.workspace }}
 
       - name: Build with Hugo
         run: make build
