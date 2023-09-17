@@ -35,7 +35,7 @@ jobs:
         run: go install github.com/gohugoio/hugo@${{ env.HUGO_VERSION }}
 
       - name: Install Openring
-        run: go install git.sr.ht:~sircmpwn/openring@${{ env.OPENRING_VERSION }}
+        run: go install git.sr.ht/~sircmpwn/openring@${{ env.OPENRING_VERSION }}
 
       - name: Install Netlify CLI
         run: npm install -g netlify-cli@${{ env.NETLIFY_VERSION }}
