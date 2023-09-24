@@ -20,7 +20,7 @@ env:
   # renovate: datasource=golang-version depName=golang
   GO_VERSION: 1.21.1
   # renovate: datasource=github-releases depName=gohugoio/hugo
-  HUGO_VERSION: v0.118.2
+  HUGO_VERSION: v0.119.0
   # renovate: datasource=npm depName=netlify-cli
   NETLIFY_VERSION: 16.4.2
   # renovate: datasource=git-tags depName=openring packageName=https://git.sr.ht/~sircmpwn/openring
