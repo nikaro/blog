@@ -3,15 +3,20 @@
 
 {{ partial "head.html" . }}
 
-<main>
+<body>
+
+  <main>
     <h1>{{ $.Title }}</h1>
     {{- range (where .Site.RegularPages "Section" "blog") }}
     <p>
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      <i>{{ time.Format "02 January 2006" .Date }}</i>
     </p>
     {{- end }}
-</main>
+  </main>
 
-{{ partial "foot.html" . }}
+  {{ partial "foot.html" . }}
+
+</body>
 
 </html>

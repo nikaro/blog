@@ -1,4 +1,0 @@
-https://ploum.net/atom.xml
-https://www.nourrituresterrestres.fr/feed
-https://n.survol.fr/feed
-https://lord.re/posts/index.xml

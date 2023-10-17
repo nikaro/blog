@@ -1,18 +1,23 @@
+<!doctype html>
+<html lang="{{ .Site.Language }}">
+
 {{ partial "head.html" . }}
 
-<a href="/">←</a>
-<h1>
-  {{ $.Title }}
-</h1>
-<i>{{ time.Format "02 January 2006" .Date }}</i>
+<body>
 
 <main>
+  <a href="/">←</a>
+  <hgroup>
+    <h1>
+      {{ $.Title }}
+    </h1>
+    <i>{{ time.Format "02 January 2006" .Date }}</i>
+  </hgroup>
   {{ .Content }}
-
-  <hr>
-
-  {{ partial "comment.html" . }}
-  {{ partial "webring.html" . }}
 </main>
 
 {{ partial "foot.html" . }}
+
+</body>
+
+</html>

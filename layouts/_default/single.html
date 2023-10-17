@@ -1,11 +1,19 @@
+<!doctype html>
+<html lang="{{ .Site.Language }}">
+
 {{ partial "head.html" . }}
 
-<h1>
-  {{ $.Title }}
-</h1>
+<body>
 
 <main>
+  <h1>
+    {{ $.Title }}
+  </h1>
   {{ .Content }}
 </main>
 
 {{ partial "foot.html" . }}
+
+</body>
+
+</html>

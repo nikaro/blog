@@ -2,16 +2,13 @@
 
 all:
 
-openring:
-	openring -S ./config/openring.txt < ./config/openring.html > ./layouts/partials/webring.html
-
-serve: openring
+serve:
 	hugo serve
 
 test:
 	hugo version
 
-build: openring
+build:
 	hugo --gc --minify
 
 clean:

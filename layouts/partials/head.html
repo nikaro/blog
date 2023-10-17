@@ -10,6 +10,6 @@
   {{ if .Site.Params.mastodon }}
   <link rel="me" href="{{ .Site.Params.mastodon }}">
   {{ end }}
-  {{ $style := resources.GetRemote "https://cdn.simplecss.org/simple.min.css" | resources.Minify | resources.Fingerprint }}
+  {{ $style := resources.GetRemote "https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.classless.min.css" | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
 </head>
