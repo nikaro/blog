@@ -64,22 +64,22 @@ $ ansible --inventory inventory/hosts --module-name ping all
 serveur-app-02 | SUCCESS => {
     "changed": false,
         "ping": "pong"
-        
+
 }
 serveur-app-01 | SUCCESS => {
     "changed": false,
         "ping": "pong"
-        
+
 }
 serveur-bdd-01 | SUCCESS => {
     "changed": false,
         "ping": "pong"
-        
+
 }
 serveur-front-01 | SUCCESS => {
     "changed": false,
         "ping": "pong"
-        
+
 }
 ```
 

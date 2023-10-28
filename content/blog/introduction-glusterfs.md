@@ -34,7 +34,7 @@ GlusterFS peut créer différent types de volumes :
   être perdus
 * **distribué et dispersé :** semblable au RAID 60, il agrège des volumes dispersés
 
-Par rapport au "distribué et répliqué", le "dispersé et distribué" (~RAID 60) a 
+Par rapport au "distribué et répliqué", le "dispersé et distribué" (~RAID 60) a
 l'avantage de "gâcher" moins d'espace de stockage en contrepartie d'une moindre
 tolérance aux pannes.
 

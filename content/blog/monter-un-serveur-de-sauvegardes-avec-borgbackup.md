@@ -89,12 +89,12 @@ export BORG_PASSPHRASE='<VOTRE_PHRASE_DE_PASSE>'
 
 function main() {
   # backup
-  borg create --compression lz4   
-   ${REPO}::'{now:%Y-%m-%d}'   
+  borg create --compression lz4
+   ${REPO}::'{now:%Y-%m-%d}'
    "${LIST[@]}"
 
   # rotation
-  borg prune ${REPO}   
+  borg prune ${REPO}
    --keep-daily=7 --keep-weekly=4 --keep-monthly=6
 }
 

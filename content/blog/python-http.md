@@ -19,7 +19,7 @@ travailler nativement avec JSON.
 ## urllib
 
 Si on veut utiliser la bibliothèque standard de Python, on peut utiliser
-[`urllib`](https://docs.python.org/fr/3/library/urllib.html) et 
+[`urllib`](https://docs.python.org/fr/3/library/urllib.html) et
 [`json`](https://docs.python.org/fr/3/library/json.html).
 
 ```python

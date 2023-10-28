@@ -5,10 +5,10 @@ date: "2017-12-30"
 
 Si vous commencez à utiliser Ansible, vous pouvez vous retrouver dans ce genre de situation :
 
-> Standing up Ansible to help manage my 30+ VPS’ and couldn’t help thinking….  
->   
-> “I really wish I had a tool like Ansible to deploy this SSH key to these 30+ systems…” /irony  
->   
+> Standing up Ansible to help manage my 30+ VPS’ and couldn’t help thinking….
+>
+> “I really wish I had a tool like Ansible to deploy this SSH key to these 30+ systems…” /irony
+>
 > — Eric Capuano ([\@eric\_capuano](https://twitter.com/eric_capuano)) [December 30, 2017](https://twitter.com/eric_capuano/status/946936989496029184)
 
 Vous avez un paquet de machines sur lesquels :

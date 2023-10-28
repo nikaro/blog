@@ -3,15 +3,15 @@ title: "J'ai fait pipis"
 date: "2018-05-17"
 ---
 
-Commençons par dire que je suis assez fière de mon titre :-D  
-  
+Commençons par dire que je suis assez fière de mon titre :-D
+
 Continuons en expliquant ce qu'est pipis.
 
 Que'est-ce que pipis ?
 ----------------------
 
-> « pipis » signifie « pip isolated » \\  
->   
+> « pipis » signifie « pip isolated » \\
+>
 > je trouvais le nom marrant, mais [pipi](https://pypi.org/project/pipi/) était déjà pris…
 
 [Pipis](https://pypi.org/project/pipis/) est un wrapper autour de venv et pip qui installe les paquets python dans des venvs séparés. Ça permet d'éviter de potentiellement pourrir votre système avec les paquets que vous installez, et ça permet également d'éviter les problèmes de conflit de dépendances entre les différents paquets.
