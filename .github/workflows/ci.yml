@@ -13,7 +13,7 @@ env:
   # renovate: datasource=github-releases depName=gohugoio/hugo
   HUGO_VERSION: v0.120.4
   # renovate: datasource=npm depName=netlify-cli
-  NETLIFY_VERSION: 17.5.1
+  NETLIFY_VERSION: 17.6.0
 
 jobs:
   lint:
@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
 
       - name: Run pre-commit
-        uses: nikaro/actions/pre-commit@87c751d6333bb87cea805934a9ca12d7f09fdcb4 # 1.0.5
+        uses: nikaro/actions/pre-commit@3234e8e77308bd94a2545091dcd479bf0d0086ca # 1.2.2
 
   build:
     name: Build
