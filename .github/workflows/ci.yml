@@ -13,7 +13,7 @@ env:
   # renovate: datasource=github-releases depName=gohugoio/hugo
   HUGO_VERSION: v0.120.4
   # renovate: datasource=npm depName=netlify-cli
-  NETLIFY_VERSION: 17.7.0
+  NETLIFY_VERSION: 17.8.1
 
 jobs:
   lint:
