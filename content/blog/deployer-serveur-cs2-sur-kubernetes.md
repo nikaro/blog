@@ -12,10 +12,10 @@ Ensuite, on va y aller par étapes :
 
 * création d'un `Namespace`
 * création d'un `Deployment` basique
-* création d'une `ConfigMap`
-* injection de la `ConfigMap` dans le `Deployment`
 * création d'un `PeristentVolumeClaim`
 * montage du `PersistentVolumeClaim` dans le `Deployment`
+* création d'une `ConfigMap`
+* injection de la `ConfigMap` dans le `Deployment`
 * exposition des ports du `Deployment`
 * création d'un `Service` pour exposer publiquement les ports
 
@@ -25,7 +25,7 @@ TLDR : le [fichier de manifeste Kubernetes complet](/files/k8s-cs2ds.yaml).
 
 ### Namespace
 
-L'intérêt de créer un [Namespace](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/) est de pouvoir y "isoler" les resources. C'est surtout utile quand on fait tourner plusieurs applications dans un cluster, et/ou qu'il est partagé par plusieurs utilisateurs, ceci afin d'éviter les conflits de noms et faciliter le filtrage des ressources (`kubectl get -n <namespace> [...]`). Mais autant appliquer de bonnes pratiques dès le début.
+L'intérêt de créer un `Namespace`[^1] est de pouvoir y "isoler" les resources. C'est surtout utile quand on fait tourner plusieurs applications dans un cluster, et/ou qu'il est partagé par plusieurs utilisateurs, ceci afin d'éviter les conflits de noms et faciliter le filtrage des ressources (`kubectl get -n <namespace> [...]`). Mais autant appliquer de bonnes pratiques dès le début.
 
 ```yaml
 ---
@@ -51,7 +51,7 @@ kubectl get ns
 
 Maintenant qu'on a notre `Namespace` on va pouvoir y déployer notre application à proprement parlé.
 
-Pour un besoin aussi simple que le notre nous pourrions utiliser un [`Pod`](https://kubernetes.io/docs/concepts/workloads/pods/), de cette manière :
+Pour un besoin aussi simple que le notre nous pourrions utiliser un `Pod`[^2], de cette manière :
 
 ```yaml
 ---
@@ -69,7 +69,7 @@ spec:
       imagePullPolicy: Always
 ```
 
-Cependant c'est un cas qu'on ne retrouve pratiquement jamais dans la "vraie vie", généralement on utilise plutôt un ressource de type [`Deployment`](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/).
+Cependant c'est un cas qu'on ne retrouve pratiquement jamais dans la "vraie vie", généralement on utilise plutôt une ressource de type `Deployment`[^3].
 
 Le notre sera dans un premier temps très basique, et ne sera pas immédiatement fonctionnel, ajoutons donc ceci dans notre manifeste :
 
@@ -120,7 +120,7 @@ On peut ensuite vérifier l'état de notre `Deployment` :
 kubectl get deploy --namespace cs2ds
 ```
 
-Après un moment, vous devriez constater que le colonne `READY` indique `0/1`, ce qui signifie qu'aucun des `Pods` de notre `Deployment` n'est disponible.
+Après un moment, vous devriez constater que la colonne `READY` indique `0/1`, ce qui signifie qu'aucun des `Pods` de notre `Deployment` n'est disponible.
 
 > ℹ️ Idéallement pour que l'information de cette colonne soit pertinente il faudrait [configurer des sondes sur notre conteneur](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/). Par exemple en faisant une requête vers notre application ou en vérifiant que le port est bien en écoute.
 
@@ -138,11 +138,11 @@ On peut donc utiliser la seconde commande pour notre diagnostic, `kubectl logs [
 kubectl logs deploy/cs2ds --namespace cs2ds
 ```
 
-On y apprendra notamment que certains fichiers/dossiers ne sont pas présents. Occupons-nous donc de fournir du stockage pour notre application.
+On y apprendra notamment que certains fichiers/dossiers ne sont pas présents. Occupons-nous donc de fournir du stockage persistant pour notre application.
 
 ### PersistentVolumeClaim
 
-Pour ça on va utiliser une ressource de type [`PersistentVolumeClaim`](https://kubernetes.io/docs/concepts/storage/persistent-volumes/) :
+Pour ça on va utiliser une ressource de type `PersistentVolumeClaim`[^4]. Elle va demander à notre Kubernetes créer quelque part, ce "quelque part" étant géré par l'administrateur du Kubernetes, un espace stockage avec les propriétés demandées. Ajoutons ceci à notre manifeste :
 
 ```yaml
 ---
@@ -188,7 +188,7 @@ spec:
           persistentVolumeClaim:
             claimName: cs2ds
       # cet élement est nécessaire pour que les volumes soient montés avec le GID 1000
-      # qui correspond à celui de l'utilisateur au sein du conteneur
+      # qui correspond à celui de l'utilisateur défini dans notre image
       securityContext:
         fsGroup: 1000
       containers:
@@ -201,9 +201,15 @@ spec:
               name: cs2ds-data
 ```
 
+Après avoir appliqué, pour voir si tout s'est bien passé :
+
+```sh
+kubectl get pvc --namespace cs2ds
+```
+
 ### ConfigMap
 
-La pratique habituelle pour la configuration des applications "conteneurisées" est de passer des variables d'environnement. Dans Kubernetes on utilise pour ça une ressource de type [`ConfigMap`](https://kubernetes.io/docs/concepts/configuration/configmap/).
+La pratique habituelle pour la configuration des applications "conteneurisées" est de passer des variables d'environnement. Dans Kubernetes on utilise pour ça une ressource de type `ConfigMap`[^5].
 
 Je vous invite à lire la [documentation de l'image du conteneur](https://github.com/joedwards32/CS2#server-configuration) pour savoir comment la configurer. Et ajoutez ceci au manifeste, en adaptant les valeurs :
 
@@ -230,9 +236,9 @@ data:
   SRCDS_TOKEN: xxxxxxx
 ```
 
-Comme vous pouvez le voir on passe des éléments potentiellement sensibles dans la `ConfigMap` (`CS2_PW`, `SRCDS_TOKEN`, etc.), idéallement il faudrait plutôt utiliser des ressources de type `Secret` ou encore mieux utiliser le [`Secrets Store CSI Driver`](https://secrets-store-csi-driver.sigs.k8s.io) qui permete de s'interfacer avec des fournisseurs de secrets tiers, tels que Hashicorp Vault, AWS Secrets Manager, etc.
+Comme vous pouvez le voir on passe des éléments potentiellement sensibles dans la `ConfigMap` (`CS2_PW`, `SRCDS_TOKEN`, etc.), idéallement il faudrait plutôt utiliser des ressources de type `Secret`[^6] ou encore mieux utiliser le `Secrets Store CSI Driver`[^7] qui permet de s'interfacer avec des fournisseurs de secrets tiers, tels que Hashicorp Vault, AWS Secrets Manager, etc.
 
-Ensuite, pour utiliser cette `ConfigMap` dans votre `Deployment`, éditez ce dernier dans votre manière comme ceci :
+Ensuite, pour utiliser cette `ConfigMap` dans votre `Deployment`, éditez ce dernier dans votre manifeste comme ceci :
 
 ```yaml
 ---
@@ -271,6 +277,18 @@ spec:
             - configMapRef:
                 name: cs2ds
                 optional: false
+```
+
+Pour voir la liste des `ConfigMap` :
+
+```sh
+kubectl get configmap --namespace cs2ds
+```
+
+On peut également lancer un shell dans le conteneur et vérifier si les variables d'environnement sont bien présentes :
+
+```sh
+kubectl exec -it deploy/cs2ds --namespace cs2ds -- env | grep CS2_
 ```
 
 ### Service
@@ -328,7 +346,7 @@ spec:
               protocol: TCP
 ```
 
-Et ensuite on créer une ressource de type [`Service`](https://kubernetes.io/docs/concepts/services-networking/service/), elle-même de type [`NodePort`](https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport), c'est à dire qui va ouvrir les ports directement sur le [`Node`](https://kubernetes.io/docs/concepts/architecture/nodes/).
+Et ensuite on créer une ressource de type `Service`[^8], elle-même de type `NodePort`[^9], c'est à dire qui va ouvrir les ports directement sur le `Node`[^10]. Il existe d'autres types de `Services`, mais j'ai opté pour celui-ci dans notre cas car le load-balancer de Scaleway ne permet pas de faire transiter de l'UDP.
 
 ```yaml
 ---
@@ -371,7 +389,7 @@ Et dans le jeu exécuter la commande `connect <external-ip>:32715`, profitez.
 
 ### Cleanup
 
-À la fin si on veut tout supprimer il suffit de supprimer notre `Namespace`, de l'avantage d'en avoir utilisé un :
+À la fin si on veut tout supprimer il suffit de supprimer notre `Namespace` (de l'avantage d'en avoir utilisé un) :
 
 ```sh
 kubectl delete ns cs2ds
@@ -385,4 +403,18 @@ kubectl delete -f ./k8s-cs2ds.yaml
 
 ### Aller plus loin
 
-Pour un serveur de jeu Counter-Strike ce n'est pas nécessaire, puis ce n'est pas supporté par l'application, mais pour une application typique qui nécessite de pouvoir supporter une montée en charge on aurait eu besoin d'un [`HorizontalPodAutoscaler`](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/). C'est une ressource qui surveiller les métriques des conteneurs au sein du `Deployment` et en fonction des déclencheurs qu'on aura défini va augmenter ou réduire le nombre de `Replicas` de notre application.
+Pour un serveur de jeu Counter-Strike ce n'est pas nécessaire, puis ce n'est pas supporté par l'application, mais pour une application typique qui nécessite de pouvoir supporter une montée en charge on aurait eu besoin d'un `HorizontalPodAutoscaler`[^11]. C'est une ressource qui surveiller les métriques des conteneurs au sein du `Deployment` et en fonction des déclencheurs qu'on aura défini va augmenter ou réduire le nombre de `Replicas` de notre application.
+
+Aussi, pour se balader dans le cluster, vérifier l'état des ressources, etc. je ne peux que vous conseiller l'excellent outil [k9s](https://k9scli.io). Il s'agit d'une TUI avec des raccourcis clavier à la ViM, et je trouve ça nettement plus efficace que de taper des commande `kubectl` à la chaîne.
+
+[^1]: <https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/>
+[^2]: <https://kubernetes.io/docs/concepts/workloads/pods/>
+[^3]: <https://kubernetes.io/docs/concepts/workloads/controllers/deployment/>
+[^4]: <https://kubernetes.io/docs/concepts/storage/persistent-volumes/>
+[^5]: <https://kubernetes.io/docs/concepts/configuration/configmap/>
+[^6]: <https://kubernetes.io/docs/concepts/configuration/secret/>
+[^7]: <https://secrets-store-csi-driver.sigs.k8s.io>
+[^8]: <https://kubernetes.io/docs/concepts/services-networking/service/>
+[^9]: <https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport>
+[^10]: <https://kubernetes.io/docs/concepts/architecture/nodes/>
+[^11]: <https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/>
