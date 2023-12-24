@@ -377,6 +377,12 @@ spec:
       targetPort: cs2ds-rcon-tcp
 ```
 
+Lister les `Services` dans notre `Namespace` :
+
+```sh
+kubectl get svc --namespace cs2ds
+```
+
 ### Go, go, go !
 
 Et maintenant vous pouvez récupérer l'adresse IP publique du `Node` sur lequel tourne le `Pod` :
