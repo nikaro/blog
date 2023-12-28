@@ -12,8 +12,6 @@ env:
   GO_VERSION: 1.21.5
   # renovate: datasource=github-releases depName=gohugoio/hugo
   HUGO_VERSION: v0.121.1
-  # renovate: datasource=npm depName=netlify-cli
-  NETLIFY_VERSION: 17.10.1
 
 jobs:
   lint:
@@ -41,15 +39,6 @@ jobs:
 
       - name: Install Hugo
         run: go install github.com/gohugoio/hugo@${{ env.HUGO_VERSION }}
-
-      - name: Setup Node
-        uses: actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8 # v4.0.1
-        with:
-          cache: npm
-          cache-dependency-path: ./.github/workflows/ci.yml
-
-      - name: Install Netlify CLI
-        run: npm install -g netlify-cli@${{ env.NETLIFY_VERSION }}
 
       - name: Build with Hugo
         run: make build
