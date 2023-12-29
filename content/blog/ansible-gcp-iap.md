@@ -1,6 +1,6 @@
 ---
 title: "Utiliser Ansible sur des machines derrière l'IAP de Google Cloud"
-date: 2023-12-29T13:56:52+01:00
+date: 2023-12-29T12:56:52+01:00
 ---
 
 L'IAP, pour [Identity-Aware Proxy](https://cloud.google.com/security/products/iap), est un outil de Google Cloud qui fonctionne comme un proxy en amont d'une application ou d'une VM en y ajoutant un couche d'authentification via le SSO de Google. Par exemple, ça peut servir à protéger le backend d'une application web. Ou dans le cas qui nous intéresse ici, d'éviter d'exposer publiquement une instance de VM et y ajouter une couche d'authentification forte. Vachement pratique pour faire un bastion dans un environement GCP.
