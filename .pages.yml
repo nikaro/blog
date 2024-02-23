@@ -16,6 +16,9 @@ content:
       - name: draft
         label: Draft
         type: boolean
+      - name: body
+        label: Body
+        type: rich-text
     view:
       fields: [ title, date, draft ]
       sort: [ draft, date, title ]
@@ -33,6 +36,9 @@ content:
         label: Slug
         required: true
         type: text
+      - name: body
+        label: Body
+        type: rich-text
 
 media:
   input: static
