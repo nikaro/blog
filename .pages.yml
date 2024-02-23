@@ -39,6 +39,9 @@ content:
         type: string
         pattern:
           regex: '^[a-z0-9-]+$'
+      - name: draft
+        label: Draft
+        type: boolean
       - name: body
         label: Body
         required: true
