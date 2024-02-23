@@ -1,8 +1,7 @@
 ---
-title: Nikaro
-slug: about
+title: About
+draft: false
 ---
-
 ## Adresses
 
 Quelques endroits où me trouver sur internet.
