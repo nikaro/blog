@@ -21,7 +21,7 @@ content:
       sort: [ draft, date, title ]
   - name: pages
     label: Pages
-    type: file
+    type: collection
     path: content/pages
     filename: '{fields.slug}.md'
     fields:
