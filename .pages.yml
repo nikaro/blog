@@ -16,6 +16,7 @@ content:
       - name: draft
         label: Draft
         type: boolean
+        default: true
       - name: body
         label: Body
         required: true
@@ -39,9 +40,11 @@ content:
         type: string
         pattern:
           regex: '^[a-z0-9-]+$'
+          message: Unauthorized characters in slug field
       - name: draft
         label: Draft
         type: boolean
+        default: true
       - name: body
         label: Body
         required: true
