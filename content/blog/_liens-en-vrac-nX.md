@@ -30,14 +30,6 @@ dans les grandes lignes pour MySQL ou n'importe quel autre SGBD.
 
 <https://www.cybertec-postgresql.com/en/postgres-scaling-advice-for-2021/>
 
-PDM, un outil qui permet de se passer des "virtualenv" Python et des inconvénients qui vont avec. Au lieu donc d'avoir un virtualenv quelque part, on a un dossier `__pypackages__` avec toutes les bibliothèques nécessaires dans le dossier du projet, comme le dossier `node_modules` dans le monde JavaScript. Et c'est à peu près tout, magique.
-
-<https://frostming.com/2021/01-22/introducing-pdm/>
-
-Comment supprimer ses anciens "toots" avec Ephemetoot. Pour moi les publications des réseaux sociaux ont vocation à être éphémères, du coup cet outil s'avère bien pratique.
-
-<https://lord.re/posts/215-supprimer-ses-vieux-toots-sur-mastodon-ou-pleroma/>
-
 Municipaliser Internet pour en faire un service public. En voilà une bonne idée.
 
 <https://www.franceculture.fr/emissions/ce-qui-nous-arrive-sur-la-toile/municipaliser-internet-pour-en-faire-un-service-public>
@@ -45,15 +37,3 @@ Municipaliser Internet pour en faire un service public. En voilà une bonne idé
 Qu'est-ce qu'un riche ? Très bon article qui explicite de manière simple les concepts de richesse, "classe moyenne", bourgeoisie, prolétariat, propriété privée, etc. Très utile pour comprendre en quoi le capitalisme est mauvais et injuste.
 
 <https://grisebouille.net/quest-ce-quun-riche/>
-
-SourceHut permet maintenant l'hébergement de sites statiques. Ce n'est pas aussi avancé que ce que peut proposer Netlify, mais c'est cool quand même.
-
-<https://sourcehut.org/blog/2021-02-18-sourcehut-pages/>
-
-Que penser des traitements/astuces "miracles" pour lutter contre la Covid-19 ?
-
-<https://www.franceculture.fr/emissions/les-idees-claires-le-podcast/vitamine-d-vin-herbe-a-pic-spray-nasal-des-remedes-efficaces-contre-le-covid-19>
-
-<!--
-vim: spell spelllang=fr
--->
