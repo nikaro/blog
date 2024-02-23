@@ -1,0 +1,27 @@
+content:
+  - name: posts
+    label: Posts
+    type: collection
+    path: content/blog
+    fields:
+      - name: title
+        label: Title
+        required: true
+        type: text
+      - name: date
+        label: Date
+        required: true
+        type: date
+      - name: draft
+        label: Draft
+        type: boolean
+    filename: '{primary}.md'
+  - name: pages
+    label: Pages
+    type: file
+    path: content/page
+    fields:
+      - name: title
+        label: Title
+        required: true
+        type: text
