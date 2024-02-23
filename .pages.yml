@@ -25,3 +25,7 @@ content:
         label: Title
         required: true
         type: text
+      - name: slug
+        label: Slug
+        required: true
+        type: text
