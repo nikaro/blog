@@ -19,7 +19,7 @@ content:
   - name: pages
     label: Pages
     type: file
-    path: content/page
+    path: content/pages
     fields:
       - name: title
         label: Title
