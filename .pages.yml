@@ -18,6 +18,7 @@ content:
         type: boolean
       - name: body
         label: Body
+        required: true
         type: rich-text
     view:
       fields: [ title, date, draft ]
@@ -35,9 +36,12 @@ content:
       - name: slug
         label: Slug
         required: true
-        type: text
+        type: string
+        pattern:
+          regex: '^[a-z0-9-]+$'
       - name: body
         label: Body
+        required: true
         type: rich-text
 
 media:
