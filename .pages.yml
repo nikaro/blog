@@ -32,3 +32,8 @@ content:
         label: Slug
         required: true
         type: text
+
+media:
+  input: static
+  output: static
+  path: static
