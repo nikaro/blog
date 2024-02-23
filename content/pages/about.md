@@ -1,5 +1,6 @@
 ---
 title: Nikaro
+slug: about
 ---
 
 ## Adresses
