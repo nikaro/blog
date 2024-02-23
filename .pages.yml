@@ -46,6 +46,9 @@ content:
         label: Body
         required: true
         type: rich-text
+    view:
+      fields: [ title, draft ]
+      sort: [ draft, title ]
 
 media:
   input: static
