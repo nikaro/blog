@@ -23,6 +23,7 @@ content:
     label: Pages
     type: file
     path: content/pages
+    filename: '{fields.slug}.md'
     fields:
       - name: title
         label: Title
