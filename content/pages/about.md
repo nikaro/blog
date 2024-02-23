@@ -1,5 +1,5 @@
 ---
-title: About
+title: À propos
 draft: false
 ---
 ## Adresses
