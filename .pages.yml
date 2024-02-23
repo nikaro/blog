@@ -18,6 +18,7 @@ content:
         type: boolean
     view:
       fields: [ title, date, draft ]
+      sort: [ draft, date, title ]
   - name: pages
     label: Pages
     type: file
