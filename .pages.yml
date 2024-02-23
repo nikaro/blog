@@ -3,6 +3,7 @@ content:
     label: Posts
     type: collection
     path: content/blog
+    filename: '{primary}.md'
     fields:
       - name: title
         label: Title
@@ -15,7 +16,8 @@ content:
       - name: draft
         label: Draft
         type: boolean
-    filename: '{primary}.md'
+    view:
+      fields: [ title, date, draft ]
   - name: pages
     label: Pages
     type: file
