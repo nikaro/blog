@@ -3,7 +3,7 @@ content:
     label: Posts
     type: collection
     path: content/blog
-    filename: '{primary}.md'
+    filename: "{primary}.md"
     fields:
       - name: title
         label: Title
@@ -21,13 +21,13 @@ content:
         required: true
         type: rich-text
     view:
-      fields: [ title, date, draft ]
-      sort: [ draft, date, title ]
+      fields: [title, date, draft]
+      sort: [draft, date, title]
   - name: pages
     label: Pages
     type: collection
     path: content/pages
-    filename: '{primary}.md'
+    filename: "{primary}.md"
     fields:
       - name: title
         label: Title
@@ -41,8 +41,8 @@ content:
         required: true
         type: rich-text
     view:
-      fields: [ title, draft ]
-      sort: [ draft, title ]
+      fields: [title, draft]
+      sort: [draft, title]
 
 media:
   input: static

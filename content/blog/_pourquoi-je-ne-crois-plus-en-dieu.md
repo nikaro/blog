@@ -28,11 +28,11 @@ J'avais déjà été exposé à cette question au préalable. Il faut savoir qu'
 Dieu a crée les conditions d'existence du mal, autrement dit il est donc lui-même le créateur du mal et du péché. À partir de là se posent plusieurs questions :
 
 *   comment un être en qui le mal n'est pas censé exister, peut-il créer le mal ?
-    
+
 *   pourquoi quelqu'un de prétenduement infiniment et parfaitement bon ferait ça ?
-    
+
 *   et finalement comment reprocher aux créatures de faire des choses qu'elles ont par sa volonté la capacité et même l'attrait de faire ?
-    
+
 
 S'il ne voulait pas que les humains fasse le mal, il lui était tout à fait possible de créer un monde sans, ou alors de faire des humains qui y soient imperméables. Mais vraisemblablement ce n'était pas sa volonté de faire ainsi, il a choisit de faire des créatures faibles face au péché. Et l'enseignement biblique veut même que toute choses arrivent par sa volonté et selon son plan, donc en toute logique même le péché d'Adam et Eve, duquel décolerait tout le malheur du monde, est le résultat de la volonté de Dieu. Avant des créer toute choses, étant omniscient, il savait ce qui allait se passer, et selon ce qu'il se dit il était mêeme prévu dès la fondation du monde que Jésus soit sacrifié pour nos péchés. C'est donc en parfaite connaissance de cause, sachant tous les malheurs qui allaient arrivés, que Dieu a agit. Et l'argument généralement évoqué pour justifier ça est qu'il s'agit de nous mettre à l'épreuve, de tester notre foi, pour au final voir si nous sommes dignes de passer une éternité de félicités avec Lui.
 
