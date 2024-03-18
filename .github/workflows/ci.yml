@@ -11,7 +11,7 @@ env:
   # renovate: datasource=golang-version depName=golang
   GO_VERSION: 1.22.1
   # renovate: datasource=github-releases depName=gohugoio/hugo
-  HUGO_VERSION: v0.123.8
+  HUGO_VERSION: v0.124.0
 
 jobs:
   lint:
