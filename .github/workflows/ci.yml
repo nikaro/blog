@@ -9,7 +9,7 @@ permissions:
 
 env:
   # renovate: datasource=golang-version depName=golang
-  GO_VERSION: 1.22.1
+  GO_VERSION: 1.22.2
   # renovate: datasource=github-releases depName=gohugoio/hugo
   HUGO_VERSION: v0.124.1
 
