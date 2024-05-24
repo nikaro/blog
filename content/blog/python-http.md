@@ -29,11 +29,9 @@ import urllib.request
 # on fait la requête HTTP
 response = urllib.request.urlopen("https://api.github.com/users/nikaro/repos")
 # on lit le contenu de la réponse
-content_bytes = response.read()
-# on décode la réponse au format binaire vers texte
-content_string = content_bin.decode()
-# on parse le texte en tant que JSON afin de "convertir" en objet Python
-data = json.loads(content_text)
+content = response.read()
+# on parse le contenu afin de le "convertir" en objet Python
+data = json.loads(content)
 
 print(data[0]["html_url"])
 ```
