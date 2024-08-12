@@ -1,3 +1,4 @@
 resources/
 .env
 .hugo_build.lock
+.task/

@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>nikaro/actions//.github/renovate_preset"],
+  "extends": ["github>nikaro/meta//renovate_preset"],
   "customManagers": [
     {
       "customType": "regex",

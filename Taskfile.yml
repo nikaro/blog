@@ -1,0 +1,42 @@
+version: '3'
+
+set: [errexit, nounset, pipefail]
+shopt: [globstar]
+
+includes:
+  lint:
+    taskfile: https://github.com/nikaro/meta/raw/main/taskfiles/lint.yml
+    internal: true
+  format:
+    taskfile: https://github.com/nikaro/meta/raw/main/taskfiles/format.yml
+    internal: true
+
+tasks:
+  init:
+    desc: Initialize repositry
+    cmds:
+      - git config core.hooksPath .githooks
+      - git config commit.template .gitmessage
+
+  lint:
+    desc: Run linters
+    cmds:
+      - task: lint:default
+
+  format:
+    desc: Run formatters
+    cmds:
+      - task: format:default
+
+  serve:
+    desc: Run Hugo local development server
+    cmd: hugo serve
+
+  build:
+    desc: Build website
+    cmd: hugo --gc --minify
+
+  clean:
+    desc: Cleanup build files
+    cmds:
+      - rm -rf ./public/

@@ -1,4 +1,3 @@
----
 baseURL: "https://blog.nikaro.net"
 defaultContentLanguage: "fr"
 disableKinds: ["taxonomy", "section"]

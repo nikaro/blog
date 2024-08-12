@@ -1,12 +1,18 @@
----
 name: CI
 
 on:
   pull_request:
     branches: [main]
+  push:
+    branches: [main]
+  workflow_call:
+  workflow_dispatch:
 
 permissions:
   contents: read
+
+env:
+  TASK_X_REMOTE_TASKFILES: 1
 
 jobs:
   lint:
@@ -16,8 +22,23 @@ jobs:
       - name: Checkout
         uses: actions/checkout@main
 
-      - name: Run pre-commit
-        uses: nikaro/actions/pre-commit@main
+      - name: Install tools
+        run: |
+          echo "/home/linuxbrew/.linuxbrew/bin" >> "$GITHUB_PATH"
+          /home/linuxbrew/.linuxbrew/bin/brew install \
+            actionlint \
+            check-jsonschema \
+            fd \
+            go-task \
+            jq \
+            prettier \
+            shellcheck \
+            shfmt \
+            yamlfmt \
+            yamllint \
+
+      - name: Lint
+        run: task lint --yes
 
   build:
     name: Build
@@ -26,11 +47,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@main
 
-      - name: Setup Go
-        uses: actions/setup-go@main
-
-      - name: Install Hugo
-        run: go install github.com/gohugoio/hugo@latest
+      - name: Install tools
+        run: |
+          echo "/home/linuxbrew/.linuxbrew/bin" >> "$GITHUB_PATH"
+          /home/linuxbrew/.linuxbrew/bin/brew install \
+            go-task \
+            hugo \
 
       - name: Build with Hugo
-        run: make build
+        run: task build --yes
