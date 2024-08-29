@@ -20,3 +20,7 @@ Il a remplacé tout ce que je pouvais utiliser pour le linting et la mise en for
 ## Jedi
 
 Particulièrement \[jedi-language-server\]([https://github.com/pappasam/jedi-language-server](https://github.com/pappasam/jedi-language-server)) en remplacement de \[python-lsp-server\]([https://github.com/python-lsp/python-lsp-server](https://github.com/python-lsp/python-lsp-server)).
+
+## BasedPyright
+
+En remplacement de mypy (et pyright).
