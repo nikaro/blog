@@ -1,6 +1,6 @@
 ---
 title: Mon environnement de développement Python
-date: 2024-08-29
+date: 2024-08-30
 draft: true
 ---
 Je suis arrivé un setup que je trouve satisfaisant et je souhaite simplement le partager.
