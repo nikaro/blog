@@ -7,7 +7,7 @@ Je suis arrivé un setup que je trouve satisfaisant et je souhaite simplement le
 
 ## Helix
 
-Premièrement, le point d'entrée c'est mon éditeur : \[Helix\]([https://helix-editor.com](https://helix-editor.com)). Mais ça peut fonctionner avec n'importe quel éditeur qui sait parler le protocole \[LSP\]([https://en.wikipedia.org/wiki/Language\_Server\_Protocol](https://en.wikipedia.org/wiki/Language_Server_Protocol)).
+Premièrement, le point d'entrée c'est mon éditeur : [Helix](https://helix-editor.com). Mais ça peut fonctionner avec n'importe quel éditeur qui sait parler le protocole \[LSP\]([https://en.wikipedia.org/wiki/Language\_Server\_Protocol](https://en.wikipedia.org/wiki/Language_Server_Protocol)).
 
 Pourquoi pas VSCode comme tout le monde ? Au delà du fait qu'il ne soit pas vraiment libre et un peu verrouillé par Microsoft, et que je n'aime pas spécialement les applications Electron et l'écosystème JavaScript, c'est surtout une préférence personnelle pour l'utilisation du terminal. Je passe mon temps à lancer du `ls`, `cd`, `ssh`, `kubectl`, `grep`, `git`, etc. donc ça a du sens que mon éditeur y soit aussi. Je m'y sens plus à l'aise et donc plus efficace.
 
