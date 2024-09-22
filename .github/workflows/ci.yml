@@ -18,24 +18,10 @@ jobs:
   lint:
     name: Lint
     runs-on: ubuntu-latest
+    container: ghcr.io/nikaro/gha:latest
     steps:
       - name: Checkout
-        uses: actions/checkout@main
-
-      - name: Install tools
-        run: |
-          echo "/home/linuxbrew/.linuxbrew/bin" >> "$GITHUB_PATH"
-          /home/linuxbrew/.linuxbrew/bin/brew install \
-            actionlint \
-            check-jsonschema \
-            fd \
-            go-task \
-            jq \
-            prettier \
-            shellcheck \
-            shfmt \
-            yamlfmt \
-            yamllint \
+        uses: actions/checkout@v4
 
       - name: Lint
         run: task lint --yes
@@ -43,16 +29,24 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
+    container: ghcr.io/nikaro/gha:latest
     steps:
       - name: Checkout
         uses: actions/checkout@main
 
       - name: Install tools
-        run: |
-          echo "/home/linuxbrew/.linuxbrew/bin" >> "$GITHUB_PATH"
-          /home/linuxbrew/.linuxbrew/bin/brew install \
-            go-task \
-            hugo \
+        run: brew install hugo
 
       - name: Build with Hugo
         run: task build --yes
+
+  check:
+    name: Check
+    permissions: {}
+    runs-on: ubuntu-latest
+    needs: [lint, build]
+    if: always()
+    steps:
+      - name: Ensure no jobs failed
+        run: |-
+          [ "${{ !contains(needs.*.result, 'failure') }}" = "true" ] || exit 1
