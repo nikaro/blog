@@ -34,7 +34,10 @@ tasks:
 
   build:
     desc: Build website
-    cmd: hugo --gc --minify
+    vars:
+      BASE_URL:
+        sh: echo "${BASE_URL:-/}"
+    cmd: hugo --gc --minify --baseURL "{{.BASE_URL}}"
 
   clean:
     desc: Cleanup build files

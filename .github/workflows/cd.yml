@@ -36,11 +36,14 @@ jobs:
       - name: Setup Hugo
         run: brew install hugo
 
-      - name: Build
-        run: task build --yes
-
       - name: Setup Pages
         uses: actions/configure-pages@v5
+        id: pages
+
+      - name: Build
+        run: task build --yes
+        env:
+          BASE_URL: ${{ steps.pages.outputs.base_url }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
