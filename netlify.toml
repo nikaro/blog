@@ -3,5 +3,4 @@ command = "hugo"
 publish = "public"
 
 [build.environment]
-# renovate: datasource=github-releases depName=hugo packageName=gohugoio/hugo
-HUGO_VERSION = "0.131.0"
+HUGO_VERSION = "0.134.3"
